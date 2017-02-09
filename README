@@ -1,0 +1,30 @@
+# CIS550
+Group 18
+
+Group Members & Division of Responsibilities
+Fengkai Wu: 
+Mengyi Cui: 
+Zhengxuan Wu: Amazon Web Service Setting Up, Node.js Design
+Timelines
+Feb 9th: Initial discussion, choose the main data sources
+Feb 16th: Finish up the proposal, set up questions we will be answering on our database server website
+March 1st: Design the ER diagram of the database
+March 16th: Transfer ER diagram to actual database tables
+March 28th: Normalizing the tables, improve data search efficiency
+April 4th: Implement Node.js, interface design, query design as well
+April 25th: Integral testing, implement the system fully on AWS EC2 instances
+April 28th: Final Project Demo and Report Due
+Initial Idea
+Data pool for used car info. Including models, makes, prices, specifications, owners, etc.. The database hosting website will be able to retrieve infomations, and perform some basic analysis over the data.
+About Technologies
+The database will be implemented using traditional SQL database Berkely DB as well as No-SQL database Cassandra. The database server will be hosted on Amazon AWS EC2 instance. The website design will be on Node.js as well as the backend connection to database.
+Query Questions (in English)
+Question 1: What are all the models of a certain make of cars? (e.x. List all the models of BMW)
+Question 2: What are all the cars produced during in a year? (e.x. List all the models produced in 2011)
+Question 3: What are some sports cars? (e.x. List all the sports car in the market)
+Question 4: What color is available for a model of car? (e.x. List all the colors of Audi A5 2014)
+Question 6: Which cities have a type of car? (e.x. List all the cities are selling BMW 328i 2013)
+Question 7: 
+Question 8:
+Question 9:
+Question 10:
