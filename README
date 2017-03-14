@@ -2,8 +2,8 @@ CIS550
 Group 18
 
 Group Members & Division of Responsibilities
-Fengkai Wu: 
-Mengyi Cui: 
+Fengkai Wu: ER Diagram Development, Database Tables Design
+Mengyi Cui: Data Parsing, Data Source Choosing
 Zhengxuan Wu: Amazon Web Service Setting Up, Node.js Design
 
 
@@ -32,7 +32,7 @@ Question 2: What are all the cars produced during in a year? (e.x. List all the 
 Question 3: What are some sports cars? (e.x. List all the sports car in the market)
 Question 4: What color is available for a model of car? (e.x. List all the colors of Audi A5 2014)
 Question 6: Which cities have a type of car? (e.x. List all the cities are selling BMW 328i 2013)
-Question 7: 
-Question 8:
-Question 9:
-Question 10:
+Question 7: What is the price range of expected model of car ?
+Question 8: What is the lowest price and nearest year of expected mileage range of an expected model?
+Question 9: List all the makers that have both 8V engine and 4wd traction.
+Question 10: List all the engine that have a compression ratio over 10 but torque below 4000 rpm?
