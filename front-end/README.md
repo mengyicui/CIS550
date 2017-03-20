@@ -1,8 +1,7 @@
-# express-authentication
+# U.S. Used Car/New Car Database Project
 
-Simple authentication app using express, node & passport.
-
-Authenticate locally or through Facebook, Twitter or Google.
+Zhengxuan Wu, Mengyi Cui, Fengkai Wu
+University Of Pennsylvania
 
 ## Prerequisites 
 
@@ -12,8 +11,8 @@ Authenticate locally or through Facebook, Twitter or Google.
 
 ## Installation
 
-* ` git clone https://github.com/danielgynn/express-authentication.git`
-* `cd express-authentication`
+* ` git clone https://github.com/mengyicui/CIS550Project.git`
+* `cd front-end`
 * `npm install`
 * You will need a Mongo instance running. In a new terminal window run `mongod`
 * `node app`
