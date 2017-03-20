@@ -14,6 +14,7 @@ University Of Pennsylvania
 * ` git clone https://github.com/mengyicui/CIS550Project.git`
 * `cd front-end`
 * `npm install`
+* `npm install twitter`
 * You will need a Mongo instance running. In a new terminal window run `mongod`
 * `node app`
 
