@@ -1,0 +1,27 @@
+<% include partials/head %>
+	<body>
+    <div class="col-sm-8 col-sm-offset-2">
+      <div class="text-center">
+
+        <span class="fa fa-sign-out"><a href="/"> Sign out</a></span>
+ 		
+ 		<div class="text-center">
+        	<h1> Car Search <a class="btn btn-info"><span class="fa fa-twitter"></span></a> <a class="btn btn-info"><span class="fa fa-windows"></span></a> </h1> 
+      	</div>
+      	<hr>
+      	<div class="text-left">
+			<ul>
+			<% for(var i=0; i<3; i++) {%>
+				<img src="https://avatars.io/twitter/<%= feeds[i].username %>/small" class="img-circle">: <%= feeds[i].text %><br>
+			<% } %>
+			</ul>
+      	</div>
+
+
+      </div>
+    </div>
+
+    
+
+  </body>
+ </html>

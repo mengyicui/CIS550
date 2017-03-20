@@ -1,0 +1,31 @@
+<% include partials/head %>
+
+  <body>
+    <div class="col-sm-4 col-sm-offset-4">
+      <div class="text-center">
+        <h1><span class="fa fa-sign-in"></span> Signup</h1>
+
+        <% if (message != null) { %>
+          <div class="alert-danger"><%= message %></div>
+        <% } %>
+
+        <form action="/signup" method="post">
+          <div class="input-group margin-bottom-sm">
+            <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+            <input class="form-control" type="text" placeholder="Email address">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+            <input class="form-control" type="password" placeholder="Password">
+          </div>
+          <div>
+            <input type="submit" class="form-control" value="Submit" />
+          </div>
+        </form>
+      </div>
+      <hr>
+      <span class="fa fa-sign-in"> Already have an account?<a href="/login"> Login</a></span>
+      <p>Or go <a href="/">home</a>.</p>
+    </div>
+  </body>
+</html>
