@@ -84,9 +84,35 @@ router.get('/twitterfeeds', function(req, res) {
 
 // display out the search result page
 router.get('/search', function(req, res) {
-  // trigger bing search here
-  res.render('searchresults.ejs');
+  
+  // website search  
+  var GoogleSearch = require('google-search');
+  var googleSearch = new GoogleSearch({
+    key: 'AIzaSyDx-9VsMyFgLcGW31ogMbz4J7V3q8TRKiI',
+    cx: '015274493814089078993:ghgb7wu8nea'
+  });
+   
+  googleSearch.build({
+    q: "used audi a5",
+    start: 5,
+    num: 10, // Number of search results to return between 1 and 10, inclusive 
+  }, function(error, response) {
+    console.log(response);
+  });
+
+  // image search
+  const GoogleImages = require('google-images');
+  const client = new GoogleImages('15274493814089078993:ghgb7wu8nea', 'AIzaSyDx-9VsMyFgLcGW31ogMbz4J7V3q8TRKiI');
+ 
+  client.search('audi a5')
+    .then(images => {
+         console.log(images)
+    });
+
+  //res.render('searchresults.ejs');
+
 });
+
 
 router.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSSample</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+    $(function() {
+        var params = {
+            // Request parameters
+            "q": "bill gates",
+            "count": "10",
+            "offset": "0",
+            "mkt": "en-us",
+            "safeSearch": "Moderate",
+        };
+      
+        $.ajax({
+            url: "https://api.cognitive.microsoft.com/bing/v5.0/news/search?" + $.param(params),
+            //console.log(url)
+            beforeSend: function(xhrObj){
+                // Request headers
+                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","{dac5ebdb4fb24194a53d82f33650d15b}");
+            },
+            type: "GET",
+            // Request body
+            data: "{body}",
+        })
+        .done(function(data) {
+            alert("success");
+        })
+        .fail(function() {
+            alert("error");
+        });
+    });
+</script>
+</body>
+</html>
