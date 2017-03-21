@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 
-
 <title>Search Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +36,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <div class="w3-container" id="car">
     <h2 class="w3-text-green">Search Results</h2>
     <div class="w3-display-container mySlides">
-    <img src="http://carssoo.com/wp-content/uploads/2016/04/New-2016-Audi-TT-RS.jpg" height="400" width="675" style="margin-bottom:-6px">
+    <img src=<%= imageResults[0].url %> height="400" width="675" style="margin-bottom:-6px">
       <div class="w3-display-bottomleft w3-container w3-black">
         <p>Audi</p>
       </div>
@@ -81,21 +80,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
       <div class="w3-col l12 s8">
         <!-- Blog entry -->
         <div class="w3-card-4 w3-margin w3-white">
-          <img src=<%= image[0].url %> alt="test" style="width:100%">
+          <img src=<%= imageResults[1].url %> alt="test" style="width:100%">
           <div class="w3-container">
-            <h3><b>TITLE HEADING</b></h3>
-            <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
+            <h4><b> <%= searchResults[0].title %> </b></h4>
           </div>
-
           <div class="w3-container">
-            <p>first</p>
+            <p> <%= searchResults[0].snippet %> </p>
             <div class="w3-row">
               <div class="w3-col m8 s12">
-                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                <p> <a href= <%= searchResults[0].link %> <button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE</b> ></button></a></p>
               </div>
-              <div class="w3-col m4 w3-hide-small">
-                <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
-              </div>
+
             </div>
           </div>
         </div>
@@ -103,47 +98,39 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 
         <!-- Blog entry -->
         <div class="w3-card-4 w3-margin w3-white">
-        <img src=imageResults[1].url alt="Norway" style="width:100%">
+          <img src=<%= imageResults[2].url %> alt="test" style="width:100%">
           <div class="w3-container">
-            <h3><b>BLOG ENTRY</b></h3>
-            <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+            <h4><b> <%= searchResults[1].title %> </b></h4>
           </div>
-
           <div class="w3-container">
-            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-              tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p> <%= searchResults[1].snippet %> </p>
             <div class="w3-row">
               <div class="w3-col m8 s12">
-                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                <p> <a href= <%= searchResults[1].link %> <button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE</b> ></button></a></p>
               </div>
-              <div class="w3-col m4 w3-hide-small">
-                <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-              </div>
+
             </div>
           </div>
         </div>
+        <hr>
 
         <!-- Blog entry -->
         <div class="w3-card-4 w3-margin w3-white">
-        <img src=imageResults[2].url alt="Norway" style="width:100%">
+          <img src=<%= imageResults[3].url %> alt="test" style="width:100%">
           <div class="w3-container">
-            <h3><b>BLOG ENTRY</b></h3>
-            <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+            <h4><b> <%= searchResults[2].title %> </b></h4>
           </div>
-
           <div class="w3-container">
-            <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-              tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p> <%= searchResults[2].snippet %> </p>
             <div class="w3-row">
               <div class="w3-col m8 s12">
-                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                <p> <a href= <%= searchResults[2].link %> <button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE</b> ></button></a></p>
               </div>
-              <div class="w3-col m4 w3-hide-small">
-                <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-              </div>
+
             </div>
           </div>
         </div>
+        <hr>
 
       <!-- END BLOG ENTRIES -->
       </div>
