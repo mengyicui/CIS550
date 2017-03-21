@@ -1,4 +1,4 @@
-# U.S. Used Car/New Car Database Project
+## U.S. Used Car/New Car Database Project
 
 Zhengxuan Wu, Mengyi Cui, Fengkai Wu
 University Of Pennsylvania
