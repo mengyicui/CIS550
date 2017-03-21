@@ -91,26 +91,46 @@ router.get('/search', function(req, res) {
     key: 'AIzaSyDx-9VsMyFgLcGW31ogMbz4J7V3q8TRKiI',
     cx: '015274493814089078993:ghgb7wu8nea'
   });
-   
+  
+  var condition;
+  if (req.query.used == 'false') {
+    condition = 'new';
+  } else {
+    condition = 'used';
+  }
+  var _searchQuery = condition + ' ' + req.query.Make + ' ' + req.query.Model + ' ' + req.query.Year;
+  var _imageQuery = req.query.Make + ' ' + req.query.Model;
+
+  var searchResults = [];
+  var imageResults = [];
   googleSearch.build({
-    q: "used audi a5",
+    // dynamic query
+    q: _searchQuery,
     start: 5,
     num: 10, // Number of search results to return between 1 and 10, inclusive 
   }, function(error, response) {
-    console.log(response);
+        for (var i = 0; i < 5; i++) {
+            searchResults.push({ title: response.items[i].title, link: response.items[i].link, snippet: response.items[i].snippet });
+        }
+        // image search
+      const GoogleImages = require('google-images');
+      const client = new GoogleImages('15274493814089078993:ghgb7wu8nea', 'AIzaSyDx-9VsMyFgLcGW31ogMbz4J7V3q8TRKiI');
+     // dynamic query
+      client.search(_imageQuery)
+        .then(images => {
+             console.log(searchResults);
+             for (var i = 0; i < 5; i++) {
+                imageResults.push( { url: images[i].url} );
+             }
+             console.log(imageResults);
+             // rendering the page with those two sources
+             res.render('searchresults.ejs',
+              {searchResults: searchResults,
+                imageResults: imageResults}
+              );
+        });
+
   });
-
-  // image search
-  const GoogleImages = require('google-images');
-  const client = new GoogleImages('15274493814089078993:ghgb7wu8nea', 'AIzaSyDx-9VsMyFgLcGW31ogMbz4J7V3q8TRKiI');
- 
-  client.search('audi a5')
-    .then(images => {
-         console.log(images)
-    });
-
-  //res.render('searchresults.ejs');
-
 });
 
 
