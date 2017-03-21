@@ -124,10 +124,7 @@ router.get('/search', function(req, res) {
              }
              console.log(imageResults);
              // rendering the page with those two sources
-             res.render('searchresults.ejs',
-              {searchResults: searchResults,
-                imageResults: imageResults}
-              );
+             res.render('searchresults.ejs', {image: imageResults});
         });
 
 
