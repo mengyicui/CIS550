@@ -15,6 +15,8 @@ University Of Pennsylvania
 * `cd front-end`
 * `npm install`
 * `npm install twitter`
+* `npm install google-search`
+* `npm install --save google-images`
 * You will need a Mongo instance running. In a new terminal window run `mongod`
 * `node app`
 
