@@ -1,3 +1,5 @@
+// connect to db
+
 var express = require('express');
 var passport = require('passport');
 var router = express.Router();
@@ -38,6 +40,11 @@ router.post('/login', passport.authenticate('local-login', {
   failureRedirect: '/login',
   failureFlash: true,
 }));
+
+// homepage
+router.get('/homepage', function(req, res) {
+  res.render('homepage.ejs');
+});
 
 router.get('/auth/facebook', passport.authenticate('facebook', { scope: 'email' }));
 
@@ -85,6 +92,10 @@ router.get('/twitterfeeds', function(req, res) {
 // display out the search result page
 router.get('/search', function(req, res) {
   
+  // query on db
+
+  // get back 
+
   // website search  
   var GoogleSearch = require('google-search');
   var googleSearch = new GoogleSearch({

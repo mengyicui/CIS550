@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->  
+  <title>Login</title>
+
+    <style>
+
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #fff;
+
+  color: #fff;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.body{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -40px;
+  bottom: -40px;
+  width: auto;
+  height: auto;
+  background-image: url(http://umad.com/img/2015/2/gtr-wallpaper-background-1439-1522-hd-wallpapers.jpg);
+  background-size: cover;
+  -webkit-filter: blur(5px);
+  z-index: 0;
+}
+
+.grad{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -40px;
+  bottom: -40px;
+  width: auto;
+  height: auto;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.header{
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 380px);
+  z-index: 2;
+}
+
+.header div{
+  float: left;
+  color: #ff0000;
+  font-family: 'Exo', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.header div span{
+  color: #00b300;
+}
+
+.login{
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 50px);
+  height: 150px;
+  width: 350px;
+  padding: 10px;
+  z-index: 2;
+}
+
+.login input[type=text]{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+}
+
+.login input[type=password]{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+.loginButton{
+  width: 90px;
+  height: 35px;
+  background: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #a18d6c;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+.createButton{
+  position: absolute;
+  top: calc(50% + 25px);
+  left: calc(50% - 80px);
+  height: 150px;
+  width: 350px;
+  padding: 10px;
+  z-index: 2;
+
+  width: 90px;
+  height: 35px;
+  background: #00b300;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px;
+}
+
+.twitter{
+  position: absolute;
+  top: calc(50% + 40px);
+  left: calc(50% + 190px);
+  z-index: 2;
+}
+
+.google{
+  position: absolute;
+  top: calc(50% + 40px);
+  left: calc(50% + 160px);
+  z-index: 2;
+}
+
+.loginButton:hover{
+  opacity: 0.8;
+}
+
+.loginButton:active{
+  opacity: 0.6;
+}
+
+.createButton:hover{
+  opacity: 0.8;
+}
+
+.createButton:active{
+  opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+  outline: none;
+  border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+  outline: none;
+  border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+  outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+</style>
+
+</head>
+
+<body>
+
+  <div class="body"></div>
+    <div class="grad"></div>
+    <div class="header">
+      <div>U.S. Car<span>Database</span></div>
+    </div>
+    <br>
+    
+    <form action="/login" method="post">
+      <div class="login">
+          <input type="text" placeholder="username" name="user"><br>
+          <input type="password" placeholder="password" name="password"><br>
+          <input type="submit" class = "loginButton" value="login">
+          <input type="submit" class = "createButton" value="create">
+      </div>
+    </form>
+    <a href="/auth/twitter" class="twitter"> <img src=https://cdn3.iconfinder.com/data/icons/basicolor-reading-writing/24/077_twitter-24.png></a>
+    <a href="/auth/google" class="google"><img src=https://cdn0.iconfinder.com/data/icons/social-media-2071/100/social-05-24.png></a>
+</body>
+
+</html>
