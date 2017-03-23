@@ -6,9 +6,53 @@ var router = express.Router();
 
 var Twitter = require('twitter');
 
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+// homepage
+router.get('/', function(req, res) {
+  res.render('homepage.ejs');
 });
+
+// old page
+router.get('/old', function(req, res) {
+  res.render('button.ejs');
+});
+
+// new login API
+router.post('/newlogin', function(req, res) {
+  var succ = 0;
+  if (req.body.login == 'login') {
+    // access database to verify
+    if (succ == 0) {
+      console.log(req);
+      if (req.body.user == 'admin') {
+        // just for testing
+        if (succ == 0) {
+          res.render('admin.ejs');
+        } else {
+          res.render('error.ejs');
+        }
+      } else {
+        res.render('error.ejs');
+      }
+    } else {
+
+      
+        // TODO: modified to be tokenized
+        // way to auth. Redirect to a page
+        res.render('searchmainplain.ejs');
+      
+    }
+  } else {
+    if (req.body.user == 'admin') {
+        res.render('error.ejs');
+      } else {
+        // create account in database
+        res.render('msg.ejs');
+      }
+  }
+});
+
+
+
 
 router.get('/login', function(req, res, next) {
   res.render('login.ejs', { message: req.flash('loginMessage') });
