@@ -73,7 +73,7 @@ def make_query(_col, info):
 	return query
 
 # Open database connection
-db = MySQLdb.connect("localhost","root","1111","project" )
+db = MySQLdb.connect("localhost","root","1234","project" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
@@ -114,4 +114,5 @@ with open('data.csv', 'rb') as f:
     	i+=1
         
 # disconnect from server
+print "here\n"
 db.close()
