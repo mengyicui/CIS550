@@ -23,29 +23,26 @@ TABLES['cars'] = (
     "  `make` varchar(255) NOT NULL,"
     "  `model` varchar(255) NOT NULL,"
     "  `engine` varchar(64) NOT NULL,"
-    "  `power` int,"
-    "  `torque` int,"
-    "  `engine_cylinder` int,"
     "  `transmission` varchar(32),"
     "  `average_consumption` float,"
     "  `weight` int,"
     "  `displacement` int,"
-    "  `compression_ratio` float,"
     "  `traction_type` varchar(16),"
     "  `tyre` varchar(32),"
-    "  PRIMARY KEY (`make`, `model`, `engine`, `transmission`)"
+    "  PRIMARY KEY (`make`, `model`, `engine`, `transmission`),"
+    "  foreign key (`engine`) references engines(`engine`)"
     ")"
 )
 
 col_name = []
 col_needed = ['Make', 'Model', 'Engine', \
-                'Power (hp - kW /rpm)', 'Torque (Nm/rpm)', 'Others', 'GearBox type', \
+                'GearBox type', \
                 'Average fuel consumption (l/100 km)', 'Weight(3p/5p) kg','Displacement', \
-                'Compression ratio', 'Traction type', 'Tyre']
+                'Traction type', 'Tyre']
 
-_col = ['make', 'model', 'engine', 'power', 'torque', 'engine_cylinder', \
+_col = ['make', 'model', 'engine',\
         'transmission', 'average_consumption', 'weight', 'displacement', \
-        'compression_ratio', 'traction_type', 'tyre']
+        'traction_type', 'tyre']
 
 def make_query(_col, info):
     query = """INSERT INTO cars ("""
@@ -56,10 +53,9 @@ def make_query(_col, info):
             query += """, """
     query += """ ) VALUES ( """
     for i in range(0, len(info)):
-        if _col[i] == 'power' or _col[i] == 'torque' \
-            or _col[i] == 'engine_cylinder' or _col[i] == 'weight' \
-            or _col[i] == 'displacement' or _col[i] == 'compression_ratio' \
-            or _col[i] == 'popularity' or _col[i] == 'average_consumption':
+        if _col[i] == 'weight' \
+            or _col[i] == 'displacement' \
+            or _col[i] == 'average_consumption':
             query += info[i]
         else:
             query += """ '""" + info[i] + """' """
@@ -92,36 +88,12 @@ with open('DBVehiclePTE.csv', 'rb') as f:
             for j in range(0, len(col_needed)):
                 #print col_needed[j]
                 #print dictionary[col_needed[j]]
-                if col_needed[j] == 'Power (hp - kW /rpm)':
-                    power_raw = dictionary[col_needed[j]]
-                    power_lst = power_raw.split('-')
-                    if power_lst[0] == '?':
-                        new_line.append("NULL")
-                    else: new_line.append(power_lst[0])
-                elif col_needed[j] == 'Torque (Nm/rpm)':
-                    torque_raw = dictionary[col_needed[j]]
-                    torque_lst = torque_raw.split('/')
-                    if torque_lst[0] == '?':
-                        new_line.append("NULL")
-                    else: new_line.append(torque_lst[0])
-                elif col_needed[j] == 'Others':
-                    raw = dictionary[col_needed[j]]
-                    raw_lst = raw.split('+')
-                    s = raw_lst[0]
-                    if s[0] == '?' or len(raw_lst) == 1:
-                        new_line.append("NULL")
-                    else: new_line.append(s[0:-1])
-                elif col_needed[j] == 'Weight(3p/5p) kg':
+                if col_needed[j] == 'Weight(3p/5p) kg':
                     weight_raw = dictionary[col_needed[j]]
                     weight_lst = weight_raw.split('/')
                     if weight_lst[0] == '?':
                         new_line.append("NULL")
                     else: new_line.append(weight_lst[0])
-                elif col_needed[j] == 'Compression ratio':
-                    if dictionary[col_needed[j]] != '?':
-                        new_line.append(dictionary[col_needed[j]])
-                    else:
-                        new_line.append("NULL")
                 elif col_needed[j] == 'engine':
                     if dictionary[col_needed[j]] == '?':
                         new_line.append("Unkonwn")
@@ -133,7 +105,7 @@ with open('DBVehiclePTE.csv', 'rb') as f:
             
             # insert a row here
             new_query = make_query(_col, new_line)
-            #print new_query
+            print new_query
             #print "\n"
             cursor.execute(new_query)
             db.commit()

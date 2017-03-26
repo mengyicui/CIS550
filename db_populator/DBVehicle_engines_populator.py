@@ -18,37 +18,27 @@ DB_NAME = 'project'
 
 TABLES = {}
 
-TABLES['cars'] = (
-    "CREATE TABLE `cars` ("
-    "  `make` varchar(255) NOT NULL,"
-    "  `model` varchar(255) NOT NULL,"
+TABLES['engines'] = (
+    "CREATE TABLE `engines` ("
     "  `engine` varchar(64) NOT NULL,"
     "  `power` int,"
     "  `torque` int,"
     "  `engine_cylinder` int,"
-    "  `transmission` varchar(32),"
-    "  `average_consumption` float,"
-    "  `weight` int,"
-    "  `displacement` int,"
     "  `compression_ratio` float,"
-    "  `traction_type` varchar(16),"
-    "  `tyre` varchar(32),"
-    "  PRIMARY KEY (`make`, `model`, `engine`, `transmission`)"
+    "  PRIMARY KEY (`engine`)"
     ")"
 )
 
 col_name = []
-col_needed = ['Make', 'Model', 'Engine', \
-                'Power (hp - kW /rpm)', 'Torque (Nm/rpm)', 'Others', 'GearBox type', \
-                'Average fuel consumption (l/100 km)', 'Weight(3p/5p) kg','Displacement', \
-                'Compression ratio', 'Traction type', 'Tyre']
+col_needed = ['Engine', \
+                'Power (hp - kW /rpm)', 'Torque (Nm/rpm)', 'Others', \
+                'Compression ratio']
 
-_col = ['make', 'model', 'engine', 'power', 'torque', 'engine_cylinder', \
-        'transmission', 'average_consumption', 'weight', 'displacement', \
-        'compression_ratio', 'traction_type', 'tyre']
+_col = ['engine', 'power', 'torque', 'engine_cylinder', \
+        'compression_ratio']
 
 def make_query(_col, info):
-    query = """INSERT INTO cars ("""
+    query = """INSERT INTO engines ("""
     for i in range(0, len(_col)):
         # query += """ '""" + _col[i] + """' """
         query += _col[i]
@@ -57,9 +47,8 @@ def make_query(_col, info):
     query += """ ) VALUES ( """
     for i in range(0, len(info)):
         if _col[i] == 'power' or _col[i] == 'torque' \
-            or _col[i] == 'engine_cylinder' or _col[i] == 'weight' \
-            or _col[i] == 'displacement' or _col[i] == 'compression_ratio' \
-            or _col[i] == 'popularity' or _col[i] == 'average_consumption':
+            or _col[i] == 'engine_cylinder' \
+            or _col[i] == 'compression_ratio':
             query += info[i]
         else:
             query += """ '""" + info[i] + """' """
@@ -76,7 +65,10 @@ cursor = db.cursor()
 
 # execute SQL query using execute() method.
 if _new:
-    cursor.execute(TABLES['cars'])
+    cursor.execute(TABLES['engines'])
+
+####
+engine_set = set();
 
 # open the csv file, and populate the database
 with open('DBVehiclePTE.csv', 'rb') as f:
@@ -111,18 +103,12 @@ with open('DBVehiclePTE.csv', 'rb') as f:
                     if s[0] == '?' or len(raw_lst) == 1:
                         new_line.append("NULL")
                     else: new_line.append(s[0:-1])
-                elif col_needed[j] == 'Weight(3p/5p) kg':
-                    weight_raw = dictionary[col_needed[j]]
-                    weight_lst = weight_raw.split('/')
-                    if weight_lst[0] == '?':
-                        new_line.append("NULL")
-                    else: new_line.append(weight_lst[0])
                 elif col_needed[j] == 'Compression ratio':
                     if dictionary[col_needed[j]] != '?':
                         new_line.append(dictionary[col_needed[j]])
                     else:
                         new_line.append("NULL")
-                elif col_needed[j] == 'engine':
+                elif col_needed[j] == 'Engine':
                     if dictionary[col_needed[j]] == '?':
                         new_line.append("Unkonwn")
                     else: new_line.append(dictionary[col_needed[j]])
@@ -130,10 +116,13 @@ with open('DBVehiclePTE.csv', 'rb') as f:
                     if dictionary[col_needed[j]] == '?':
                         new_line.append("NULL")
                     else: new_line.append(dictionary[col_needed[j]])
-            
+            new_line[0].lower();
+            if new_line[0] in engine_set:
+                continue
+            engine_set.add(new_line[0])
             # insert a row here
             new_query = make_query(_col, new_line)
-            #print new_query
+            print i, " ", new_query
             #print "\n"
             cursor.execute(new_query)
             db.commit()
