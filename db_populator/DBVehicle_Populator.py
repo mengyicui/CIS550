@@ -108,7 +108,9 @@ with open('DBVehiclePTE.csv', 'rb') as f:
                 elif col_needed[j] == 'Weight(3p/5p) kg':
                     weight_raw = dictionary[col_needed[j]]
                     weight_lst = weight_raw.split('/')
-                    new_line.append(weight_lst[0])
+                    if weight_lst[0] == '?':
+                        new_line.append("")
+                    else new_line.append(weight_lst[0])
                 elif col_needed[j] == 'Compression ratio':
                     if dictionary[col_needed[j]] != '?':
                         new_line.append(dictionary[col_needed[j]])
