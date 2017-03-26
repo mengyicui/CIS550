@@ -22,18 +22,18 @@ TABLES['cars'] = (
     "CREATE TABLE `cars` ("
     "  `make` varchar(255) NOT NULL,"
     "  `model` varchar(255) NOT NULL,"
-    "  `engine` varchar(32) NOT NULL,"
+    "  `engine` varchar(64) NOT NULL,"
     "  `power` int,"
     "  `torque` int,"
     "  `engine_cylinder` int,"
-    "  `transmission` varchar(8),"
+    "  `transmission` varchar(32),"
     "  `average_consumption` float,"
     "  `weight` int,"
     "  `displacement` int,"
     "  `compression_ratio` float,"
-    "  `traction_type` varchar(4),"
+    "  `traction_type` varchar(16),"
     "  `tyre` varchar(32),"
-    "  PRIMARY KEY (`make`, `model`, `engine`)"
+    "  PRIMARY KEY (`make`, `model`, `engine`, `tyre`)"
     ")"
 )
 
@@ -57,7 +57,7 @@ def make_query(_col, info):
     query += """ ) VALUES ( """
     for i in range(0, len(info)):
         if _col[i] == 'power' or _col[i] == 'torque' \
-            or _col[i] == 'engine_cylinders' or _col[i] == 'weight' \
+            or _col[i] == 'engine_cylinder' or _col[i] == 'weight' \
             or _col[i] == 'displacement' or _col[i] == 'compression_ratio' \
             or _col[i] == 'popularity' or _col[i] == 'average_consumption':
             query += info[i]
@@ -75,7 +75,6 @@ db = MySQLdb.connect("localhost","root","1234","project" )
 cursor = db.cursor()
 
 # execute SQL query using execute() method.
-print "sfasdfas"
 if _new:
     cursor.execute(TABLES['cars'])
 
@@ -91,41 +90,56 @@ with open('DBVehiclePTE.csv', 'rb') as f:
             dictionary = dict(zip(col_name, row))
             new_line = []
             for j in range(0, len(col_needed)):
-                print col_needed[j]
+                #print col_needed[j]
+                #print dictionary[col_needed[j]]
                 if col_needed[j] == 'Power (hp - kW /rpm)':
                     power_raw = dictionary[col_needed[j]]
                     power_lst = power_raw.split('-')
-                    new_line.append(power_lst[0])
+                    if power_lst[0] == '?':
+                        new_line.append("NULL")
+                    else: new_line.append(power_lst[0])
                 elif col_needed[j] == 'Torque (Nm/rpm)':
                     torque_raw = dictionary[col_needed[j]]
                     torque_lst = torque_raw.split('/')
-                    new_line.append(torque_lst[0])
+                    if torque_lst[0] == '?':
+                        new_line.append("NULL")
+                    else: new_line.append(torque_lst[0])
                 elif col_needed[j] == 'Others':
                     raw = dictionary[col_needed[j]]
                     raw_lst = raw.split('+')
                     s = raw_lst[0]
-                    new_line.append(s[0:-1])
+                    if s[0] == '?' or len(raw_lst) == 1:
+                        new_line.append("NULL")
+                    else: new_line.append(s[0:-1])
                 elif col_needed[j] == 'Weight(3p/5p) kg':
                     weight_raw = dictionary[col_needed[j]]
                     weight_lst = weight_raw.split('/')
                     if weight_lst[0] == '?':
-                        new_line.append("")
-                    else new_line.append(weight_lst[0])
+                        new_line.append("NULL")
+                    else: new_line.append(weight_lst[0])
                 elif col_needed[j] == 'Compression ratio':
                     if dictionary[col_needed[j]] != '?':
                         new_line.append(dictionary[col_needed[j]])
                     else:
-                        new_line.append("")
+                        new_line.append("NULL")
+                elif col_needed[j] == 'engine':
+                    if dictionary[col_needed[j]] == '?':
+                        new_line.append("Unkonwn")
+                    else: new_line.append(dictionary[col_needed[j]])
                 else:
-                    new_line.append(dictionary[col_needed[j]])
+                    if dictionary[col_needed[j]] == '?':
+                        new_line.append("NULL")
+                    else: new_line.append(dictionary[col_needed[j]])
             
             # insert a row here
             new_query = make_query(_col, new_line)
+            #print new_query
+            #print "\n"
             cursor.execute(new_query)
             db.commit()
             # for testing, only insert first 100 instances
-            if i == 5:
-                break
+            #if i == 1000:
+            #    break
         i+=1
         
 # disconnect from server
