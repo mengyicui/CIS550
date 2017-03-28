@@ -58,10 +58,12 @@ def make_query(_col, info):
     return query
 
 # Open database connection
-db = MySQLdb.connect("localhost","root","1234","project" )
-
+# db = MySQLdb.connect("localhost","root","1234","project" )
+db = MySQLdb.connect("cis550-project-mysql.cnxblynrjuzi.us-west-2.rds.amazonaws.com","cis550Project18","groupeighteen","project" )
+print "connection success"
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
+#cursor.execute("drop table engines;")
 
 # execute SQL query using execute() method.
 if _new:
@@ -82,8 +84,6 @@ with open('DBVehiclePTE.csv', 'rb') as f:
             dictionary = dict(zip(col_name, row))
             new_line = []
             for j in range(0, len(col_needed)):
-                #print col_needed[j]
-                #print dictionary[col_needed[j]]
                 if col_needed[j] == 'Power (hp - kW /rpm)':
                     power_raw = dictionary[col_needed[j]]
                     power_lst = power_raw.split('-')
@@ -123,7 +123,6 @@ with open('DBVehiclePTE.csv', 'rb') as f:
             # insert a row here
             new_query = make_query(_col, new_line)
             print i, " ", new_query
-            #print "\n"
             cursor.execute(new_query)
             db.commit()
             # for testing, only insert first 100 instances
@@ -133,4 +132,5 @@ with open('DBVehiclePTE.csv', 'rb') as f:
         
 # disconnect from server
 print "here\n"
+#cursor.execute("drop table engines;")
 db.close()

@@ -65,7 +65,8 @@ def make_query(_col, info):
     return query
 
 # Open database connection
-db = MySQLdb.connect("localhost","root","1234","project" )
+#db = MySQLdb.connect("localhost","root","1234","project" )
+db = MySQLdb.connect("cis550-project-mysql.cnxblynrjuzi.us-west-2.rds.amazonaws.com","cis550Project18","groupeighteen","project" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
