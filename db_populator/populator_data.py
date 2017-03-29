@@ -87,9 +87,11 @@ def make_query(_col, info, db):
 	return query
 
 # Open database connection
+
 print "Connecting to AWS RDS MYSQL Datbase..."
 db = MySQLdb.connect("project.c34htetfwwf4.us-east-1.rds.amazonaws.com","wuzhengx","11111111","cis550project" )
 print "Finish Connecting to Database..."
+db = MySQLdb.connect("localhost","root","1234","project" )
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
@@ -164,5 +166,10 @@ with open('data.csv', 'r') as f:
     	i+=1
         
 # disconnect from server
+<<<<<<< HEAD
 db.close()
 print "Finished. Closing..."
+=======
+print "here\n"
+db.close()
+>>>>>>> 087afa1bc4003e3a79c2574794dfc7f0cc69b015

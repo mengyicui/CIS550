@@ -1,0 +1,1263 @@
+Make,Model,Engine,Engine code,Torque (Nm/rpm),Power (hp - kW /rpm),Average fuel consumption (l/100 km),CO2 (g/km),Cx/S(m?)/SCx,Weight(3p/5p) kg,Displacement,Block material /cylinder head,Compression ratio,GearBox type,Tyre,Others,Traction type
+Renault,Twingo,1.2L 60 hp,D7F,93/2500,58-43/5250,5.6,130,?,1000,1149,cast iron /aluminium,9.6,MT,165/65 R14,12V,2wd
+Renault,Twingo,1.2L 75 hp,D4F,108/4250,75-55/5500,5.1,120,?,1025,1149,cast iron /aluminium,9.8,MT,165/65 R14,16V,2wd
+Renault,Twingo,1.5L dCi 65 hp,K9KBP,160/1900,65-48/3750,4.3,113,?,1055,1461,cast iron /aluminium,17.9,MT,165/65 R14,8V+TC,2wd
+Renault,Twingo,1.2L 75 hp AT,D4F,108/4250,75-55/5500,5.6,132,?,1030,1149,cast iron /aluminium,9.8,AT 5,165/65 R14,16V,2wd
+Renault,Twingo,1.5L dCi 85 hp,K9KHP,200/1750,84-62/3750,4,104,?,1055,1461,cast iron /aluminium,17.9,MT,165/65 R14,8V+TC+CAC,2wd
+Renault,Twingo,1.2L TCe 100 hp,D4FT,145/3000,104-76.5/5500,5.9,138,?,1055,1149,cast iron /aluminium,9.5,MT,185/65 R15,16V+TC,2wd
+Renault,Twingo,1.6L 130 hp,K4MRS,160/4400,133-98/6750,7,165,?,1124,1598,cast iron /aluminium,11,MT,195/45 R16,16V+VVT,2wd
+Renault,Clio Campus 3p Exp,1.5L dCi 65 hp,K9KBP,160/2000,65-48/4000,4.3,?,?,960,1461,cast iron /aluminium,18.8,MT,175/65 R14,8V+TC,2wd
+Renault,Clio Campus 3p Dyn,1.5L dCi 65 hp,K9KBP,160/2000,65-48/4000,4.3,?,?,960,1461,cast iron /aluminium,18.8,MT,185/55 R15,8V+TC,2wd
+Renault,Clio Campus 5p Exp,1.5L dCi 65 hp,K9KBP,160/2000,65-48/4000,4.3,?,?,980,1461,cast iron /aluminium,18.8,MT,175/65 R14,8V+TC,2wd
+Renault,Clio Campus 5p Dyn,1.5L dCi 65 hp,K9KBP,160/2000,65-48/4000,4.3,?,?,980,1461,cast iron /aluminium,18.8,MT,185/55 R15,8V+TC,2wd
+Renault,Clio,1.2L 75 hp,D4F,105/4250,75-55/5500,5.9,139,?,1155/1165,1149,cast iron /aluminium,9.8,MT,165/65 R15,16V,2wd
+Renault,Clio,1.5L dCi 70 hp,K9KBP,160/1700,68-50/4000,4.5,120,?,1230/1240,1461,cast iron /aluminium,17.9,MT,185/60 R15,8V+TC,2wd
+Renault,Clio,1.2L TCe 100 hp,D4FT,145/3000,101-74/5500,5.8,137,?,1165/1175,1149,cast iron /aluminium,9.5,MT,185/60 R15,16V+TC,2wd
+Renault,Clio,1.5L dCi 85 hp,K9KHP,200/1900,86-63/3750,4.4,117,?,1240/1250,1461,cast iron /aluminium,17.9,MT,185/60 R15,8V+TC+CAC,2wd
+Renault,Clio Exc,1.2L TCe 100 hp,D4FT,145/3000,101-74/5500,5.8,137,?,1165/1175,1149,cast iron /aluminium,9.5,MT,195/50 R16,16V+TC,2wd
+Renault,Clio Exc,1.5L dCi 85 hp,K9KHP,200/1900,86-63/3750,4.4,117,?,1240/1250,1461,cast iron /aluminium,17.9,MT,195/50 R16,8V+TC+CAC,2wd
+Renault,Clio Exc,1.6L 110 hp AT,K4M,151/4250,112-82/6000,7.5,179,?,1255/1265,1598,cast iron /aluminium,9.8,AT 4,195/50 R16,16V+VVT,2wd
+Renault,Clio  Exc,1.5L dCi 105 hp,K9KTHP,240/2000-2500,106-78/4000,4.3,123,?,1275/1285,1461,cast iron /aluminium,15.6,MT 6,195/50 R16,8V+TGV+CAC,2wd
+Renault,Clio GT 3p.,1.6L 130 hp,K4MRS,155/4250,128-94/6750,6.9,160,?,1215,1598,cast iron /aluminium,?,MT 6,195/50 R16,16V+VVT,2wd
+Renault,Clio RS 3p.,2.0L 200 hp,F4R,215/5400,201-147.5/7100,8.3,195,?,1279,1998,cast iron /aluminium,?,MT 6,215/45 R17,16V+VVT,2wd
+Renault,Clio Grand Tour,1.2L 75 hp,D4F,105/4250,75-55/5500,5.9,139,?,1185,1149,cast iron /aluminium,9.8,MT,165/65 R15,16V,2wd
+Renault,Clio Grand Tour,1.5L dCi 70 hp,K9KBP,160/1700,68-50/4000,4.5,120,?,1260,1461,cast iron /aluminium,17.9,MT,185/60 R15,8V+TC,2wd
+Renault,Clio Grand Tour,1.2L TCe 100 hp,D4FT,145/3000,101-74/5500,5.8,137,?,1195,1149,cast iron /aluminium,9.5,MT,185/60 R15,16V+TC,2wd
+Renault,Clio Grand Tour,1.5L dCi 85 hp,K9KHP,200/1900,86-63/3750,4.4,117,?,1270,1461,cast iron /aluminium,17.9,MT,185/60 R15,8V+TC+CAC,2wd
+Renault,Clio Grand Tour Exc,1.2L TCe 100 hp,D4FT,145/3000,101-74/5500,5.8,137,?,1195,1149,cast iron /aluminium,9.5,MT,195/50 R16,16V+TC,2wd
+Renault,Clio Grand Tour Exc,1.5L dCi 85 hp,K9KHP,200/1900,86-63/3750,4.4,117,?,1270,1461,cast iron /aluminium,17.9,MT,195/50 R16,8V+TC+CAC,2wd
+Renault,Clio Grand Tour Exc,1.6L 110 hp AT,K4M,151/4250,112-82/6000,7.5,179,?,1285,1598,cast iron /aluminium,9.8,AT 4,195/50 R16,16V+VVT,2wd
+Renault,Clio Grand Tour Exc,1.5L dCi 105 hp,K9KTHP,240/2000-2500,106-78/4000,4.3,123,?,1310,1461,cast iron /aluminium,15.6,MT 6,195/50 R16,8V+TGV+CAC,2wd
+Renault,Kangoo Bebop,1.6L 105 hp,K4M,148/3750,106-78/5750,7.7,186,?,1435,1598,cast iron /aluminium,10,MT,205/60 R16,16V,2wd
+Renault,Kangoo Bebop,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,5.4,142,?,1468,1461,cast iron /aluminium,15.3,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Modus,1.2L 75 hp,D4F,105/4250,75-55/5500,5.9,140,?,1225,1149,cast iron /aluminium,9.8,MT,165/65 R15,16V,2wd
+Renault,Modus,1.5L dCi 65 hp,K9KBP,160/1700,65-48/4000,4.7,119,?,1255,1461,cast iron /aluminium,17.9,MT,185/60 R15,8V+TC,2wd
+Renault,Modus,1.2L TCe 100 hp,D4FT,145/3000,101-74/5500,5.9,140,?,1235,1149,cast iron /aluminium,9.8,MT,185/60 R15,16V+TC,2wd
+Renault,Modus,1.5L dCi 85 hp,K9KHP,200/1900,86-63/3750,4.5,119,?,1290,1461,cast iron /aluminium,17.9,MT,185/60 R15,8V+TC+CAC,2wd
+Renault,Modus Exc,1.2L TCe 100 hp,D4FT,145/3000,101-74/5500,5.9,140,?,1235,1149,cast iron /aluminium,9.8,MT,185/55 R16,16V+TC,2wd
+Renault,Modus Exc,1.5L dCi 85 hp,K9KHP,200/1900,86-63/3750,4.5,119,?,1290,1461,cast iron /aluminium,17.9,MT,185/55 R16,8V+TC+CAC,2wd
+Renault,Modus Exc,1.6L 110 hp AT,K4M,151/4250,112-82/6000,7.6,179,?,1310,1598,cast iron /aluminium,10,AT 4,185/55 R16,16V+VVT,2wd
+Renault,Modus,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,4.7,124,?,1305,1461,cast iron /aluminium,15.6,MT 6,185/60 R15,8V+TGV+CAC,2wd
+Renault,Modus Exc,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,4.7,124,?,1305,1461,cast iron /aluminium,15.6,MT 6,185/55 R16,8V+TGV+CAC,2wd
+Renault,Megane 3 Berline,1.6L 100 hp,K4M,148/4250,101-74/5500,6.7,159,0.324/2.22/0.72,1280,1598,cast iron /aluminium,9.8,MT,195/65 R15,16V,2wd
+Renault,Megane 3 Berline,1.5L dCi 85 hp,K9KHP,200/1750,86-63/3750,4.5,118,0.324/2.22/0.72,1290,1461,cast iron /aluminium,17.6,MT,195/65 R15,8V+TC+CAC,2wd
+Renault,Megane 3 Berline,1.6L 110 hp,K4M,151/4250,110-81/6000,6.9,163,0.324/2.22/0.72,1290,1598,cast iron /aluminium,9.7,MT 6,195/65 R15,16V,2wd
+Renault,Megane 3 Berline Dyn,1.6L 110 hp,K4M,151/4250,110-81/6000,6.9,163,0.324/2.22/0.72,1290,1598,cast iron /aluminium,9.7,MT 6,205/55 R16,16V,2wd
+Renault,Megane 3 Berline,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,4.5,120,0.324/2.22/0.72,1290,1461,cast iron /aluminium,15.3,MT 6,195/65 R15,8V+TGV+CAC,2wd
+Renault,Megane 3 Berline Dyn,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,4.5,120,0.324/2.22/0.72,1290,1461,cast iron /aluminium,15.3,MT 6,205/55 R16,8V+TGV+CAC,2wd
+Renault,Megane 3 Berline Dyn,2.0L 140 hp hpT,M4R,195/3750,140-103/6000,7.6,176,0.324/2.22/0.72,1356,1997,aluminium/aluminium,10.2,hpT,205/55 R16,16V+VVT,2wd
+Renault,Megane 3 Berline Dyn,2.0L TCe 180 hp,F4RTK,300/2250,180-132/5500,7.6,178,0.324/2.22/0.72,1405,1998,cast iron /aluminium,9.3,MT 6,205/45 R17,16V+VVT+TC+CAC,2wd
+Renault,Megane 3 Berline Dyn,1.9L dCi 130 hp,F9Q,300/1750,131-96/3750,5.1,134,0.324/2.22/0.72,1385,1870,cast iron /aluminium,16.6,MT 6,205/55 R16,8V+TGV+CAC,2wd
+Renault,Megane 3 Coup??,1.6L 110 hp,K4M,151/4250,110-81/6000,6.9,163,?,1290,1598,cast iron /aluminium,9.7,MT 6,205/55 R16,16V,2wd
+Renault,Megane 3 Coup??,1.5L dCi 85 hp,K9KHP,200/1750,86-63/3750,4.5,118,?,1280,1461,cast iron /aluminium,17.6,MT,205/55 R16,8V+TC+CAC,2wd
+Renault,Megane 3 Coup?? Dyn,1.6L 110 hp,K4M,151/4250,110-81/6000,6.9,163,?,1290,1598,cast iron /aluminium,9.7,MT 6,205/50 R17,16V,2wd
+Renault,Megane 3 Coup??,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,4.5,120,?,1280,1461,cast iron /aluminium,15.3,MT 6,205/55 R16,8V+TGV+CAC,2wd
+Renault,Megane 3 Coup?? Dyn,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,4.5,120,?,1280,1461,cast iron /aluminium,15.3,MT 6,205/50 R17,8V+TGV+CAC,2wd
+Renault,Megane 3 Coup?? Dyn,2.0L 140 hp hpT,M4R,195/3750,140-103/6000,7.6,176,0.324/2.22/0.72,1356,1997,aluminium/aluminium,10.2,hpT,205/55 R16,16V+VVT,2wd
+Renault,Megane 3 Coup?? Dyn,2.0L TCe 180 hp,F4RTK,300/2250,180-132/5500,7.6,178,?,1405,1998,cast iron /aluminium,9.3,MT 6,225/45 R17,16V+VVT+TC+CAC,2wd
+Renault,Megane 3 Coup?? Dyn,1.9L dCi 130 hp,F9Q,300/1750,131-96/3750,5.1,134,?,1385,1870,cast iron /aluminium,16.6,MT 6,205/50 R17,8V+TGV+CAC,2wd
+Renault,Megane 2 (2003),1.4L 100 hp,K7J,127/3750,98-72/6000,6.7,?,0.35/1.89/0.66,1220/1240,1390,cast iron /aluminium,10,MT,195/65 R15,16V,2wd
+Renault,Megane 2 (2003) Dyn,1.4L 100 hp,K7J,127/3750,98-72/6000,6.7,?,0.35/1.89/0.66,1220/1240,1390,cast iron /aluminium,10,MT,205/55 R16,16V,2wd
+Renault,Megane 2 (2003),1.6L 110 hp,K4M,152/4200,113-83/6000,6.8,?,0.35/1.89/0.66,1230/1250,1598,cast iron /aluminium,10,MT,195/65 R15,16V,2wd
+Renault,Megane 2 (2003) Dyn,1.6L 110 hp,K4M,152/4200,113-83/6000,6.8,?,0.35/1.89/0.66,1230/1250,1598,cast iron /aluminium,10,MT,205/55 R16,16V,2wd
+Renault,Megane 2 (2003),2.0L 130 hp,F4R,191/3750,134-98.5/5500,8,?,0.35/1.89/0.66,1305/1325,1998,cast iron /aluminium,9.8,MT 6,205/55 R16,16V,2wd
+Renault,Megane 2 (2003),1.5L dCi 80 hp,K9KHP,185/2000,82-60/4000,4.6,?,0.35/1.89/0.66,1250/1270,1461,cast iron /aluminium,18.8,MT,195/65 R15,8V+TC+CAC,2wd
+Renault,Megane 2 (2003) Dyn,1.5L dCi 80 hp,K9KHP,185/2000,82-60/4000,4.6,?,0.35/1.89/0.66,1250/1270,1461,cast iron /aluminium,18.8,MT,205/55 R16,8V+TC+CAC,2wd
+Renault,Megane 2 (2003),1.9L dCi 120 hp,F9Q,270/2000,120-88/4000,5.4,?,0.35/1.89/0.66,1250/1270,1870,cast iron /aluminium,18.3,MT 6,165/55 R15,8V+TGV+CAC,2wd
+Renault,Megane 2 (2003) Dyn,1.9L dCi 120 hp,F9Q,270/2000,120-88/4000,5.4,?,0.35/1.89/0.66,1250/1270,1870,cast iron /aluminium,18.3,MT 6,205/55 R16,8V+TGV+CAC,2wd
+Renault,Megane 2 (2006),1.5L dCi 100 hp,K9KTHP,200/1900,101-74/4000,4.5,?,0.35/1.89/0.66,1250/1270,1461,cast iron /aluminium,18.8,MT,195/65 R15,8V+TGV+CAC,2wd
+Renault,Megane 2 (2006) Dyn,1.5L dCi 100 hp,K9KTHP,200/1900,101-74/4000,4.5,?,0.35/1.89/0.66,1250/1270,1461,cast iron /aluminium,18.8,MT,205/55 R16,8V+TGV+CAC,2wd
+Renault,Megane 2 Grand Tour,1.4L 100 hp,K7J,127/3750,98-72/6000,7,?,?,1285,1390,cast iron /aluminium,10,MT,195/65 R15,16V,2wd
+Renault,Megane 2 Grand Tour Dyn,1.4L 100 hp,K7J,127/3750,98-72/6000,7,?,?,1285,1390,cast iron /aluminium,10,MT,205/55 R16,16V,2wd
+Renault,Megane 2 Grand Tour,1.6L 110 hp,K4M,152/4200,113-83/6000,6.9,?,?,1290,1598,cast iron /aluminium,10,MT,195/65 R15,16V+VVT,2wd
+Renault,Megane 2 Grand Tour Proactiva,1.6L 110 hp AT,K4M,152/4200,113-83/6000,6.9,?,?,1290,1598,cast iron /aluminium,10,AT 4,195/65 R15,16V+VVT,2wd
+Renault,Megane 2 Grand Tour Dyn,1.6L 110 hp,K4M,152/4200,113-83/6000,6.9,?,?,1290,1598,cast iron /aluminium,10,MT,205/55 R16,16V+VVT,2wd
+Renault,Megane 2 Grand Tour Dyn Proactiva,1.6L 110 hp AT,K4M,152/4000,113-83/6000,7.7,?,?,1335,1598,cast iron /aluminium,10,AT 4,205/55 R16,16V+VVT,2wd
+Renault,Megane 2 Grand Tour,2.0L 130 hp,F4R,191/3750,134-98.5/5500,8,?,?,1365,1998,cast iron /aluminium,9.8,MT 6,195/65 R16,16V,2wd
+Renault,Megane 2 Grand Tour Proactiva,2.0L 130 hp AT,F4R,191/3750,134-98.5/5500,8.4,?,?,1380,1998,cast iron /aluminium,9.8,AT 4,195/65 R16,16V,2wd
+Renault,Megane 2 Grand Tour Dyn,2.0L 130 hp,F4R,191/3750,134-98.5/5500,8.8,?,?,1365,1998,cast iron /aluminium,9.8,MT 6,205/55 R16,16V,2wd
+Renault,Megane 2 Grand Tour Dyn Proactiva,2.0L 130 hp AT,F4R,191/3750,134-98.5/5500,9.2,?,?,1380,1998,cast iron /aluminium,9.8,AT 4,205/55 R16,16V,2wd
+Renault,Megane 2 Grand Tour,1.5L dCi 80 hp,K9KHP,185/2000,82-60/4000,4.6,?,?,1310,1461,cast iron /aluminium,18.8,MT,195/65 R15,8V+TC+CAC,2wd
+Renault,Megane 2 Grand Tour Dyn,1.5L dCi 80 hp,K9KHP,185/2000,82-60/4000,4.6,?,?,1310,1461,cast iron /aluminium,18.8,MT,205/55 R16,8V+TC+CAC,2wd
+Renault,Megane 2 Grand Tour,1.9L dCi 120 hp,F9Q,270/2000,120-88/4000,5.4,?,?,1385,1870,cast iron /aluminium,18.3,MT 6,195/65 R15,8V+TGV+CAC,2wd
+Renault,Megane 2 Grand Tour Dyn,1.9L dCi 120 hp,F9Q,270/2000,120-88/4000,5.4,?,?,1385,1870,cast iron /aluminium,18.3,MT 6,205/55 R16,8V+TGV+CAC,2wd
+Renault,Megane 2 (2006),2.0L dCi 150 hp,M9RA,340/2000,150-110/4000,5.4,144,?,1390,1995,cast iron /aluminium,15.7,MT 6,195/65 R15,16V+TGV+CAC,2wd
+Renault,Megane 2 (2006) Dyn,2.0L dCi 150 hp,M9RA,340/2000,150-110/4000,5.4,144,?,1390,1995,cast iron /aluminium,15.7,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Renault,Megane 2 RS,2.0L T 225 hp,F4RT,300/3000,224-165/5500,8.8,?,?,1430/1450,1998,cast iron /aluminium,9,MT 6,225/40 R18 92 Y,16V+TC+CAC,2wd
+Renault,Megane 2 R26.R,2.0L T 230 hp,F4RT,310/3000,230-169/5500,8.5,199,0.35/2.14/0.75,1305,1998,cast iron /aluminium,9,MT 6,235/40 R18 95 Y,16V+TC+CAC,2wd
+Renault,Megane 2 CC,1.6L 110 hp,K4M,152/4200,113-83/6000,6.9,?,?,1395,1598,cast iron /aluminium,10,MT,195/65 R15,16V+VVT,2wd
+Renault,Megane 2 CC Dyn,1.6L 110 hp,K4M,152/4200,113-83/6000,6.9,?,?,1395,1598,cast iron /aluminium,10,MT,205/55 R16,16V+VVT,2wd
+Renault,Megane 2 CC Dyn,2.0L 130 hp,F4R,191/3750,134-98.5/5500,8.2,?,?,1465,1998,cast iron /aluminium,9.8,MT 6,205/55 R16,16V,2wd
+Renault,Megane 2 CC,1.9L dCi 120 hp,F9Q,300/2000,120-88/4000,5.5,?,?,1500,1870,cast iron /aluminium,18.3,MT 6,195/65 R15,8V+TGV+CAC,2wd
+Renault,Megane 2 CC Dyn,1.9L dCi 120 hp,F9Q,300/2000,120-88/4000,5.5,?,?,1500,1870,cast iron /aluminium,18.3,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Megane 2 CC,2.0L T 160 hp,F4RT,270/3250,163-120/5000,8,?,?,1490,1998,cast iron /aluminium,9.5,MT 6,205/55 R16,16V+TC+CAC,2wd
+Renault,Scenic,1.6L 110 hp,K4M,151/4250,110-81/6000,7.5,177,0.324/2.53/0.82,1395,1598,cast iron /aluminium,9.7,MT 6,205/60 R15,16V,2wd
+Renault,Scenic,1.5L dCi 85 hp,K9KHP,200/1750,86-63/3750,4.9,130,0.324/2.53/0.82,1460,1461,cast iron /aluminium,17.6,MT 6,205/60 R15,8V+TC+CAC,2wd
+Renault,Scenic,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,4.9,130,0.324/2.53/0.82,1460,1461,cast iron /aluminium,15.3,MT 6,205/60 R15,8V+TGV+CAC,2wd
+Renault,Scenic Dyn,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,4.9,130,0.324/2.53/0.82,1460,1461,cast iron /aluminium,15.3,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Scenic,1.4L Tce 130 hp,H4JT,190/2250,131-96/5500,7.1,168,0.324/2.53/0.82,1395,1397,aluminium/aluminium,9.1,MT 6,205/60 R16,16V+VVT+TC,2wd
+Renault,Scenic,2.0L 140 hp hpT,F4R,195/3750,140-103/6000,7.7,183,0.324/2.53/0.82,1503,1997,aluminium/aluminium,10.2,hpT,205/60 R16,16V+VVT,2wd
+Renault,Scenic,1.9L dCi 130 hp,F9Q,300/1750,131-96/3750,5.5,145,0.324/2.53/0.82,1505,1870,cast iron /aluminium,16.6,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Scenic,2.0L dCi 160 hp,M9RB,380/2000,160-118/3750,6.6,173,0.324/2.53/0.82,1595,1995,cast iron /aluminium,15.5,MT 6,225/50 R17,16V+TGV+CAC,2wd
+Renault,Scenic,2.0L dCi 150 hp AT,M9RB,360/2000,150-110/3750,7,184,0.324/2.53/0.82,1615,1995,cast iron /aluminium,15.5,AT 6,225/50 R17,16V+TGV+CAC,2wd
+Renault,Grand Sc??nic 5 pl.,1.6L 110 hp,K4M,151/4250,110-81/6000,7.5,177,0.324/2.53/0.82,1482,1598,cast iron /aluminium,9.7,MT 6,205/60 R16 96 H,16V,2wd
+Renault,Grand Sc??nic 7 pl.,1.6L 110 hp,K4M,151/4250,110-81/6000,7.5,177,0.324/2.53/0.82,1519,1598,cast iron /aluminium,9.7,MT 6,205/60 R16,16V,2wd
+Renault,Grand Sc??nic 5 pl.,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,5.1,134,0.324/2.53/0.82,1526,1461,cast iron /aluminium,15.3,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Grand Sc??nic 7 pl.,1.5L dCi 105 hp,K9KTHP,240/2000,106-78/4000,5.1,135,0.324/2.53/0.82,1563,1461,cast iron /aluminium,15.3,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Grand Sc??nic 7 pl. Dyn,1.4L Tce 130 hp,H4JT,190/2250,131-96/5500,7.2,170,0.324/2.53/0.82,1532,1397,aluminium/aluminium,9.1,MT 6,205/60 R16,16V+VVT+TC,2wd
+Renault,Grand Sc??nic 5 pl. Dyn,1.9L dCi 130 hp,F9Q,300/1750,131-96/3750,5.5,145,0.324/2.53/0.82,1568,1870,cast iron /aluminium,16.6,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Grand Sc??nic 7 pl. Dyn,1.9L dCi 130 hp,F9Q,300/1750,131-96/3750,5.6,149,0.324/2.53/0.82,1605,1870,cast iron /aluminium,16.6,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Grand Sc??nic 7 pl.,2.0L 140 hp hpT,F4R,195/3750,140-103/6000,7.7,183,0.324/2.53/0.82,1580,1997,aluminium/aluminium,10.2,hpT,205/60 R16,16V+VVT,2wd
+Renault,Grand Sc??nic 7 pl.,2.0L dCi 160 hp,M9RB,380/2000,160-118/3750,6.6,173,0.324/2.53/0.82,1703,1995,cast iron /aluminium,15.5,MT 6,225/50 R17 98 V,16V+TGV+CAC,2wd
+Renault,Grand Sc??nic 7 pl.,2.0L dCi 150 hp AT,M9RB,360/2000,150-110/3750,7,184,0.324/2.53/0.82,1722,1995,cast iron /aluminium,15.5,AT 6,225/50 R17 98 V,16V+TGV+CAC,2wd
+Renault,Sc??nic (2006) 5 pl.,1.4L 100 hp,K7J,127/3750,98-72/5700,7.2,173,?,1390,1390,cast iron /aluminium,10,MT,195/65 R 15,16V,2wd
+Renault,Sc??nic (2006) 5 pl.,1.6L 110 hp,K4M,152/4200,112-82/6000,7.6,182,?,1395,1598,cast iron /aluminium,10,MT,195/65 R 15,16V+VVT,2wd
+Renault,Sc??nic (2006) 5 pl. Dyn,1.6L 110 hp,K4M,152/4200,112-82/6000,7.6,182,?,1395,1598,cast iron /aluminium,10,MT,205/55 R 16,16V+VVT,2wd
+Renault,Sc??nic (2006) 5 pl.,1.6L 110 hp AT,K4M,152/4200,112-82/6000,8,191,?,1445,1598,cast iron /aluminium,10,AT 4,205/55 R 16,16V+VVT,2wd
+Renault,Sc??nic (2006) 5 pl.,2.0L 135 hp,F4R,191/3750,134-98.5/5500,8,192,?,1475,1998,cast iron /aluminium,9.8,MT 6,205/60 R16,16V,2wd
+Renault,Sc??nic (2006) 5 pl.,2.0L T 165 hp,F4RT,270/3250,163-120/5000,8.1,194,?,1500,1998,cast iron /aluminium,9.5,MT 6,205/60 R16,16V+TC+CAC,2wd
+Renault,Sc??nic (2006) 5 pl.,1.5L dCi 85 hp,K9KHP,185/2000,86-63/4000,5.1,137,?,1415,1461,cast iron /aluminium,17.9,MT,195/65 R15,8V+TC+CAC,2wd
+Renault,Sc??nic (2006) 5 pl.,1.5L dCi 105 hp,K9KTHP,240/2000-2500,106-78/4000,5.2,138,?,1440,1461,cast iron /aluminium,15.6,MT 6,195/65 R15,8V+TGV+CAC,2wd
+Renault,Sc??nic (2006) 5 pl. Dyn,1.5L dCi 85 hp,K9KHP,185/2000,86-63/4000,5.1,137,?,1415,1461,cast iron /aluminium,17.9,MT,205/55 R16,8V+TC+CAC,2wd
+Renault,Sc??nic (2006) 5 pl. Dyn,1.5L dCi 105 hp,K9KTHP,240/2000-2500,106-78/4000,5.2,138,?,1440,1461,cast iron /aluminium,15.6,MT 6,205/55 R16,8V+TGV+CAC,2wd
+Renault,Sc??nic (2006) 5 pl.,1.9L dCi 130 hp,F9Q,300/2000,131-96/4000,6,159,?,1505,1870,cast iron /aluminium,18.3,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Sc??nic (2006) 5 pl. Dyn,1.9L dCi 130 hp AT,F9Q,300/2000,131-96/4000,7.1,188,?,1505,1870,cast iron /aluminium,18.3,AT 4,205/60 R16,8V+TGV+CAC,2wd
+Renault,Sc??nic (2006) 5 pl. Dyn,2.0L dCi 150 hp,M9RA,340/2000,150-110/4000,5.8,154,?,1540,1995,cast iron /aluminium,15.7,MT 6,205/60 R16,16V+TGV+CAC,2wd
+Renault,Sc??nic (2006) 5 pl. Dyn,2.0L dCi 150 hp AT,M9RA,340/2000,150-110/4000,7,186,,1580,1995,cast iron /aluminium,15.7,AT 6,205/60 R16,16V+TGV+CAC,2wd
+Renault,Grand Sc??nic (2006) 5 pl.,1.6L 110 hp,K4M,152/4200,112-82/6000,7.8,185,?,1490,1598,cast iron /aluminium,10,MT,205/60 R16,16V+VVT,2wd
+Renault,Grand Sc??nic (2006) 5 pl.,2.0L 135 hp,F4R,191/3750,134-98.5/5500,8.2,193,?,1555,1998,cast iron /aluminium,9.8,MT 6,205/60 R16,16V,2wd
+Renault,Grand Sc??nic (2006) 5 pl.,2.0L T 165 hp,F4RT,270/3250,163-120/5000,8.1,194,?,1580,1998,cast iron /aluminium,9.5,MT 6,205/60 R16,16V+TC+CAC,2wd
+Renault,Grand Sc??nic (2006) 5 pl.,2.0L 135 hp AT,F4R,191/3750,134-98.5/5500,8.6,205,?,1575,1998,cast iron /aluminium,9.8,AT 4,205/60 R16,16V,2wd
+Renault,Grand Sc??nic (2006) 5 pl.,1.5L dCi 105 hp,K9KTHP,240/2000-2500,106-78/4000,5.4,144,,1535,1461,cast iron /aluminium,15.6,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Grand Sc??nic (2006) 5 pl.,1.9L dCi 130 hp,F9Q,300/2000,131-96/4000,6,159,,1575,1870,cast iron /aluminium,18.3,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Grand Sc??nic (2006) 5 pl.,1.9L dCi 130 hp AT,F9Q,300/2000,131-96/4000,7.1,188,,1585,1870,cast iron /aluminium,18.3,AT 4,205/60 R16,8V+TGV+CAC,2wd
+Renault,Grand Sc??nic (2006) 5 pl.,2.0L dCi 150 hp,M9RA,340/2000,150-110/4000,5.8,154,,1605,1995,cast iron /aluminium,15.7,MT 6,205/60 R16,16V+TGV+CAC,2wd
+Renault,Grand Sc??nic (2006) 5 pl.,2.0L dCi 150 hp AT,M9RA,340/2000,150-110/4000,7.2,190,,1645,1995,cast iron /aluminium,15.7,AT 6,205/60 R16,16V+TGV+CAC,2wd
+Renault,Grand Sc??nic (2006) 7 pl.,1.6L 110 hp,K4M,152/4200,112-82/6000,7.9,189,?,1520,1598,cast iron /aluminium,10,MT,205/60 R16,16V+VVT,2wd
+Renault,Grand Sc??nic (2006) 7 pl.,2.0L 135 hp,F4R,191/3750,134-98.5/5500,8.2,193,?,1585,1998,cast iron /aluminium,9.8,MT 6,205/60 R16,16V,2wd
+Renault,Grand Sc??nic (2006) 7 pl.,2.0L T 165 hp,F4RT,270/3250,163-120/5000,8.1,194,?,1610,1998,cast iron /aluminium,9.5,MT 6,205/60 R16,16V+TC+CAC,2wd
+Renault,Grand Sc??nic (2006) 7 pl.,2.0L 135 hp AT,F4R,191/3750,134-98.5/5500,8.6,205,?,1605,1998,cast iron /aluminium,9.8,AT 4,205/60 R16,16V,2wd
+Renault,Grand Sc??nic (2006) 7 pl.,1.5L dCi 105 hp,K9KTHP,240/2000-2500,106-78/4000,5.4,144,?,1565,1461,cast iron /aluminium,15.6,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Grand Sc??nic (2006) 7 pl.,1.9L dCi 130 hp,F9Q,300/2000,131-96/4000,6,159,?,1605,1870,cast iron /aluminium,18.3,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Grand Sc??nic (2006) 7 pl.,1.9L dCi 130 hp AT,F9Q,300/2000,131-96/4000,7.1,188,?,1615,1870,cast iron /aluminium,18.3,AT 4,205/60 R16,8V+TGV+CAC,2wd
+Renault,Grand Sc??nic (2006) 7 pl.,2.0L dCi 150 hp,M9RA,340/2000,150-110/4000,5.8,154,?,1635,1995,cast iron /aluminium,15.7,MT 6,205/60 R16,16V+TGV+CAC,2wd
+Renault,Grand Sc??nic (2006) 7 pl.,2.0L dCi 150 hp AT,M9RA,340/2000,150-110/4000,7.2,190,?,1705,1995,cast iron /aluminium,15.7,AT 6,205/60 R16,16V+TGV+CAC,2wd
+Renault,Koleos,2.5L 170 hp 4x2,?,226/4400,171-126/6000,9.6,227,0.387/2.6/1.01,1639,2488,aluminium/aluminium,9.6,MT 6,225/60 R17 99 H,16V+VVT,2wd
+Renault,Koleos,2.0L dCi 150 hp 4x2,M9RA,320/2000,150-110/4000,6.8,179,0.387/2.6/1.01,1724,1995,cast iron /aluminium,15.7,MT 6,225/60 R17 99 H,16V+TGV+CAC,2wd
+Renault,Koleos,2.5L 170 hp 4x4,?,226/4400,171-126/6000,9.6,227,0.387/2.6/1.01,1697,2488,aluminium/aluminium,9.6,MT 6,225/60 R17 99 H,16V+VVT,4wd
+Renault,Koleos,2.0L dCi 150 hp 4x4,M9RA,320/2000,150-110/4000,7.3,191,0.387/2.6/1.01,1730,1995,cast iron /aluminium,15.7,MT 6,225/60 R17 99 H,16V+TGV+CAC,4wd
+Renault,Koleos,2.0L dCi 175 hp 4x4,M9RB,360/2000,173-127/3750,7.5,197,0.387/2.6/1.01,1730,1995,cast iron /aluminium,15.7,MT 6,225/60 R17 99 H,16V+TGV+CAC,4wd
+Renault,Koleos,2.0L dCi 150 hp 4x4 AT,M9RA,320/2000,150-110/4000,7.9,209,0.387/2.6/1.01,1784,1995,cast iron /aluminium,15.7,AT 6,225/60 R17 99 H,16V+TGV+CAC,4wd
+Renault,Vel Satis,2.0L T 170 hp,F4RT,270/3250,170-125/5000,9.4,225,0.352/2.37/0.83,1640,1998,cast iron /aluminium,9.5,MT 6,225/55 R17,16V+TC+CAC,2wd
+Renault,Vel Satis,2.0L T 170 hp AT,F4RT,270/3250,170-125/5000,9.9,237,0.352/2.37/0.83,1660,1998,cast iron /aluminium,9.5,AT 5,255/55 R17,16V+TC+CAC,2wd
+Renault,Vel Satis,3.5L V6 240 hp AT,V4Y,330/3600,241-177/6000,11.5,275,0.352/2.37/0.83,1720,3498,aluminium/aluminium,10.3,AT 5,245/45 R18,24V+VVT+VA,2wd
+Renault,Vel Satis,2.2L dCi 150 hp AT,G9T,320/1750,150-110/4000,8.4,?,0.335/2.37/0.79,1690,2188,cast iron /aluminium,18,AT 5,225/55 R17,16V+TGV+CAC,2wd
+Renault,Vel Satis,2.0L dCi 150 hp,M9RA,340/2000,150-110/4000,7.3,194,0.335/2.37/0.79,1665,1995,cast iron /aluminium,16,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Renault,Vel Satis,2.0L dCi 175 hp,M9RB,360/1750,173-127/3750,7.3,194,0.335/2.37/0.79,1665,1995,cast iron /aluminium,16,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Renault,Vel Satis,3.0L dCi V6 180 hp AT,P9X,400/1800,181-133/4000,8.7,232,0.352/2.37/0.83,1735,2959,aluminium/aluminium,18.5,AT 6,225/55 R17,24V+TGV+CAC,2wd
+Renault,Espace,2.0L 136 hp,F4R,191/3750,136-100/5500,9.4,223,0.35/2.8/0.98,1740,1998,cast iron /aluminium,9.8,MT 6,225/60 R16,16V,2wd
+Renault,Espace,2.0L T 170 hp,F4RT,270/3250,170-125/5000,9.6,227,0.35/2.8/0.98,1760,1998,cast iron /aluminium,9.8,MT 6,225/60 R16,16V+TC+CAC,2wd
+Renault,Espace Imp.,2.0L T 170 hp,F4RT,270/3250,170-125/5000,9.6,227,0.35/2.8/0.98,1760,1998,cast iron /aluminium,9.8,MT 6,225/55 R17,16V+TC+CAC,2wd
+Renault,Espace,2.0L T 170 hp AT,F4RT,270/3250,170-125/5000,10.3,243,0.35/2.8/0.98,1780,1998,cast iron /aluminium,9.8,AT 5,225/55 R17,16V+TC+CAC,2wd
+Renault,Espace,3.5L V6 240 hp AT,V4Y,330/3600,241-177/6000,12,284,0.35/2.8/0.98,1845,3498,aluminium/aluminium,10.3,AT 5,225/55 R17,24V+VVT+VA,2wd
+Renault,Espace,2.0L dCi 130 hp,M9RA,320/2000,131-96/4000,6.8,187,0.35/2.8/0.98,1832,1995,cast iron /aluminium,16,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Renault,Espace,2.2L dCi 140 hp AT,G9T,320/1750,139-102/4000,9.2,244,0.35/2.8/0.98,1885,2188,cast iron /aluminium,18,AT 5,225/55 R17,16V+TGV+CAC,2wd
+Renault,Espace,2.0L dCi 150 hp,M9RB,340/2000,150-110/4000,7.4,191,0.35/2.8/0.98,1855,1995,cast iron /aluminium,16,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Renault,Espace,2.2L dCi 150 hp,G9T,320/1750,150-110/4000,7.6,200,0.35/2.8/0.98,1850,2188,cast iron /aluminium,18,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Renault,Espace,2.0L dCi 175 hp,M9RB,360/1750,173-127/3750,7.4,197,0.35/2.8/0.98,1855,1995,cast iron /aluminium,16,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Renault,Espace Pri.,2.0L dCi 175 hp,M9RB,360/1750,173-127/3750,7.4,197,0.35/2.8/0.98,1855,1995,cast iron /aluminium,16,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Renault,Grand Espace,2.0L T 170 hp,F4RT,270/3250,170-125/5000,9.6,227,0.35/2.8/0.98,1815,1998,cast iron /aluminium,9.8,MT 6,225/60 R16,16V+TC+CAC,2wd
+Renault,Grand Espace,2.0L T 170 hp AT,F4RT,270/3250,170-125/5000,10.3,243,0.35/2.8/0.98,1840,1998,cast iron /aluminium,9.8,AT 5,225/60 R16,16V+TC+CAC,2wd
+Renault,Grand Espace,3.5L V6 240 hp AT,V4Y,330/3600,241-177/6000,12.2,289,0.35/2.8/0.98,1890,3498,aluminium/aluminium,10.3,AT 5,225/55 R17,24V+VVT+VA,2wd
+Renault,Grand Espace,2.2L dCi 140 hp AT,G9T,320/1750,139-102/4000,9.2,244,0.35/2.8/0.98,1935,2188,cast iron /aluminium,18,AT 5,225/55 R17,16V+TGV+CAC,2wd
+Renault,Grand Espace,2.0L dCi 150 hp,M9RA,340/2000,150-110/4000,7.4,191,0.35/2.8/0.98,1905,1995,cast iron /aluminium,16,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Renault,Grand Espace,2.0L dCi 175 hp,M9RB,360/1750,173-127/3750,7.6,200,0.35/2.8/0.98,1905,1995,cast iron /aluminium,16,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Renault,Grand Espace Pri.,2.0L dCi 175 hp,M9RB,360/1750,173-127/3750,7.6,200,0.35/2.8/0.98,1905,1995,cast iron /aluminium,16,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Renault,Laguna,1.6L 110 hp,K4M,151/4250,112-82/6000,7.6,180,0.293/2.2/0.64,1430,1598,cast iron /aluminium,9.8,MT 6,195/60 R16,16V+VVT,2wd
+Renault,Laguna,1.5L dCi 110 hp,K9KTHP,240/2000,110-81/4000,4.9,130,0.293/2.2/0.64,1461,1461,cast iron /aluminium,15.6,MT 6,195/60 R16,8V+TGV+CAC,2wd
+Renault,Laguna,2.0L dCi 130 hp,M9RA,320/2000,131-96/4000,6,157,0.293/2.2/0.64,1537,1995,cast iron /aluminium,16,MT 6,195/60 R16,16V+TGV+CAC,2wd
+Renault,Laguna,2.0L 140 hp,F4R,195/3750,140-103/6000,7.6,180,0.293/2.2/0.64,1444,1997,aluminium/aluminium,10.2,MT 6,205/60 R16,16V+VVT,2wd
+Renault,Laguna Exp. Techno,1.5L dCi 110 hp,K9KTHP,240/2000,110-81/4000,4.9,130,0.293/2.2/0.64,1461,1461,cast iron /aluminium,15.6,MT 6,205/60 R16,8V+TGV+CAC,2wd
+Renault,Laguna Dyn.,2.0L 140 hp,F4R,195/3750,140-103/6000,7.9,185,0.293/2.2/0.64,1444,1997,aluminium/aluminium,10.2,MT 6,215/50 R17,16V+VVT,2wd
+Renault,Laguna Exp. Techno,2.0L dCi 130 hp,M9RA,320/2000,131-96/4000,6,157,0.293/2.2/0.64,1537,1995,cast iron /aluminium,16,MT 6,205/60 R16,16V+TGV+CAC,2wd
+Renault,Laguna Dyn.,2.0L dCi 130 hp,M9RA,320/2000,131-96/4000,6,157,0.293/2.2/0.64,1537,1995,cast iron /aluminium,16,MT 6,215/50 R17,16V+TGV+CAC,2wd
+Renault,Laguna,2.0L dCi 150 hp,M9RA,340/2000,150-110/4000,6,157,0.293/2.2/0.64,1537,1995,cast iron /aluminium,16,MT 6,205/60 R16,16V+TGV+CAC,2wd
+Renault,Laguna Dyn.,2.0L dCi 150 hp,M9RA,340/2000,150-110/4000,6,157,0.293/2.2/0.64,1537,1995,cast iron /aluminium,16,MT 6,215/50 R17,16V+TGV+CAC,2wd
+Renault,Laguna Dyn.,2.0L dCi 150 hp AT,M9RA,340/2000,150-110/4000,7,185,0.293/2.2/0.64,1611,1995,cast iron /aluminium,16,AT 6,215/50 R17,16V+TGV+CAC,2wd
+Renault,Laguna,2.0L dCi 175 hp,M9RB,380/2000,173-127/3750,6.5,150,0.293/2.2/0.64,1567,1995,cast iron /aluminium,16,MT 6,215/50 R17,16V+TGV+CAC,2wd
+Renault,Laguna Pri.,2.0L dCi 150 hp AT,M9RA,340/2000,150-110/4000,7,185,0.293/2.2/0.64,1611,1995,cast iron /aluminium,16,AT 6,215/50 R17,16V+TGV+CAC,2wd
+Renault,Laguna,2.0L T 170 hp AT,F4RT,270/3250,170-125/5000,8.8,207,0.293/2.2/0.64,1542,1998,cast iron /aluminium,9.5,AT 6,215/50 R17,16V+TC+CAC,2wd
+Renault,Laguna GT,2.0L dCi 180 hp,M9RB,380/2000,178-131/3750,6.5,172,0.293/2.2/0.64,1567,1995,cast iron /aluminium,16,MT 6,225/45 R18,16V+TGV+CAC,4wdir
+Renault,Laguna GT,2.0L T 205 hp,F4RT,300/3000,204-150/5000,8.2,194,0.293/2.2/0.64,1542,1998,cast iron /aluminium,9,MT 6,225/45 R18,16V+TC,4wdir
+Renault,Laguna Coup??,2.0L dCi 150 hp,M9RA,340/2000,150-110/4000,6,157,0.307/2.15/0.66,1561,1995,cast iron /aluminium,15.7,MT 6,215/50 R17,16V+TGV+CAC,2wd
+Renault,Laguna Coup??,2.0L dCi 175 hp,M9RB,380/2000,173-127/3750,5.7,150,0.307/2.15/0.66,1561,1995,cast iron /aluminium,16,MT 6,215/50 R17,16V+TGV+CAC,2wd
+Renault,Laguna Coup??,2.0L dCi 150 hp AT,M9RA,340/2000,150-110/4000,7,185,0.307/2.15/0.66,1614,1995,cast iron /aluminium,15.7,AT 6,215/50 R17,16V+TGV+CAC,2wd
+Renault,Laguna Coup?? GT,2.0L dCi 180 hp,M9RB,400/2000,178-131/3750,6.5,172,0.307/2.15/0.66,1614,1995,cast iron /aluminium,16,MT 6,225/45 R18,16V+TGV+CAC,4wdir
+Renault,Laguna Coup??,2.0L T 205 hp,F4RT,300/3000,204-150/5000,8.2,194,0.307/2.15/0.66,1503,1998,cast iron /aluminium,9,MT 6,215/50 R17,16V+TC,2wd
+Renault,Laguna Coup?? GT,2.0L T 205 hp,F4RT,300/3000,204-150/5000,8.2,194,0.307/2.15/0.66,1503,1998,cast iron /aluminium,9,MT 6,225/45 R18,16V+TC,4wdir
+Renault,Laguna Coup??,3.5L V6 240 hp AT,V4Y,330/4400,238-175/6000,10,238,0.307/2.15/0.66,1597,3498,aluminium/aluminium,10.3,AT 6,215/50 R17,24V,2wd
+Renault,Laguna Coup??,3.0L V6 dCi 235 hp AT,V9X,450/1500,235-179/3750,7.2,192,0.307/2.15/0.66,1705,2993,cast iron /aluminium,16,AT 6,215/50 R17,24V+TGV+CAC,2wd
+Peugeot,107 2-Tronic,1.0L 68 hp 3 Cyl.,1KR-FE,93/3600,68-50/6000,4.6,107,?,900/915,998,aluminium/aluminium,10.5,AT 5,155/65 R14 T,16V+VVT,2wd
+Peugeot,107,1.4L HDi 54 hp,DV4 TD,130/1750,54-40/4000,4.1,109,?,965/965,1399,aluminium/aluminium,17.9,MT,155/65 R14 T,8V+TC,2wd
+Peugeot,107 Urb.,1.0L 68 hp 3 Cyl.,1KR-FE,93/3600,68-50/6000,4.5,106,?,865/880,998,aluminium/aluminium,10.5,MT,155/65 R14 T,16V+VVT,2wd
+Peugeot,206+,1.1L 60 hp,TU1,94/3300,60-44/5500,5.7,135,?,1013/1020,1124,aluminium/aluminium,?,MT,175/65 R14,8V,2wd
+Peugeot,206+,1.4L 75 hp,TU3,120/3400,75-55/5500,6.3,150,?,1016/1027,1361,aluminium/aluminium,10.2,MT,175/65 R14,8V,2wd
+Peugeot,206+,1.4L HDi 70 hp,DV4 TD,160/2000,68-50/4000,4.2,110,?,1042/1055,1399,aluminium/aluminium,17.9,MT,175/65 R14,8V+TC,2wd
+Peugeot,3008,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,7.1,165,0.296/2.56/0.76,1474,1598,aluminium/aluminium,11,MT,215/60 R16,16V+VVT,2wd
+Peugeot,3008,1.6L THP 150 hp,EP6 DT,240/1400,150-110/5800,7.4,176,0.296/2.56/0.76,1534,1598,aluminium/aluminium,10.5,MT 6,215/60 R16,16V+VVT+TC+CAC,2wd
+Peugeot,3008,1.6L HDi FAP 110 hp,DV6 TED4,240/1750,109-80/4000,5.1,137,0.296/2.56/0.76,1500,1560,aluminium/aluminium,18,MT 6,215/60 R16,16V+TGV+CAC,2wd
+Peugeot,3008,1.6L HDi FAP 110 hp AMT,DV6 TED4,240/1750,109-80/4000,4.9,130,0.296/2.56/0.76,1500,1560,aluminium/aluminium,18,AMT 6,215/60 R16,16V+TGV+CAC,2wd
+Peugeot,3008,2.0L HDi FAP 150 hp,DW10,340/2000,150-110/3750,5.6,146,0.296/2.56/0.76,1604,1997,cast iron /aluminium,?,MT 6,215/60 R16,16V+TGV+CAC,2wd
+Peugeot,3008,2.0L HDi FAP 163 hp AT,DW10,340/2000,163-120/3750,6.7,176,0.296/2.56/0.76,1614,1997,cast iron /aluminium,?,AT 6,215/60 R16,16V+TGV+CAC,2wd
+Peugeot,1007,1.4L HDi 70 hp,DV4 TD,160/2000,68-50/4000,4.5,120,0.3/2.31/0.69,1243,1399,aluminium/aluminium,17.9,MT,195/50 R16,8V+TC,2wd
+Peugeot,1007 2-Tronic,1.6L 110 hp,TU5,147/4000,109-80/5750,6.6,156,0.31/2.32/0.72,1216,1587,cast iron /aluminium,11,AMT 5,195/50 R16,16V,2wd
+Peugeot,1007,1.6L HDi FAP 110 hp,DV6 TED4,240/1750,109-80/4000,4.8,125,0.31/2.32/0.72,1348,1560,aluminium/aluminium,18,MT,195/50 R16,16V+TGV+CAC,2wd
+Peugeot,807 (2002) SR,2.0L 136 hp,EW10 J4,190/4100,136-100/6000,9.1,?,0.33/2.787/0.92,1570,1997,aluminium/aluminium,10.8,MT,205/65 R15 H,16V,2wd
+Peugeot,807 (2002) ST,2.0L 136 hp,EW10 J4,190/4100,136-100/6000,9,?,0.33/2.787/0.92,1570,1997,aluminium/aluminium,10.8,MT,215/60 R16,16V,2wd
+Peugeot,807 (2002) ST,2.2L 158 hp,EW12 J4,217/3900,158-116/5650,9.7,?,0.33/2.757/0.91,1606,2231,aluminium/aluminium,10.8,MT,215/65 R15 H,16V+VVT,2wd
+Peugeot,807 (2002) SV,3.0L V6 204 hp AT,ES9,285/3750,204-150/6000,11.5,?,0.33/2.833/0.93,1762,2946,aluminium/aluminium,10.9,AT 4,215/60 R16 H,24V+VVT,2wd
+Peugeot,807 (2002) Pullman,3.0L V6 204 hp AT,ES9,285/3750,204-150/6000,11.5,?,0.33/2.833/0.93,1784,2946,aluminium/aluminium,10.9,AT 4,215/60 R16 H,24V+VVT,2wd
+Peugeot,807 (2002) SR,2.0L HDi 110 hp,DW10 ATED,270/1750,107-79/4000,7.2,?,0.33/2.848/0.94,1668,1997,cast iron /aluminium,17,MT,215/65 R15 H,16V+TC+CAC,2wd
+Peugeot,807 (2002) ST,2.0L HDi 110 hp,DW10 ATED,270/1750,107-79/4000,7,186,0.33/2.848/0.94,1743,1997,cast iron /aluminium,17,MT,215/60 R16,16V+TC+CAC,2wd
+Peugeot,807 (2002) SV,2.2L HDi 130 hp,DW12A,314/2000,128-94/4000,7.3,195,0.33/2.833/0.93,1783,2179,cast iron /aluminium,18,MT 6,215/65 R15 H,16V+TGV+CAC,2wd
+Peugeot,807,2.0L 140 hp,EW10 J4,195/4000,140-103/6000,9,213,?,1709,1997,aluminium/aluminium,?,MT,215/60 R16 H,16V+VVT,2wd
+Peugeot,807,2.0L HDi 120 hp,DW10,300/2000,120-88/4000,6.9,182,0.33/2.848/0.94,1811,1997,cast iron /aluminium,17.3,MT 6,215/60 R16 H,16V+TC+CAC,2wd
+Peugeot,807,2.0L HDi 136 hp FAP,DW10 TED4,320/2000,136-100/4000,7.1,188,0.33/2.848/0.94,1818,1997,cast iron /aluminium,17.6,MT 6,215/60 R16,16V+TGV+CAC,2wd
+Peugeot,807,2.2L HDi 170 hp FAP,DW12B,370/1500,170-125/4000,7.2,191,0.33/2.848/0.94,1865,2179,cast iron /aluminium,16.6,MT 6,215/60 R16,16V+TGV+CAC,2wd
+Peugeot,807,2.2L HDi 170 hp FAP AT,DW12B,370/1500,170-125/4000,8.2,218,0.33/2.848/0.94,1893,2179,cast iron /aluminium,16.6,AT 6,215/60 R16,16V+TGV+CAC,2wd
+Peugeot,607 (2002),2.2L HDi 130 hp,DW12A,314/2000,133-98/4000,6.7,?,0.29/2.2/0.64,1535,2179,cast iron /aluminium,18,MT,225/55 R16 W,16V+VVT+VA+TGV+CAC,2wd
+Peugeot,607,2.2L 160 hp,EW12 J4,217/3900,158-116/5650,9.2,?,?,1496,2231,aluminium/aluminium,10.8,MT,225/50 R17 Y,16V+VVT,2wd
+Peugeot,607,3.0L V6 210 hp AT,ES9,290/3750,211-155/6000,10.2,242,?,1719,2946,aluminium/aluminium,10.9,AT 6,225/50 R17 Y,24V+VVT,2wd
+Peugeot,607,2.0L HDi FAP 110 hp,DW10 ATED,250/1750,107-79/4000,?,?,?,?,1997,cast iron /aluminium,17.6,MT,225/50 R17 Y,16V+TC+CAC,2wd
+Peugeot,607,2.2L HDi FAP 130 hp,DW12A,314/2000,133-98/4000,6.6,?,?,?,2179,cast iron /aluminium,18,MT 6,225/50 R17 Y,16V+VVT+VA+TGV+CAC,2wd
+Peugeot,607,2.7L V6 HDi 200 hp FAP AT,DT17TED4 (LionV6),440/1900,204-150/4000,8.4,223,,1798,2721,cast iron /aluminium,17.3,AT 6,225/50 R17 Y,24V+VVT+VA+TGV+CAC,2wd
+Peugeot,4007,2.2L HDi 156 hp FAP,DW12B,380/2000,156-115/4000,7.2,191,0.34/?/?,1822,2179,cast iron /aluminium,16.6,MT 6,215/70 R16,16V+TGV+CAC,4wd
+Peugeot,4007 Sport Pack.,2.2L HDi 156 hp FAP,DW12B,380/2000,156-115/4000,7.3,194,0.34/?/?,1822,2179,cast iron /aluminium,16.6,MT 6,225/55 R18,16V+TGV+CAC,4wd
+Peugeot,4007,2.4L 170 hp hpT,4B12,232/4100,170-125/6000,9.3,222,0.34/?/?,1715,2360,aluminium/aluminium,10.5,hpT,225/55 R18,16V+VVT+VA,4wd
+Peugeot,407,1.8L 125 hp,EW7 J4,170/3750,125-92/6000,7.7,181,0.29/2.23/0.65,1475,1749,aluminium/aluminium,10.8,MT,205/60 R16,16V,2wd
+Peugeot,407,1.6L HDi FAP 110 hp,DV6 TED4,240/1750,109-80/4000,4.9,129,0.29/2.23/0.65,1505,1560,aluminium/aluminium,18,MT,205/60 R16,16V+TGV+CAC,2wd
+Peugeot,407,2.0L 140 hp,EW10,200/4000,140-103/6000,8.1,192,0.29/2.23/0.65,1490,1997,aluminium/aluminium,10.8,MT,215/55 R17,16V+VVT,2wd
+Peugeot,407,2.0L HDi FAP 140 hp,DW10,320/2000,140-103/4000,5.7,150,0.29/2.23/0.65,1580,1997,cast iron /aluminium,17.6,MT 6,215/55 R17 W,16V+TGV+CAC,2wd
+Peugeot,407,2.2L HDi FAP 170 hp,DW12B,370/1500,170-125/4000,6.1,159,0.29/2.23/0.65,1699,2179,cast iron /aluminium,16.6,MT 6,215/55 R17,16V+TGV+CAC,2wd
+Peugeot,407,2.0L HDi FAP 136 hp AT,DW10 TED4,320/2000,136-100/4000,7.1,186,0.29/2.23/0.65,1636,1997,cast iron /aluminium,17.6,AT 6,215/55 R17,16V+TGV+CAC,2wd
+Peugeot,407,2.2L 163 hp,EW12 J4,220/4150,163-120/5875,9,214,0.29/2.23/0.65,1555,2231,aluminium/aluminium,10.8,MT 6,215/55 R17,16V+VVT,2wd
+Peugeot,407,3.0L V6 211 hp AT,ES9 /A,290/3750,211-155/6000,9.8,233,0.29/2.23/0.65,1660,2946,aluminium/aluminium,10.9,AT 6,235/45 R18,24V+VVT,2wd
+Peugeot,407,2.7L V6 HDi FAP 204 hp AT,DT17TED4 (LionV6),440/1900,204-150/4000,8.4,223,0.29/2.23/0.65,1802,2721,cast iron /aluminium,17.3,AT 6,235/45 R18,24V+VA+TGV+CAC,2wd
+Peugeot,407 SW,2.0L 140 hp,EW10,200/4000,140-103/6000,8.3,196,0.29/2.26/0.66,1533,1997,aluminium/aluminium,10.8,MT,215/55 R17,16V+VVT,2wd
+Peugeot,407 SW,1.6L HDi FAP 110 hp,DV6 TED4,240/1750,109-80/4000,4.9,129,0.29/2.26/0.66,1545,1560,aluminium/aluminium,18,MT,205/60 R16,16V+TGV+CAC,2wd
+Peugeot,407 SW,2.0L HDi FAP 140 hp,DW10,320/2000,140-103/4000,5.7,150,0.29/2.26/0.66,1620,1997,cast iron /aluminium,17.6,MT 6,215/55 R17 W,16V+TGV+CAC,2wd
+Peugeot,407 SW,2.2L 163 hp,EW12 J4,220/4150,163-120/5875,9.2,219,0.29/2.26/0.66,1610,2231,aluminium/aluminium,10.8,MT 6,215/55 R17,16V+VVT,2wd
+Peugeot,407 SW,2.0L HDi FAP 136 hp AT,DW10 TED4,320/2000,136-100/4000,7.2,192,0.29/2.26/0.66,1676,1997,cast iron /aluminium,17.6,AT 6,215/55 R17,16V+TGV+CAC,2wd
+Peugeot,407 SW,2.2L HDi FAP 170 hp,DW12B,370/1500,170-125/4000,6.2,165,0.29/2.26/0.66,1750,2179,cast iron /aluminium,16.6,MT 6,215/55 R17,16V+TGV+CAC,2wd
+Peugeot,407 SW,3.0L V6 211 hp AT,ES9 /A,290/3750,211-155/6000,9.9,236,0.3/2.26/0.68,1715,2946,aluminium/aluminium,10.9,AT 6,235/45 R18,24V+VVT,2wd
+Peugeot,407 SW,2.7L V6 HDi FAP 204 hp AT,DT17TED4 (LionV6),440/1900,204-150/4000,8.5,225,0.3/2.26/0.68,1852,2721,cast iron /aluminium,17.3,AT 6,235/45 R18,24V+VA+TGV+CAC,2wd
+Peugeot,407 coup??,2.2L 163 hp,EW12 J4,220/4150,163-120/5875,9.2,219,0.3/2.2/0.66,1600,2231,aluminium/aluminium,10.8,MT 6,215/55 R17 W,16V+VVT,2wd
+Peugeot,407 coup?? Pack.,2.2L 163 hp,EW12 J4,220/4150,163-120/5875,9.2,219,0.3/2.2/0.66,1600,2231,aluminium/aluminium,10.8,MT 6,235/45 R18 Y,16V+VVT,2wd
+Peugeot,407 coup??,3.0L V6 210 hp,ES9,290/3750,211-155/6000,10.2,242,0.3/2.2/0.66,1687,2946,aluminium/aluminium,10.9,MT 6,235/45 R18 Y,24V+VVT,2wd
+Peugeot,407 coup??,3.0L V6 210 hp AT,ES9,290/3750,211-155/6000,10.2,242,0.3/2.2/0.66,1712,2946,aluminium/aluminium,10.9,AT 6,235/45 R18 Y,24V+VVT,2wd
+Peugeot,407 coup??,2.7L HDi V6 204 hp FAP AT,DT17TED4 (LionV6),440/1900,204-150/4000,8.5,226,0.3/2.2/0.66,1799,2721,cast iron /aluminium,17.3,AT 6,235/45 R18 Y,24V+VA+TGV+CAC,2wd
+Peugeot,308,1.4L VTi 95 hp,EP3,136/4000,95-70/6000,6.5,155,0.297/2.275/0.68,1337/1346,1397,aluminium/aluminium,11,MT,195/65 R15,16V+VVT,2wd
+Peugeot,308,1.6L HDi 90 hp,DV6,215/1750,90-66/4000,4.5,120,0.3/2.275/0.68,1368/1378,1560,aluminium/aluminium,18,MT,195/65 R15,16V+TC+CAC,2wd
+Peugeot,308 Sport,1.6L HDi 90 hp,DV6,215/1750,90-66/4000,4.5,120,0.3/2.275/0.68,1368/1378,1560,aluminium/aluminium,18,MT,205/55 R16,16V+TC+CAC,2wd
+Peugeot,308,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,6.7,159,0.299/2.275/0.68,1352/1362,1598,aluminium/aluminium,11,MT,195/65 R15,16V+VVT,2wd
+Peugeot,308 Sport,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,6.7,159,0.299/2.275/0.68,1352/1362,1598,aluminium/aluminium,11,MT,205/55 R16,16V+VVT,2wd
+Peugeot,308 Prem. 5p,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,6.7,159,0.299/2.275/0.68,1362,1598,aluminium/aluminium,11,MT,225/45 R17,16V+VVT,2wd
+Peugeot,308 Sport 5p,1.6L VTi 120 hp AT,EP6,160/4250,120-88/6000,7,165,0.299/2.275/0.68,1387,1598,aluminium/aluminium,11,AT 4,205/55 R16,16V+VVT,2wd
+Peugeot,308,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,4.5,120,0.301/2.275/0.68,?/?,1560,aluminium/aluminium,18,MT,195/65 R15,16V+TGV+CAC,2wd
+Peugeot,308 Sport,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,4.5,120,0.301/2.275/0.68,?/?,1560,aluminium/aluminium,18,MT,205/55 R16,16V+TGV+CAC,2wd
+Peugeot,308 Prem. 5p,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,4.9,130,0.301/2.275/0.68,1397,1560,aluminium/aluminium,18,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Peugeot,308,1.6L THP 150 hp,EP6T,240/1400-3500,150-110/5800,7,165,0.304/2.258/0.69,?/?,1598,aluminium/aluminium,10.5,MT 6,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,308 Sport,1.6L HDi FAP 110 hp CMP,DV6,240/1750,109-80/4000,4.5,120,0.301/2.275/0.68,1399/1409,1560,aluminium/aluminium,18,AT 6,205/55 R16,16V+TGV+CAC,2wd
+Peugeot,308,2.0L HDi FAP 136 hp,DW10,320/2000,136-100/4000,5.3,140,0.303/2.284/0.69,1483/1496,1997,cast iron /aluminium,17.6,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Peugeot,308 Prem. 5p,2.0L HDi FAP 136 hp,DW10,320/2000,136-100/4000,5.5,146,0.303/2.284/0.69,1496,1997,cast iron /aluminium,17.6,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Peugeot,308 GT,2.0L HDi FAP 136 hp,DW10,320/2000,136-100/4000,5.5,146,0.303/2.284/0.69,1483,1997,cast iron /aluminium,17.6,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Peugeot,308 Prem. 5p,2.0L HDi FAP 136 hp AT,DW10,320/2000,136-100/4000,6.8,180,0.303/2.284/0.69,1522,1997,cast iron /aluminium,17.6,AT 6,225/45 R17,16V+TGV+CAC,2wd
+Peugeot,308 Prem. 5p,1.6L THP 150 hp,EP6T,240/1400-3500,150-110/5800,7.2,171,0.313/2.258/0.71,?,1598,aluminium/aluminium,10.5,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,308 GT,1.6L THP 150 hp,EP6T,240/1400-3500,150-110/5800,7.2,171,0.304/2.258/0.69,?,1598,aluminium/aluminium,10.5,MT 6,225/40 R18,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,308 GT,1.6L THP 175 hp,EP6T,240/1600-4500,174-128/6000,7.6,180,0.304/2.258/0.69,1446,1598,aluminium/aluminium,10.5,MT 6,225/40 R18,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,308 SW,1.4L VTi 95 hp,EP3,136/4000,95-70/6000,6.7,159,0.316/2.31/0.73,1426,1397,aluminium/aluminium,11,MT,195/65 R15,16V+VVT,2wd
+Peugeot,308 SW,1.6L HDi 90 hp,DV6,215/1750,90-66/4000,4.7,125,0.317/2.31/0.73,1453,1560,aluminium/aluminium,18,MT,195/65 R15,16V+TC+CAC,2wd
+Peugeot,308 SW,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,6.9,164,0.315/2.31/0.73,1515,1598,aluminium/aluminium,11,MT,195/65 R15,16V+VVT,2wd
+Peugeot,308 SW Sport,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,6.9,164,0.315/2.31/0.73,1515,1598,aluminium/aluminium,11,MT,205/55 R16,16V+VVT,2wd
+Peugeot,308 SW,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,4.9,129,0.314/2.31/0.73,1482 or 1570,1560,aluminium/aluminium,18,MT 6,195/65 R15,16V+TGV+CAC,2wd
+Peugeot,308 SW Sport,1.6L VTi 120 hp AT,DV6,160/4250,120-88/6000,7.7,182,0.315/2.31/0.73,1541,1598,aluminium/aluminium,11,AT 4,205/55 R16,16V+VVT,2wd
+Peugeot,308 SW Prem.,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,6.9,164,0.315/2.31/0.73,1515,1598,aluminium/aluminium,11,MT,225/45 R17,16V+VVT,2wd
+Peugeot,308 SW,1.6L THP 150 hp,EP6T,240/1400-3500,150-110/5800,7.5,177,0.321/2.32/0.74,1561,1598,aluminium/aluminium,10.5,MT 6,215/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,308 SW Sport,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,4.9,130,0.314/2.31/0.73,1570,1560,aluminium/aluminium,18,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Peugeot,308 SW Prem.,1.6L THP 150 hp,EP6T,240/1400-3500,150-110/5800,7.5,177,0.321/2.32/0.74,1561,1598,aluminium/aluminium,10.5,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,308 SW,2.0L HDi FAP 136 hp,DW10,320/2000,136-100/4000,5.9,155,0.317/2.32/0.74,1650,1997,cast iron /aluminium,17.6,MT 6,215/55 R16,16V+TGV+CAC,2wd
+Peugeot,308 SW Prem.,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,4.9,130,0.314/2.31/0.73,1570,1560,aluminium/aluminium,18,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Peugeot,308 SW Prem.,1.6L THP 140 hp AT,EP6T,240/1400-3500,140-103/6000,8.2,194,0.321/2.32/0.74,1577,1598,aluminium/aluminium,10.5,AT 4,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,308 SW Prem.,2.0L HDi FAP 136 hp,DW10,320/2000,136-100/4000,5.9,155,0.317/2.32/0.74,1650,1997,cast iron /aluminium,17.6,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Peugeot,308 SW Sport,2.0L HDi FAP 136 hp AT,DW10,320/2000,136-100/4000,7.1,187,0.317/2.32/0.74,1675,1997,cast iron /aluminium,17.6,AT 6,215/55 R16,16V+TGV+CAC,2wd
+Peugeot,308 SW Prem.,2.0L HDi FAP 136 hp AT,DW10,320/2000,136-100/4000,7.1,187,0.317/2.32/0.74,1675,1997,cast iron /aluminium,17.6,AT 6,225/45 R17,16V+TGV+CAC,2wd
+Peugeot,308 CC,1.6L THP 150 hp,EP6T,240/1400-3500,150-110/5800,7.5,177,?,1587,1598,aluminium/aluminium,10.5,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,308 CC Sport,1.6L THP 150 hp,EP6T,240/1400-3500,150-110/5800,7.5,177,?,1587,1598,aluminium/aluminium,10.5,MT 6,225/40 R18,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,308 CC Sport,1.6L THP 140 hp AT,EP6T,240/1400-3500,140-103/6000,8.1,192,?,1598,1598,aluminium/aluminium,10.5,AT 4,225/40 R18,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,308 CC,2.0L HDi FAP 140 hp,DW10,320/2000,140-103/4000,5.9,155,?,1674,1997,cast iron /aluminium,17.6,MT 6,225/40 R18,16V+TGV+CAC,2wd
+Peugeot,308 CC Sport,2.0L HDi FAP 136 hp AT,DW10,320/2000,136-100/4000,7,185,?,1695,1997,cast iron /aluminium,17.6,AT 6,225/40 R18,16V+TGV+CAC,2wd
+Peugeot,207,1.4L 75 hp,TU3,118/3300,73-54/5400,6.3,150,?,1213/1223,1361,aluminium/aluminium,10.5,MT,185/65 R15,8V,2wd
+Peugeot,207,1.4L HDi 70 hp,DV4 TD,160/2000,68-50/4000,4.4,115,0.3/2.12/0.64,1251/1261,1399,aluminium/aluminium,17.9,MT,185/65 R15,8V+TC,2wd
+Peugeot,207,1.4L VTi 95 hp,EP3,136/4000,95-70/6000,5.9,140,?,1240/1253,1397,aluminium/aluminium,11,MT,185/65 R15,16V+VVT,2wd
+Peugeot,207,1.6L HDi 90 hp,DV6,215/1750,90-66/4000,4.4,117,0.3/2.12/0.64,1272/1280,1560,aluminium/aluminium,18,MT,185/65 R15,16V+TC+CAC,2wd
+Peugeot,207 Sport,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,6.1,145,0.31/2.12/0.66,1275/1275,1598,aluminium/aluminium,11,MT,195/55 R16,16V+VVT,2wd
+Peugeot,207 Sport,1.6L HDi 90 hp,DV6,215/1750,90-66/4000,4.3,115,0.3/2.12/0.64,1272/1280,1560,aluminium/aluminium,18,MT,195/55 R16,16V+TC+CAC,2wd
+Peugeot,207,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,4.5,120,0.31/2.12/0.66,1319/1328,1560,aluminium/aluminium,18,MT,195/55 R16,16V+TGV+CAC,2wd
+Peugeot,207 Sport,1.6L VTi 120 hp AT,EP6,160/4250,120-88/6000,7,167,0.31/2.12/0.66,1321,1598,aluminium/aluminium,11,AT 4,195/55 R16,16V+VVT,2wd
+Peugeot,207 GT,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,4.5,120,0.31/2.12/0.66,1319/1328,1560,aluminium/aluminium,18,MT,205/45 R17,16V+TGV+CAC,2wd
+Peugeot,207 GT,1.6L THP 150 hp,EP6T,240/1400-3500,150-110/5800,7,164,0.31/2.12/0.66,1356,1598,aluminium/aluminium,10.5,MT,205/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,207 RC,1.6L THP 175 hp,EP6T,240/1600-4500,174-128/6000,7.2,171,0.33/2.12/0.70,1325,1598,aluminium/aluminium,10.5,MT,205/45 R17 W,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,207 CC,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,6.5,155,0.29/?/?,1427,1598,aluminium/aluminium,11,MT,195/55 R16 V,16V+VVT,2wd
+Peugeot,207 CC,1.6L VTi 120 hp AT,EP6,160/4250,120-88/6000,7.2,173,0.3/?/?,1466,1598,aluminium/aluminium,11,AT 4,195/55 R16 V,16V+VVT,2wd
+Peugeot,207 CC,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,5.2,130,0.29/?/?,1488,1560,aluminium/aluminium,18,MT,195/55 R16 V,16V+TGV+CAC,2wd
+Peugeot,207 CC,1.6L THP 150 hp,EP6T,240/1400-3500,150-110/5800,7.2,171,0.3/?/?,1493,1598,aluminium/aluminium,10.5,MT,205/45 R17 W,16V+VVT+TC+CAC+GDI,2wd
+Peugeot,207 CC Sport,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,5.2,130,0.29/?/?,1488,1560,aluminium/aluminium,18,MT,205/45 R17 W,16V+TGV+CAC,2wd
+Peugeot,207 SW,1.4L 75 hp,TU3,118/3300,73-54/5400,6.5,155,?,1271,1361,aluminium/aluminium,10.5,MT,185/65 R15 T,8V,2wd
+Peugeot,207 SW,1.4L VTi 95 hp,EP3,136/4000,95-70/6000,6.3,150,?,1290,1397,aluminium/aluminium,11,MT,185/65 R15 T,16V+VVT,2wd
+Peugeot,207 SW,1.6L HDi 90 hp,DV6,215/1750,90-66/4000,4.5,119,?,1339,1560,aluminium/aluminium,18,MT,185/65 R15 H,16V+TC+CAC,2wd
+Peugeot,207 SW,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,6.3,150,?,1302,1598,aluminium/aluminium,11,MT,195/55 R16 V,16V+VVT,2wd
+Peugeot,207 SW Sport,1.6L HDi 90 hp,DV6,215/1750,90-66/4000,4.5,117,?,1339,1560,aluminium/aluminium,18,MT,195/55 R16 V,16V+TC+CAC,2wd
+Peugeot,207 SW Outdoor,1.6L VTi 120 hp,EP6,160/4250,120-88/6000,6.4,152,?,1329,1598,aluminium/aluminium,11,MT,205/55 R16 V,16V+VVT,2wd
+Peugeot,207 SW,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,4.5,120,?,1350,1560,aluminium/aluminium,18,MT,195/55 R16 V,16V+TGV+CAC,2wd
+Peugeot,207 SW Outdoor,1.6L HDi 90 hp,DV6,215/1750,90-66/4000,4.7,125,?,1373,1560,aluminium/aluminium,18,MT,205/55 R16 V,16V+TC+CAC,2wd
+Peugeot,207 SW,1.6L VTi 120 hp AT,EP6,160/4250,120-88/6000,7,165,?,1335,1598,aluminium/aluminium,11,AT 4,195/55 R16 V,16V+VVT,2wd
+Peugeot,207 SW Outdoor,1.6L HDi FAP 110 hp,DV6,240/1750,109-80/4000,5,130,?,1387,1560,aluminium/aluminium,18,MT,205/55 R16 V,16V+TGV+CAC,2wd
+Nissan,Pixo,1.0L 70 hp,,90/3400,68-50/6000,4.4,103,?,925,997,aluminium/aluminium,11,MT,155/65 R14,16V,2wd
+Nissan,Pixo,1.0L 70 hp AT,,90/3400,68-50/6000,5,128,?,?,997,aluminium/aluminium,11,AT 4,155/65 R14,16V,2wd
+Nissan,Micra,1.2L 80 hp,,110/3600,80-59/5200,5.9,139,0.33/2.08/0.69,1021/1021,1240,aluminium/aluminium,9.9,MT,165/70 R14,16V+VVT,2wd
+Nissan,Micra,1.4L 88 hp,,128/3200,88-65/5200,6.3,150,0.33/2.08/0.69,1032/1032,1386,aluminium/aluminium,9.9,MT,175/60 R15,16V+VVT,2wd
+Nissan,Micra,1.5L dCi 86 hp,,200/1900,86-63/3750,4.6,120,0.33/2.08/0.69,1136,1461,cast iron /aluminium,18.8,MT,165/70 R14,8V+TC+CAC,2wd
+Nissan,Micra,1.2L 80 hp AT,,110/3600,80-59/5200,6.6,159,0.33/2.08/0.69,1032,1240,aluminium/aluminium,9.9,AT 4,175/60 R15,16V+VVT,2wd
+Nissan,Micra 25 An.,1.5L dCi 86 hp,,200/1900,86-63/3750,4.6,120,0.33/2.08/0.69,1136,1461,cast iron /aluminium,18.8,MT,175/60 R15,8V+TC+CAC,2wd
+Nissan,Micra Tekna,1.4L 88 hp,,128/3200,88-65/5200,6.3,150,0.33/2.08/0.69,1032,1386,aluminium/aluminium,9.9,MT,185/50 R16,16V+VVT,2wd
+Nissan,Micra Tekna,1.4L 88 hp AT,,128/3200,88-65/5200,6.8,163,0.33/2.08/0.69,1032,1386,aluminium/aluminium,9.9,AT 4,185/50 R16,16V+VVT,2wd
+Nissan,Micra Tekna,1.5L dCi 86 hp,,200/1900,86-63/3750,4.6,120,0.33/2.08/0.69,1136,1461,cast iron /aluminium,18.8,MT,185/50 R16,8V+TC+CAC,2wd
+Nissan,Micra C+C,1.4L 88 hp,,128/3200,88-65/5200,6.6,158,0.32/2/0.64,1210,1386,aluminium/aluminium,9.9,MT,175/60 R15,16V+VVT,2wd
+Nissan,Micra C+C,1.6L 110 hp,,153/4400,110-81/6000,6.7,160,0.32/2/0.64,1225,1598,aluminium/aluminium,10.7,MT,185/50 R16,16V+VVT,2wd
+Nissan,Note,1.4L 88 hp,,128/3200,88-65/5200,6.3,150,0.33/2.08/0.69,1167,1386,aluminium/aluminium,9.9,MT,185/65 R15,16V+VVT,2wd
+Nissan,Note,1.5L dCi 86 hp,,200/1900,86-63/3750,4.9,129,0.33/2.08/0.69,1240,1461,cast iron /aluminium,18.8,MT,185/65 R15,8V+TC+CAC,2wd
+Nissan,Note,1.6L 110 hp,,153/4400,110-81/6000,6.6,155,0.33/2.08/0.69,1182,1598,aluminium/aluminium,10.7,MT,185/65 R15,16V+VVT,2wd
+Nissan,Note Tekna,1.6L 110 hp,,153/4400,110-81/6000,6.6,156,0.33/2.08/0.69,1182,1598,aluminium/aluminium,10.7,MT,185/55 R16,16V+VVT,2wd
+Nissan,Note Tekna,1.6L 110 hp AT,,153/4400,110-81/6000,6.8,159,0.33/2.08/0.69,1206,1598,aluminium/aluminium,10.7,AT 4,185/55 R16,16V+VVT,2wd
+Nissan,Note Tekna,1.5L dCi 86 hp,,200/1900,86-63/3750,4.9,129,0.33/2.08/0.69,1240,1461,cast iron /aluminium,18.8,MT,185/55 R16,8V+TC+CAC,2wd
+Nissan,Note,1.5L dCi 105 hp,,240/2000,103-76/4000,5.1,136,0.33/2.08/0.69,1353,1461,cast iron /aluminium,15.3,MT 6,185/65 R15,8V+TGV+CAC,2wd
+Nissan,Note Tekna,1.5L dCi 105 hp,,240/2000,103-76/4000,5.1,136,0.33/2.08/0.69,1353,1461,cast iron /aluminium,15.3,MT 6,185/55 R16,8V+TGV+CAC,2wd
+Nissan,Tiida,1.6L 110 hp,,153/4400,110-81/6000,6.9,165,?,1278,1598,aluminium/aluminium,10.7,MT,195/65 R15,16V+VVT,2wd
+Nissan,Tiida,1.8L 126 hp,,173/4800,126-93/5200,7.8,188,?,1307,1798,aluminium/aluminium,9.9,MT 6,195/65 R15,16V+VVT,2wd
+Nissan,Tiida,1.5L dCi 105 hp,,240/2000,106-78/4000,5.2,138,?,1389,1461,cast iron /aluminium,15.3,MT 6,195/65 R15,8V+TGV+CAC,2wd
+Nissan,Tiida,1.6L 110 hp AT,,153/4400,110-81/6000,7.4,178,?,1299,1598,aluminium/aluminium,10.7,AT 4,195/65 R15,16V+VVT,2wd
+Nissan,370Z Roadster,3.7L V6 330 hp,,366/5200,330-243/7000,?,?,?,1629,3696,aluminium/aluminium,11,MT 6,"Av :225/50 R18
+Ar :245/45 R18",24V+VVT,Av/Ar
+Nissan,370Z Roadster,3.7L V6 330 hp AT,,366/5200,330-243/7000,?,?,?,1661,3696,aluminium/aluminium,11,AT 7,"Av :225/50 R18
+Ar :245/45 R18",24V+VVT,Av/Ar
+Nissan,370Z,3.7L V6 330 hp,,366/5200,330-243/7000,10.5,249,0.29/?/?,1571,3696,aluminium/aluminium,11,MT 6,"Av :225/50 R18
+Ar :245/45 R18",24V+VVT,Av/Ar
+Nissan,370Z,3.7L V6 330 hp AT,,366/5200,330-243/7000,10.4,247,0.29/?/?,1583,3696,aluminium/aluminium,11,AT 7,"Av :225/50 R18
+Ar :245/45 R18",24V+VVT,Av/Ar
+Nissan,GT-R,3.8L V6 490 hp AT,,588/3200-5200,486-357/6400,12.2,298,0.27/?/?,1815,3799,aluminium/aluminium,9,AT 6,"Av :225/40 ZR20
+Ar :285/35 ZR20",24V+VVT+TC+CAC,4wd
+Nissan,GT-R Premium,3.8L V6 490 hp AT,,588/3200-5200,486-357/6400,12.2,298,0.27/?/?,1815,3799,aluminium/aluminium,9,AT 6,"Av :225/40 ZR20
+Ar :285/35 ZR20",24V+VVT+TC+CAC,4wd
+Nissan,Qashqai,1.6L 115 hp,,156/4400,114-84/6000,6.7,159,?,1372,1598,aluminium/aluminium,10.7,MT,215/65 R16,16V+VVT,2wd
+Nissan,Qashqai Acenta,1.6L 115 hp,,156/4400,114-84/6000,6.7,159,?,1372,1598,aluminium/aluminium,10.7,MT,215/60 R17,16V+VVT,2wd
+Nissan,Qashqai Tekna Sp.,1.6L 115 hp,,156/4400,114-84/6000,6.7,159,?,1372,1598,aluminium/aluminium,10.7,MT,215/55 R18,16V+VVT,2wd
+Nissan,Qashqai,2.0L 140 hp,,196/4800,141-104/6000,8.1,192,?,1431,1997,aluminium/aluminium,10.2,MT 6,215/65 R16,16V+VVT,2wd
+Nissan,Qashqai Acenta,2.0L 140 hp,,196/4800,141-104/6000,8.1,192,?,1431,1997,aluminium/aluminium,10.2,MT 6,215/60 R17,16V+VVT,2wd
+Nissan,Qashqai Tekna Sp.,2.0L 140 hp,,196/4800,141-104/6000,8.1,192,?,1431,1997,aluminium/aluminium,10.2,MT 6,215/55 R18,16V+VVT,2wd
+Nissan,Qashqai,2.0L 140 hp hpT,,196/4800,141-104/6000,7.9,189,?,1453,1997,aluminium/aluminium,10.2,hpT,215/65 R16,16V+VVT,2wd
+Nissan,Qashqai Acenta,2.0L 140 hp hpT,,196/4800,141-104/6000,7.9,189,?,1453,1997,aluminium/aluminium,10.2,hpT,215/60 R17,16V+VVT,2wd
+Nissan,Qashqai Tekna Sp.,2.0L 140 hp hpT,,196/4800,141-104/6000,7.9,189,?,1453,1997,aluminium/aluminium,10.2,hpT,215/55 R18,16V+VVT,2wd
+Nissan,Qashqai,1.5L dCi 105 hp,,240/2000,106-78/4000,5.2,139,?,1482,1461,cast iron /aluminium,15.3,MT 6,215/65 R16,8V+TGV+CAC,2wd
+Nissan,Qashqai Acenta,1.5L dCi 105 hp,,240/2000,106-78/4000,5.2,139,?,1482,1461,cast iron /aluminium,15.3,MT 6,215/60 R17,8V+TGV+CAC,2wd
+Nissan,Qashqai Tekna Sp.,1.5L dCi 105 hp,,240/2000,106-78/4000,5.2,139,?,1482,1461,cast iron /aluminium,15.3,MT 6,215/55 R18,8V+TGV+CAC,2wd
+Nissan,Qashqai,2.0L dCi 150 hp,,340/2000,150-110/4000,6.6,174,?,1595,1995,cast iron /aluminium,16,MT 6,215/65 R16,16V+TGV+CAC,2wd
+Nissan,Qashqai Acenta,2.0L dCi 150 hp,,340/2000,150-110/4000,6.6,174,?,1595,1995,cast iron /aluminium,16,MT 6,215/60 R17,16V+TGV+CAC,2wd
+Nissan,Qashqai Tekna Sp.,2.0L dCi 150 hp,,340/2000,150-110/4000,6.6,174,?,1595,1995,cast iron /aluminium,16,MT 6,215/55 R18,16V+TGV+CAC,2wd
+Nissan,Qashqai Acenta,2.0L 140 hp 4x4,,196/4800,141-104/6000,8.4,199,?,1490,1997,aluminium/aluminium,10.2,MT 6,215/60 R17,16V+VVT,4wd
+Nissan,Qashqai Tekna Sp.,2.0L 140 hp 4x4,,196/4800,141-104/6000,8.4,199,?,1490,1997,aluminium/aluminium,10.2,MT 6,215/55 R18,16V+VVT,4wd
+Nissan,Qashqai Acenta,2.0L 140 hp hpT 4x4,,196/4800,141-104/6000,8.3,198,?,1529,1997,aluminium/aluminium,10.2,hpT,215/60 R17,16V+VVT,4wd
+Nissan,Qashqai Tekna Sp.,2.0L 140 hp hpT 4x4,,196/4800,141-104/6000,8.3,198,?,1529,1997,aluminium/aluminium,10.2,hpT,215/55 R18,16V+VVT,4wd
+Nissan,Qashqai,2.0L dCi 150 hp 4x4,,340/2000,150-110/4000,6.9,184,?,1657,1995,cast iron /aluminium,16,MT 6,215/65 R16,16V+TGV+CAC,4wd
+Nissan,Qashqai Acenta,2.0L dCi 150 hp 4x4,,340/2000,150-110/4000,6.9,184,?,1657,1995,cast iron /aluminium,16,MT 6,215/60 R17,16V+TGV+CAC,4wd
+Nissan,Qashqai Tekna Sp.,2.0L dCi 150 hp 4x4,,340/2000,150-110/4000,6.9,184,?,1657,1995,cast iron /aluminium,16,MT 6,215/55 R18,16V+TGV+CAC,4wd
+Nissan,Qashqai,2.0L dCi 150 hp 4x4 AT,,340/2000,150-110/4000,7.8,208,?,1689,1995,cast iron /aluminium,16,AT 6,215/65 R16,16V+TGV+CAC,4wd
+Nissan,Qashqai Acenta,2.0L dCi 150 hp 4x4 AT,,340/2000,150-110/4000,7.8,208,?,1689,1995,cast iron /aluminium,16,AT 6,215/60 R17,16V+TGV+CAC,4wd
+Nissan,Qashqai Tekna Sp.,2.0L dCi 150 hp 4x4 AT,,340/2000,150-110/4000,7.8,208,?,1689,1995,cast iron /aluminium,16,AT 6,215/55 R18,16V+TGV+CAC,4wd
+Nissan,Qashqai +2,1.6L 115 hp,,156/4400,114-84/6000,7,165,?,1604,1598,aluminium/aluminium,10.7,MT,215/65 R16,16V+VVT,2wd
+Nissan,Qashqai +2 Acenta,1.6L 115 hp,,156/4400,114-84/6000,7,165,?,1604,1598,aluminium/aluminium,10.7,MT,215/60 R17,16V+VVT,2wd
+Nissan,Qashqai +2 Tekna Sp.,1.6L 115 hp,,156/4400,114-84/6000,7,165,?,1604,1598,aluminium/aluminium,10.7,MT,215/55 R18,16V+VVT,2wd
+Nissan,Qashqai +2,2.0L 140 hp,,196/4800,141-104/6000,8.4,197,?,1551,1997,aluminium/aluminium,10.2,MT 6,215/65 R16,16V+VVT,2wd
+Nissan,Qashqai +2 Acenta,2.0L 140 hp,,196/4800,141-104/6000,8.4,197,?,1551,1997,aluminium/aluminium,10.2,MT 6,215/60 R17,16V+VVT,2wd
+Nissan,Qashqai +2 Tekna Sp.,2.0L 140 hp,,196/4800,141-104/6000,8.4,197,?,1551,1997,aluminium/aluminium,10.2,MT 6,215/55 R18,16V+VVT,2wd
+Nissan,Qashqai +2,1.5L dCi 105 hp,,240/2000,106-78/4000,5.7,149,?,1586,1461,cast iron /aluminium,15.3,MT 6,215/65 R16,8V+TGV+CAC,2wd
+Nissan,Qashqai +2 Acenta,1.5L dCi 105 hp,,240/2000,106-78/4000,5.7,149,?,1586,1461,cast iron /aluminium,15.3,MT 6,215/60 R17,8V+TGV+CAC,2wd
+Nissan,Qashqai +2 Tekna Sp.,1.5L dCi 105 hp,,240/2000,106-78/4000,5.7,149,?,1586,1461,cast iron /aluminium,15.3,MT 6,215/55 R18,8V+TGV+CAC,2wd
+Nissan,Qashqai +2,2.0L dCi 150 hp,,340/2000,150-110/4000,6.7,177,?,1706,1995,cast iron /aluminium,15.6,MT 6,215/65 R16,16V+TGV+CAC,2wd
+Nissan,Qashqai +2 Acenta,2.0L dCi 150 hp,,340/2000,150-110/4000,6.7,177,?,1706,1995,cast iron /aluminium,15.6,MT 6,215/60 R17,16V+TGV+CAC,2wd
+Nissan,Qashqai +2 Tekna Sp.,2.0L dCi 150 hp,,340/2000,150-110/4000,6.7,177,?,1706,1995,cast iron /aluminium,15.6,MT 6,215/55 R18,16V+TGV+CAC,2wd
+Nissan,Qashqai +2 Acenta,2.0L 140 hp 4x4,,196/4800,141-104/6000,8.6,205,?,1604,1997,aluminium/aluminium,10.2,MT 6,215/60 R17,16V+VVT,4wd
+Nissan,Qashqai +2 Tekna Sp.,2.0L 140 hp 4x4,,196/4800,141-104/6000,8.6,205,?,1604,1997,aluminium/aluminium,10.2,MT 6,215/55 R18,16V+VVT,4wd
+Nissan,Qashqai +2 Acenta,2.0L 140 hp hpT 4x4,,196/4800,141-104/6000,8.5,199,?,1604,1997,aluminium/aluminium,10.2,hpT,215/60 R17,16V+VVT,4wd
+Nissan,Qashqai +2 Tekna Sp.,2.0L 140 hp hpT 4x4,,196/4800,141-104/6000,8.5,199,?,1604,1997,aluminium/aluminium,10.2,hpT,215/55 R18,16V+VVT,4wd
+Nissan,Qashqai +2,2.0L dCi 150 hp 4x4,,340/2000,150-110/4000,7,188,?,1771,1995,cast iron /aluminium,15.6,MT 6,215/65 R16,16V+TGV+CAC,4wd
+Nissan,Qashqai +2 Acenta,2.0L dCi 150 hp 4x4,,340/2000,150-110/4000,7,188,?,1771,1995,cast iron /aluminium,15.6,MT 6,215/60 R17,16V+TGV+CAC,4wd
+Nissan,Qashqai +2 Tekna Sp.,2.0L dCi 150 hp 4x4,,340/2000,150-110/4000,7,188,?,1771,1995,cast iron /aluminium,15.6,MT 6,215/55 R18,16V+TGV+CAC,4wd
+Nissan,Qashqai +2,2.0L dCi 150 hp 4x4 AT,,340/2000,150-110/4000,7.9,209,?,1807,1995,cast iron /aluminium,15.6,AT 6,215/65 R16,16V+TGV+CAC,4wd
+Nissan,Qashqai +2 Acenta,2.0L dCi 150 hp 4x4 AT,,340/2000,150-110/4000,7.9,209,?,1807,1995,cast iron /aluminium,15.6,AT 6,215/60 R17,16V+TGV+CAC,4wd
+Nissan,Qashqai +2 Tekna Sp.,2.0L dCi 150 hp 4x4 AT,,340/2000,150-110/4000,7.9,209,?,1807,1995,cast iron /aluminium,15.6,AT 6,215/55 R18,16V+TGV+CAC,4wd
+Nissan,X-Trail XE,2.0L 141 hp,,196/4800,141-104/6000,8.7,208,?,1557,1997,aluminium/aluminium,10.2,MT 6,215/65 R16,16V+VVT,4wd
+Nissan,X-Trail SE,2.0L 141 hp,,196/4800,141-104/6000,8.7,208,?,1557,1997,aluminium/aluminium,10.2,MT 6,215/46 R17,16V+VVT,4wd
+Nissan,X-Trail XE,2.0L dCi 150 hp,,320/2000,150-110/4000,7.1,190,?,1700,1998,cast iron /aluminium,15.6,MT 6,215/65 R16,16V+TGV+CAC,4wd
+Nissan,X-Trail SE,2.0L dCi 150 hp,,320/2000,150-110/4000,7.1,190,?,1700,1998,cast iron /aluminium,15.6,MT 6,215/60 R17,16V+TGV+CAC,4wd
+Nissan,X-Trail Plat.,2.0L dCi 150 hp,,320/2000,150-110/4000,7.1,190,?,1700,1998,cast iron /aluminium,15.6,MT 6,215/55 R18,16V+TGV+CAC,4wd
+Nissan,X-Trail SE,2.0L dCi 150 hp AT,,320/2000,150-110/4000,8.1,216,?,1712,1995,cast iron /aluminium,15.6,AT 6,215/60 R17,16V+TGV+CAC,4wd
+Nissan,X-Trail Plat.,2.0L dCi 150 hp AT,,320/2000,150-110/4000,8.1,216,?,1712,1995,cast iron /aluminium,15.6,AT 6,215/55 R18,16V+TGV+CAC,4wd
+Nissan,Pathfinder 5 pl.,2.5L dCi 171 hp,,403/2000,171-126/4000,9.8,264,0.38/?/?,?,2488,cast iron /aluminium,16.5,MT 6 with reductor (2.6),255/65 R17,16V+TGV+CAC,4wd
+Nissan,Pathfinder 7 pl.,2.5L dCi 171 hp,,403/2000,171-126/4000,9.8,264,0.38/?/?,?,2488,cast iron /aluminium,16.5,MT 6 with reductor (2.6),255/65 R17,16V+TGV+CAC,4wd
+Nissan,Pathfinder 7 pl.,2.5L dCi 171 hp AT,,403/2000,171-126/4000,10.2,276,0.38/?/?,?,2488,cast iron /aluminium,16.5,AT 5 with reductor (2.6),255/65 R17,16V+TGV+CAC,4wd
+Nissan,Murano,3.5L V6 S-hpT 256 hp,,334/4400,256-188/6000,10.9,261,?,?,3498,aluminium/aluminium,10.3,hpT,225/65 R18 103 H,16V+VVT+VA,4wd
+Nissan,Murano (2005),3.5L V6 234 hp hpT,,318/3600,234-172/6000,12.3,295,?,1945,3498,aluminium/aluminium,10.3,hpT,225/65 R18 103 H,16V+VVT+VA,4wd
+Dacia,Sandero,1.4L 75 hp,,112/3000,75-55/5500,7,165,0.36/?/?,1050,1390,cast iron /aluminium,9.5,MT,185/65 R15,8V,2wd
+Dacia,Sandero,1.2L 75 hp,,108/4250,75-55/5500,5.9,139,0.36/?/?,1050,1149,cast iron /aluminium,9.8,MT,185/65 R15,16V,2wd
+Dacia,Sandero,1.6L 90 hp,,128/3000,87-64/5500,7.2,170,0.36/?/?,1055,1598,cast iron /aluminium,9.5,MT,185/65 R15,8V,2wd
+Dacia,Sandero,1.5L dCi 70 hp,,160/1700,68-50/4000,4.5,120,0.36/?/?,1165,1461,cast iron /aluminium,17.6,MT,185/65 R15,8V+TC+CAC,2wd
+Dacia,Sandero,1.5L dCi 85 hp,,200/1900,86-63/3750,4.6,120,0.36/?/?,1165,1461,cast iron /aluminium,17.6,MT,185/65 R15,8V+TC+CAC,2wd
+Dacia,Logan (2005 & 2007),1.4L 75 hp,,112/3000,75-55/5500,6.9,166,0.36/?/?,1050,1390,cast iron /aluminium,9.5,MT,185/65 R15,8V,2wd
+Dacia,Logan (2005 & 2007),1.6L 90 hp,,128/3000,87-64/5500,7.3,175,0.36/?/?,1055,1598,cast iron /aluminium,9.5,MT,185/65 R15,8V,2wd
+Dacia,Logan (2007),1.6L 105 hp,,148/3750,105-77/5750,7.1,170,0.36/?/?,1190,1598,cast iron /aluminium,9.8,MT,185/65 R15,16V,2wd
+Dacia,Logan (2007),1.5L dCi 70 hp,,160/1700,68-50/4000,4.7,125,0.36/?/?,1140,1461,cast iron /aluminium,17.9,MT,185/65 R15,8V+TC,2wd
+Dacia,Logan Break (2007),1.4L 75 hp,,112/3000,75-55/5500,7.6,179,0.36/?/?,1240,1390,cast iron /aluminium,9.5,MT,185/65 R15,8V,2wd
+Dacia,Logan Break (2007),1.6L 90 hp,,128/3000,87-64/5500,7.6,180,0.36/?/?,1240,1598,cast iron /aluminium,9.5,MT,185/65 R15,8V,2wd
+Dacia,Logan Break (2007) 7 pl.,1.6L 90 hp,,128/3000,87-64/5500,7.8,185,0.36/?/?,1270,1598,cast iron /aluminium,9.5,MT,185/65 R15,8V,2wd
+Dacia,Logan Break (2007),1.5L dCi 70 hp,,160/1700,68-50/4000,5.3,140,0.36/?/?,1280,1461,cast iron /aluminium,17.9,MT,185/65 R15,8V+TC,2wd
+Dacia,Logan Break (2007) 7 pl.,1.5L dCi 70 hp,,160/1700,68-50/4000,5.3,140,0.36/?/?,1320,1461,cast iron /aluminium,17.9,MT,185/65 R15,8V+TC,2wd
+Dacia,Logan Break (2007),1.6L 105 hp,,148/3750,105-77/5750,7.5,178,0.36/?/?,1270,1598,cast iron /aluminium,9.8,MT,185/65 R15,16V,2wd
+Dacia,Logan Break (2007) 7 pl.,1.6L 105 hp,,148/3750,105-77/5750,7.5,178,0.36/?/?,1300,1598,cast iron /aluminium,9.8,MT,185/65 R15,16V,2wd
+Dacia,Logan Break (2007),1.5L dCi 85 hp,,200/1900,86-63/3750,5.2,137,0.36/?/?,1280,1461,cast iron /aluminium,17.6,MT,185/65 R15,8V+TC+CAC,2wd
+Dacia,Logan Break (2007) 7 pl.,1.5L dCi 85 hp,,200/1900,86-63/3750,5.2,137,0.36/?/?,1330,1461,cast iron /aluminium,17.6,MT,185/65 R15,8V+TC+CAC,2wd
+Citroen,C1,1.0L 68 hp,,93/3600,68-50/6000,4.5,106,0.337/2.03/0.68,865/875,998,aluminium/aluminium,10.5,MT,155/65 R14,16V+VVT,2wd
+Citroen,C1 sensodrive,1.0L 68 hp AMT,,93/3600,68-50/6000,4.6,107,0.337/2.03/0.68,900/910,998,aluminium/aluminium,10.5,AMT 5,155/65 R14,16V+VVT,2wd
+Citroen,C1,1.4L HDi 55 hp,,130/1750,54-40/4000,4.1,109,0.326/2.03/0.66,955/965,1399,aluminium/aluminium,17.9,MT,155/65 R14,8V+TC,2wd
+Citroen,Xsara Picasso,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,5.1,136,0.33/2.37/0.78,1398,1560,aluminium/aluminium,18,MT,185/65 R15,16V+TGV+CAC,2wd
+Citroen,Xsara Picasso Satisf.,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,4.9,?,0.33/2.37/0.78,1313,1560,aluminium/aluminium,18,MT,185/65 R15,16V+TGV+CAC,2wd
+Citroen,Xsara Picasso Excl.,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,5.1,136,0.33/2.37/0.78,1468,1560,aluminium/aluminium,18,MT,185/65 R15,16V+TGV+CAC,2wd
+Citroen,C2 (2006/2008),1.1L 60 hp,,94/3200,60-44.1/5500,5.8,138,0.31/2.065/0.64,1031,1124,aluminium/aluminium,10.5,MT,175/65 R14,8V,2wd
+Citroen,C2 (2006/2008),1.4L 73 hp,,118/3300,73-54/5400,6,143,0.31/2.065/0.64,1065,1361,aluminium/aluminium,10.5,MT,175/65 R14,8V,2wd
+Citroen,C2 VTR (2006),1.4L 73 hp,,118/3300,73-54/5400,6,143,0.31/2.085/0.65,1065,1361,aluminium/aluminium,10.5,MT,185/55 R15,8V,2wd
+Citroen,C2 SensoDrive (2006),1.4L 73 hp,,118/3300,73-54/5400,5.8,138,0.31/2.085/0.65,1070,1361,aluminium/aluminium,10.5,AMT 5,185/55 R15,8V,2wd
+Citroen,C2 Stop&Start (2006),1.4L 90 hp,,133/3250,88-65/5250,5.6,133,0.31/2.085/0.65,1088,1361,aluminium/aluminium,10.2,AT 5,185/55 R15,16V+VVT,2wd
+Citroen,C2 Sensodrive (2006),1.6L 110 hp,,147/4000,109-80/5750,6.3,151,0.31/2.073/0.64,1146,1587,cast iron /aluminium,11,AMT 5,195/45 R16,16V,2wd
+Citroen,C2 VTS (2006/2008),1.6L 120 hp,,143/3750,122-90/6500,6.9,163,0.31/2.073/0.64,1159,1587,cast iron /aluminium,?,MT,195/45 R16,16V,2wd
+Citroen,C2 (2006/2008),1.4L HDi 70 hp,,150/1750,68-50/4000,4.3,113,0.31/2.075/0.64,1078,1399,aluminium/aluminium,17.9,MT,175/65 R14,8V+TC,2wd
+Citroen,C2 VTR (2006),1.4L HDi 70 hp,,150/1750,68-50/4000,4.3,113,0.31/2.075/0.64,1078,1399,aluminium/aluminium,17.9,MT,185/55 R15,8V+TC,2wd
+Citroen,C2 VTR Sensodrive (2006),1.4L HDi 70 hp,,150/1750,68-50/4000,4.2,111,0.31/2.075/0.64,1116,1399,aluminium/aluminium,17.9,AMT 5,185/55 R15,8V+TC,2wd
+Citroen,C2 VTR (2008),1.4L 73 hp,,118/3300,73-54/5400,6,143,0.31/2.065/0.64,1065,1361,aluminium/aluminium,10.5,MT,185/55 R15,8V,2wd
+Citroen,C2 VTS (2008),1.6L HDi FAP 110 hp,,240/1750,109-80/4000,4.4,119,0.31/2.073/0.64,1197,1560,aluminium/aluminium,18,MT,195/45 R16,16V+TGV+CAC,2wd
+Citroen,C3 Picasso,1.4L VTi 95 hp,,136/4000,95-70/6000,6.9,159,0.308/2.45/0.75,1334,1397,aluminium/aluminium,11,MT,195/60 R15 T,16V+VVT,2wd
+Citroen,C3 Picasso,1.6L HDi 90 hp,,215/1750,90-66/4000,4.8,128,0.308/2.45/0.75,1364,1560,aluminium/aluminium,17.6,MT,195/60 R15 T,16V+TC+CAC,2wd
+Citroen,C3 Picasso,1.6L VTi 120 hp,,160/4250,120-88/6000,6.9,159,0.308/2.45/0.75,1365,1598,aluminium/aluminium,11,MT,195/55 R16 T,16V+VVT,2wd
+Citroen,C3 Picasso Excl.,1.4L VTi 95 hp,,136/4000,95-70/6000,6.8,157,0.308/2.45/0.75,1334,1397,aluminium/aluminium,11,MT,195/55 R16 T,16V+VVT,2wd
+Citroen,C3 Picasso Excl.,1.6L HDi 90 hp,,215/1750,90-66/4000,4.7,125,0.308/2.45/0.75,1364,1560,aluminium/aluminium,17.6,MT,195/55 R16 T,16V+TC+CAC,2wd
+Citroen,C3 Picasso,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,4.9,130,0.308/2.45/0.75,1408,1560,aluminium/aluminium,18,MT,195/55 R16 T,16V+TGV+CAC,2wd
+Citroen,C-Crosser,2.2L HDi FAP 160 hp,,380/2000,156-115/4000,7.2,191,?,1825,2179,cast iron /aluminium,16.6,MT 6,215/70 R16,16V+TGV+CAC,4wd
+Citroen,C-Crosser Excl.,2.2L HDi FAP 160 hp,,380/2000,156-115/4000,7.3,194,?,?,2179,cast iron /aluminium,16.6,MT 6,225/55 R18,16V+TGV+CAC,4wd
+Citroen,C-Crosser,2.4L 170 hp hpT,,232/4000,170-125/6000,9.3,222,?,1715,2360,aluminium/aluminium,10.5,hpT,225/55 R18,16V+VVT+VA,4wd
+Citroen,C6,2.2L HDi FAP 170 hp,,370/1500,170-125/4000,7.6,199,?,1923,2179,cast iron /aluminium,16.6,AT 6,245/45 R18,16V+TGV+CAC,2wd
+Citroen,C6,3.0L V6 210 hp,,290/3750,211-155/6000,11.2,266,?,1891,2946,aluminium/aluminium,10.9,AT 6,245/45 R18,24V+VVT,2wd
+Citroen,C6,2.7L V6 HDi 205 hp,,440/1900,204-150/4000,8.7,230,?,1946,2721,cast iron /aluminium,17.3,AT 6,245/45 R18,24V+VA+TGV+CAC,2wd
+Citroen,C8 (2002),2.0L 136 hp,,190/4100,136-100/6000,9.1,?,0.34/2.75/0.94,1645,1997,aluminium/aluminium,10.8,MT,215/60 R16 H,16V,2wd
+Citroen,C8 (2002),2.0L 136 hp AT,,190/4100,136-100/6000,9.6,?,0.34/2.75/0.94,1612,1997,aluminium/aluminium,10.8,AT 4,205/65 R15 H,16V,2wd
+Citroen,C8 (2002),2.2L 160 hp,,217/3900,158-116/5650,9.7,?,0.33/2.75/0.91,1681,2231,aluminium/aluminium,10.8,MT,215/60 R16 H,16V+VVT,2wd
+Citroen,C8 (2002),3.0L V6 205 hp,,285/3750,204-150/6000,11.5,?,0.34/2.75/0.94,1837,2946,aluminium/aluminium,10.9,AT 4,215/60 R16 H,24V+VVT,2wd
+Citroen,C8 Captain chairs (2002),3.0L V6 205 hp,,285/3750,204-150/6000,11.5,?,0.34/2.75/0.94,1859,2946,aluminium/aluminium,10.9,AT 4,215/60 R16 H,24V+VVT,2wd
+Citroen,C8 (2002),2.0L HDi FAP 110 hp,,270/1750,107-79/4000,7.2,?,0.34/2.75/0.94,1743,1997,cast iron /aluminium,17,MT,215/65 R15 H,16V+TC+CAC,2wd
+Citroen,C8 (2002),2.2L HDi 130 hp,,314/2000,128-94/4000,7.4,?,0.34/2.75/0.94,1783,2179,cast iron /aluminium,18,MT,215/65 R15 H,16V+TGV+CAC,2wd
+Citroen,C8 Captain chairs (2002),2.2L HDi 130 hp,,314/2000,128-94/4000,7.4,?,0.34/2.75/0.94,1825,2179,cast iron /aluminium,18,MT,215/65 R15 H,16V+TGV+CAC,2wd
+Citroen,C8,2.0L HDi 120 hp,,300/2000,120-88/4000,6.9,182,?,1846,1997,cast iron /aluminium,17.3,MT 6,215/60 R16 H,16V+TC+CAC,2wd
+Citroen,C8,2.0L 143 hp,,195/4000,140-103/6250,9,213,0.34/2.75/0.94,1706,1997,aluminium/aluminium,11.4,MT 6,215/60 R16 H,16V+VVT+GDI,2wd
+Citroen,C8,2.0L HDi FAP 138 hp,,320/2000,136-100/4000,7.1,188,0.34/2.75/0.94,1818,1997,cast iron /aluminium,17.6,MT 6,215/60 R16 H,16V+TGV+CAC,2wd
+Citroen,C8,2.2L HDi FAP 173 hp,,370/1500,170-125/4000,7.2,191,0.34/2.75/0.94,1865,2179,cast iron /aluminium,16.6,MT 6,215/60 R16 H,16V+TGV+CAC,2wd
+Citroen,C8,2.2L HDi FAP 173 hp AT,,370/1500,170-125/4000,8.2,218,0.34/2.75/0.94,1893,2179,cast iron /aluminium,16.6,AT 6,215/60 R16 H,16V+TGV+CAC,2wd
+Citroen,C3 (2002),1.1L 60 hp,,94/3200,60-44.1/5500,6,?,0.31/2.15/0.67,978,1124,aluminium/aluminium,10.5,MT,165/70 R14,8V,2wd
+Citroen,C3 (2002),1.4L 73 hp,,118/3300,73-54/5400,6.2,?,0.32/2.15/0.69,1005,1361,aluminium/aluminium,10.5,MT,165/70 R14,8V,2wd
+Citroen,C3 (2002),1.4L 73 hp AT,,118/3300,73-54/5400,7.1,?,0.32/2.15/0.69,1039,1361,aluminium/aluminium,10.5,AT 4,185/60 R15,8V,2wd
+Citroen,C3 (2002) Excl.,1.4L 73 hp,,118/3300,73-54/5400,6.2,?,0.32/2.15/0.69,1005,1361,aluminium/aluminium,10.5,MT,185/60 R15,8V,2wd
+Citroen,C3 (2002),1.6L 110 hp,,147/4000,109-80/5750,6.5,?,0.32/2.15/0.69,1138,1587,cast iron /aluminium,11,MT,185/60 R15,16V,2wd
+Citroen,C3 (2002),1.4L HDi 70 hp,,150/1750,68-50/4000,4.2,?,0.31/2.15/0.67,1022,1399,aluminium/aluminium,17.9,MT,165/70 R14,8V+TC,2wd
+Citroen,C3 (2002) Excl.,1.4L HDi 70 hp,,150/1750,68-50/4000,4.2,?,0.31/2.15/0.67,1022,1399,aluminium/aluminium,17.9,MT,185/60 R15,8V+TC,2wd
+Citroen,C3,1.1L 60 hp,,94/3200,60-44.1/5500,6,143,0.31/2.15/0.67,1085,1124,aluminium/aluminium,10.5,MT,175/65 R14,8V,2wd
+Citroen,C3,1.4L 73 hp,,118/3300,73-54/5400,6.1,145,0.31/2.15/0.67,1089,1361,aluminium/aluminium,10.5,MT,175/65 R14,8V,2wd
+Citroen,C3 Excl.,1.4L 73 hp,,118/3300,73-54/5400,6.1,145,0.32/2.15/0.69,1089,1361,aluminium/aluminium,10.5,MT,185/60 R15,8V,2wd
+Citroen,C3 Sensodrive Stop&Start,1.4L 90 hp,,133/3250,88-65/5250,5.7,135,0.32/2.15/0.69,1132,1361,aluminium/aluminium,10.2,AMT 5,185/60 R15,16V+VVT,2wd
+Citroen,C3 Sensodrive XTR,1.4L 90 hp,,133/3250,88-65/5250,6,143,0.32/2.15/0.69,1149,1361,aluminium/aluminium,10.2,AMT 5,185/60 R15,16V+VVT,2wd
+Citroen,C3,1.6L 110 hp,,147/4000,109-80/5750,6.5,155,0.32/2.15/0.69,1159,1587,cast iron /aluminium,11,MT,195/50 R16,16V,2wd
+Citroen,C3 Sensodrive,1.6L 110 hp,,147/4000,109-80/5750,6.2,148,0.32/2.15/0.69,1179,1587,cast iron /aluminium,11,AMT 5,195/50 R16,16V,2wd
+Citroen,C3,1.4L HDi 70 hp,,150/1750,68-50/4000,4.4,115,0.31/2.15/0.67,1022,1399,aluminium/aluminium,17.9,MT,175/65 R14,8V+TC,2wd
+Citroen,C3 Sensodrive,1.4L HDi 70 hp,,150/1750,68-50/4000,4.3,113,0.31/2.15/0.67,1022,1399,aluminium/aluminium,17.9,AMT 5,175/65 R14,8V+TC,2wd
+Citroen,C3 Excl.,1.4L HDi 70 hp,,150/1750,68-50/4000,4.4,115,0.31/2.15/0.67,1022,1399,aluminium/aluminium,17.9,MT,185/60 R15,8V+TC,2wd
+Citroen,C3 XTR,1.4L HDi 70 hp,,150/1750,68-50/4000,4.4,115,0.31/2.15/0.67,1075,1399,aluminium/aluminium,17.9,MT,185/60 R15,8V+TC,2wd
+Citroen,C3,1.6L HDi 90 hp,,215/1750,90-66/4000,4.4,118,0.33/2.15/0.71,1179,1560,aluminium/aluminium,17.6,MT,185/60 R15,16V+TC+CAC,2wd
+Citroen,C3 XTR,1.6L HDi 90 hp,,215/1750,90-66/4000,4.4,118,0.33/2.15/0.71,1193,1560,aluminium/aluminium,17.6,MT,185/60 R15,16V+TC+CAC,2wd
+Citroen,C3 VTR,1.6L HDi 90 hp,,215/1750,90-66/4000,4.4,118,0.33/2.15/0.71,1179,1560,aluminium/aluminium,17.6,MT,195/50 R16,16V+TC+CAC,2wd
+Citroen,C3,1.6L HDi 110 hp,,240/1750,109-80/4000,4.5,120,0.32/2.15/0.69,1202,1560,aluminium/aluminium,18,MT,195/50 R16,16V+TGV+CAC,2wd
+Citroen,C3 pluriel (2002),1.4L 70 hp,,118/3300,73-54/5400,6.8,?,?,1211,1361,aluminium/aluminium,10.5,MT,185/65 R15,8V,2wd
+Citroen,C3 pluriel (2002) Sensodrive,1.6L 110 hp,,147/4000,109-80/5750,6.6,?,?,1252,1587,cast iron /aluminium,11,AMT 5,185/65 R15,16V,2wd
+Citroen,C4 coup??,1.4L 90 hp,,133/3250,88-65/5250,6.4,153,0.31/2.2/0.68,1256,1361,aluminium/aluminium,10.2,MT,195/65 R15,16V+VVT,2wd
+Citroen,C4 coup??,1.6L HDi 90 hp,,215/1750,90-66/4000,4.4,117,0.315/2.2/0.69,1330,1560,aluminium/aluminium,17.6,MT,195/65 R15,16V+TC+CAC,2wd
+Citroen,C4 coup?? Cool,1.6L HDi 90 hp,,215/1750,90-66/4000,4.4,117,0.315/2.2/0.69,1330,1560,aluminium/aluminium,17.6,MT,205/55 R16,16V+TC+CAC,2wd
+Citroen,C4 coup?? VTN@V,1.6L HDi 90 hp,,215/1750,90-66/4000,4.4,117,0.315/2.2/0.69,1330,1560,aluminium/aluminium,17.6,MT,205/50 R17,16V+TC+CAC,2wd
+Citroen,C4 coup?? Cool,1.4L 90 hp,,133/3250,88-65/5250,6.4,153,0.31/2.2/0.68,1256,1361,aluminium/aluminium,10.2,MT,205/55 R16,16V+VVT,2wd
+Citroen,C4 coup?? Cool,1.6L VTi 120 hp,,160/4250,120-88/6000,6.7,159,0.305/2.2/0.67,1292,1598,aluminium/aluminium,11,MT,205/55 R16,16V+VVT,2wd
+Citroen,C4 coup?? VTS,1.6L VTi 120 hp,,160/4250,120-88/6000,6.7,159,0.305/2.2/0.67,1292,1598,aluminium/aluminium,11,MT,205/50 R17,16V+VVT,2wd
+Citroen,C4 coup??,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,4.5,119,0.315/2.2/0.69,1344,1560,aluminium/aluminium,18,MT,205/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 coup?? VTS,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,4.5,119,0.315/2.2/0.69,1344,1560,aluminium/aluminium,18,MT,205/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 coup?? VTS,1.6L HDi FAP 110 hp AMT,,240/1750,109-80/4000,4.5,120,0.315/2.2/0.69,1368,1560,aluminium/aluminium,18,AMT 6,205/50 R17,16V+TGV+CAC,2wd
+Citroen,C4 coup??,1.6L HDi FAP 110 hp AMT,,240/1750,109-80/4000,4.5,120,0.315/2.2/0.69,1368,1560,aluminium/aluminium,18,AMT 6,205/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 coup?? VTS,1.6L THP 150 hp,,240/1400-3500,150-110/5800,6.9,164,0.315/2.2/0.69,1346,1598,aluminium/aluminium,10.5,MT 6,205/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Citroen,C4 coup?? VTS,2.0L HDi FAP 140 hp,,320/2000,140-103/4000,5.3,139,0.32/2.2/0.7,1454,1997,cast iron /aluminium,17.6,MT 6,205/50 R17,16V+TGV+CAC,2wd
+Citroen,C4 coup?? VTS +,2.0L HDi FAP 140 hp,,320/2000,140-103/4000,5.3,139,0.32/2.2/0.7,1454,1997,cast iron /aluminium,17.6,MT 6,205/50 R17,16V+TGV+CAC,2wd
+Citroen,C4,1.4L 90 hp,,133/3250,88-65/5250,6.4,153,0.325/2.2/0.72,1257,1361,aluminium/aluminium,10.2,MT,195/65 R15,16V+VVT,2wd
+Citroen,C4,1.6L HDi 90 hp,,215/1750,90-66/4000,4.4,117,0.32/2.2/0.70,1332,1560,aluminium/aluminium,17.6,MT,195/65 R15,16V+TC+CAC,2wd
+Citroen,C4 Cool,1.4L 90 hp,,133/3250,88-65/5250,6.4,153,0.325/2.2/0.72,1257,1361,aluminium/aluminium,10.2,MT,205/55 R16,16V+VVT,2wd
+Citroen,C4 Cool,1.6L VTi 120 hp,,160/4250,120-88/6000,6.7,159,0.31/2.2/0.68,1295,1598,aluminium/aluminium,11,MT,205/55 R16,16V+VVT,2wd
+Citroen,C4 Cool,1.6L HDi 90 hp,,215/1750,90-66/4000,4.4,117,0.32/2.2/0.70,1332,1560,aluminium/aluminium,17.6,MT,205/55 R16,16V+TC+CAC,2wd
+Citroen,C4 Excl.,1.6L VTi 120 hp,,160/4250,120-88/6000,6.7,159,0.31/2.2/0.68,1295,1598,aluminium/aluminium,11,MT,205/50 R17,16V+VVT,2wd
+Citroen,C4 Excl. +,1.6L VTi 120 hp,,160/4250,120-88/6000,6.7,159,0.31/2.2/0.68,1295,1598,aluminium/aluminium,11,MT,205/50 R17,16V+VVT,2wd
+Citroen,C4,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,4.5,119,0.32/2.2/0.70,1345,1560,aluminium/aluminium,18,MT,205/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 VTN@V,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,4.5,119,0.32/2.2/0.70,1345,1560,aluminium/aluminium,18,MT,205/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 VTN@V,1.6L HDi 90 hp,,215/1750,90-66/4000,4.4,117,0.32/2.2/0.70,1332,1560,aluminium/aluminium,17.6,MT,205/50 R17,16V+TC+CAC,2wd
+Citroen,C4,1.6L HDi FAP 110 hp AMT,,240/1750,109-80/4000,4.5,120,0.32/2.2/0.70,1368,1560,aluminium/aluminium,18,AMT 6,205/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 VTN@V,1.6L HDi FAP 110 hp AMT,,240/1750,109-80/4000,4.5,120,0.32/2.2/0.70,1368,1560,aluminium/aluminium,18,AMT 6,205/50 R17,16V+TGV+CAC,2wd
+Citroen,C4,1.6L THP 150 hp,,240/1400-3500,150-110/5800,6.9,164,0.32/2.2/0.70,1351,1598,aluminium/aluminium,10.5,MT 6,205/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Citroen,C4,2.0L HDi FAP 140 hp,,320/2000,140-103/4000,5.3,139,0.33/2.2/0.73,1456,1997,cast iron /aluminium,17.6,MT 6,205/50 R17,16V+TGV+CAC,2wd
+Citroen,C4,2.0L HDi FAP 135 hp AT,,320/2000,136-100/4000,6.6,175,0.33/2.2/0.73,1491,1997,cast iron /aluminium,17.6,AT 6,205/50 R17,16V+TGV+CAC,2wd
+Citroen,C4 Picasso,1.6L VTi 120 hp,,160/4250,120-88/6000,7.4,174,0.31/2.61/0.81,1533,1598,aluminium/aluminium,11,MT,215/55 R16,16V+VVT,2wd
+Citroen,C4 Picasso VTN@V,1.6L VTi 120 hp,,160/4250,120-88/6000,7.5,177,0.31/2.61/0.81,1533,1598,aluminium/aluminium,11,MT,215/50 R17,16V+VVT,2wd
+Citroen,C4 Picasso,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,5.5,145,0.31/2.61/0.81,1564,1560,aluminium/aluminium,18,MT,215/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 Picasso VTN@V,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,5.6,147,0.31/2.61/0.81,1564,1560,aluminium/aluminium,18,MT,215/50 R17,16V+TGV+CAC,2wd
+Citroen,C4 Picasso Excl. +,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,5.6,147,0.31/2.61/0.81,1564,1560,aluminium/aluminium,18,MT,215/45 R18,16V+TGV+CAC,2wd
+Citroen,C4 Picasso,1.6L HDi FAP 110 hp AMT,,240/1750,109-80/4000,5.3,140,0.31/2.61/0.81,1574,1560,aluminium/aluminium,18,AMT 6,215/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 Picasso Excl.,1.6L HDi FAP 110 hp AMT,,240/1750,109-80/4000,5.4,142,0.31/2.61/0.81,1574,1560,aluminium/aluminium,18,AMT 6,215/50 R17,16V+TGV+CAC,2wd
+Citroen,C4 Picasso Excl. +,1.6L HDi FAP 110 hp AMT,,240/1750,109-80/4000,5.4,142,0.31/2.61/0.81,1574,1560,aluminium/aluminium,18,AMT 6,215/45 R18,16V+TGV+CAC,2wd
+Citroen,C4 Picasso,1.6L THP 150 hp AMT,,240/1400-3500,150-110/5800,7.3,173,0.31/2.61/0.81,1581,1598,aluminium/aluminium,10.5,AMT 6,215/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Citroen,C4 Picasso VTN@V,1.6L THP 150 hp AMT,,240/1400-3500,150-110/5800,7.4,176,0.31/2.61/0.81,1581,1598,aluminium/aluminium,10.5,AMT 6,215/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Citroen,C4 Picasso Excl. +,1.6L THP 150 hp AMT,,240/1400-3500,150-110/5800,7.4,176,0.31/2.61/0.81,1581,1598,aluminium/aluminium,10.5,AMT 6,215/45 R18,16V+VVT+TC+CAC+GDI,2wd
+Citroen,C4 Picasso,2.0L HDi FAP 135 hp AMT,,320/2000,136-100/4000,5.9,155,0.31/2.61/0.81,1656,1997,cast iron /aluminium,17.6,AMT 6,215/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 Picasso VTN@V,2.0L HDi FAP 135 hp AMT,,320/2000,136-100/4000,6,157,0.31/2.61/0.81,1656,1997,cast iron /aluminium,17.6,AMT 6,215/50 R17,16V+TGV+CAC,2wd
+Citroen,C4 Picasso Excl. +,2.0L HDi FAP 135 hp AMT,,320/2000,136-100/4000,6,157,0.31/2.61/0.81,1656,1997,cast iron /aluminium,17.6,AMT 6,215/45 R18,16V+TGV+CAC,2wd
+Citroen,C4 Picasso Excl. +,2.0L HDi FAP 135 hp AT,,320/2000,136-100/4000,7.4,195,0.31/2.61/0.81,1715,1997,cast iron /aluminium,17.6,AT 6,215/45 R18,16V+TGV+CAC,2wd
+Citroen,C4 Picasso 7 pl.,1.6L VTi 120 hp,,160/4250,120-88/6000,7.4,174,0.31/2.61/0.81,1561,1598,aluminium/aluminium,11,MT,215/55 R16,16V+VVT,2wd
+Citroen,C4 Picasso VTN@V 7 pl.,1.6L VTi 120 hp,,160/4250,120-88/6000,7.5,177,0.31/2.61/0.81,1561,1598,aluminium/aluminium,11,MT,215/50 R17,16V+VVT,2wd
+Citroen,C4 Picasso 7 pl.,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,5.5,145,0.31/2.61/0.81,1605,1560,aluminium/aluminium,18,MT,215/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 Picasso VTN@V 7 pl.,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,5.6,147,0.31/2.61/0.81,1605,1560,aluminium/aluminium,18,MT,215/50 R17,16V+TGV+CAC,2wd
+Citroen,C4 Picasso Excl. + 7 pl.,1.6L HDi FAP 110 hp,,240/1750,109-80/4000,5.6,147,0.31/2.61/0.81,1605,1560,aluminium/aluminium,18,MT,215/45 R18,16V+TGV+CAC,2wd
+Citroen,C4 Picasso 7 pl.,1.6L HDi FAP 110 hp AMT,,240/1750,109-80/4000,5.3,140,0.31/2.61/0.81,1614,1560,aluminium/aluminium,18,AMT 6,215/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 Picasso Excl. 7 pl.,1.6L HDi FAP 110 hp AMT,,240/1750,109-80/4000,5.4,142,0.31/2.61/0.81,1614,1560,aluminium/aluminium,18,AMT 6,215/50 R17,16V+TGV+CAC,2wd
+Citroen,C4 Picasso Excl. + 7 pl.,1.6L HDi FAP 110 hp AMT,,240/1750,109-80/4000,5.4,142,0.31/2.61/0.81,1614,1560,aluminium/aluminium,18,AMT 6,215/45 R18,16V+TGV+CAC,2wd
+Citroen,C4 Picasso 7 pl.,1.6L THP 150 hp AMT,,240/1400-3500,150-110/5800,7.3,173,0.31/2.61/0.81,1605,1598,aluminium/aluminium,10.5,AMT 6,215/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Citroen,C4 Picasso VTN@V 7 pl.,1.6L THP 150 hp AMT,,240/1400-3500,150-110/5800,7.4,176,0.31/2.61/0.81,1605,1598,aluminium/aluminium,10.5,AMT 6,215/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Citroen,C4 Picasso Excl. + 7 pl.,1.6L THP 150 hp AMT,,240/1400-3500,150-110/5800,7.4,176,0.31/2.61/0.81,1605,1598,aluminium/aluminium,10.5,AMT 6,215/45 R18,16V+VVT+TC+CAC+GDI,2wd
+Citroen,C4 Picasso 7 pl.,2.0L HDi FAP 135 hp AMT,,320/2000,136-100/4000,5.9,155,0.31/2.61/0.81,1695,1997,cast iron /aluminium,17.6,AMT 6,215/55 R16,16V+TGV+CAC,2wd
+Citroen,C4 Picasso VTN@V 7 pl.,2.0L HDi FAP 135 hp AMT,,320/2000,136-100/4000,6,157,0.31/2.61/0.81,1695,1997,cast iron /aluminium,17.6,AMT 6,215/50 R17,16V+TGV+CAC,2wd
+Citroen,C4 Picasso Excl. + 7 pl.,2.0L HDi FAP 135 hp AMT,,320/2000,136-100/4000,6,157,0.31/2.61/0.81,1695,1997,cast iron /aluminium,17.6,AMT 6,215/45 R18,16V+TGV+CAC,2wd
+Citroen,C4 Picasso Excl. + 7 pl.,2.0L HDi FAP 135 hp AT,,320/2000,136-100/4000,7.4,195,0.31/2.61/0.81,1725,1997,cast iron /aluminium,17.6,AT 6,215/45 R18,16V+TGV+CAC,2wd
+Citroen,C5,2.0L 140 hp AT,,200/4000,140-103/6000,8.9,212,0.29/2.3/0.67,1658,1997,aluminium/aluminium,10.8,AT 4,225/60 R16,16V+VVT,2wd
+Citroen,C5,2.0L 140 hp,,200/4000,140-103/6000,8.4,198,0.29/2.3/0.67,1596,1997,aluminium/aluminium,10.8,MT,225/60 R16,16V+VVT,2wd
+Citroen,C5 S,2.0L 140 hp,,200/4000,140-103/6000,8.4,198,0.29/2.3/0.67,1596,1997,aluminium/aluminium,10.8,MT,225/55 R17,16V+VVT,2wd
+Citroen,C5,1.8L 127 hp,,170/3750,125-92/6000,7.9,188,0.29/2.3/0.67,1585,1749,aluminium/aluminium,11,MT,225/60 R16,16V,2wd
+Citroen,C5 Busi.,1.8L 127 hp,,170/3750,125-92/6000,7.9,188,0.29/2.3/0.67,1585,1749,aluminium/aluminium,11,MT,225/55 R17,16V,2wd
+Citroen,C5,1.6L HDi FAP 110 hp,,240/1750-2000,109-80/4000,5.6,149,0.29/2.3/0.67,1578,1560,aluminium/aluminium,18,MT,225/60 R16,16V+TGV+CAC,2wd
+Citroen,C5 S,1.6L HDi FAP 110 hp,,240/1750-2000,109-80/4000,5.6,149,0.29/2.3/0.67,1578,1560,aluminium/aluminium,18,MT,225/55 R17,16V+TGV+CAC,2wd
+Citroen,C5,2.0L HDi FAP 138 hp,,320/2000,136-100/4000,6,157,0.29/2.3/0.67,1683,1997,cast iron /aluminium,17.6,MT 6,225/60 R16,16V+TGV+CAC,2wd
+Citroen,C5 S,2.0L HDi FAP 138 hp,,320/2000,136-100/4000,6,157,0.29/2.3/0.67,1683,1997,cast iron /aluminium,17.6,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Citroen,C5,2.0L HDi FAP 138 hp AT,,320/2000,136-100/4000,7.1,189,0.295/2.3/0.68,1733,1997,cast iron /aluminium,17.6,AT 6,225/60 R16,16V+TGV+CAC,2wd
+Citroen,C5 Excl.,2.0L HDi FAP 138 hp AT,,320/2000,136-100/4000,7.1,189,0.295/2.3/0.68,1733,1997,cast iron /aluminium,17.6,AT 6,225/55 R17,16V+TGV+CAC,2wd
+Citroen,C5,2.0L HDi FAP 140 hp,,320/2000,140-103/4000,5.8,153,0.31/2.3/0.71,1683,1997,cast iron /aluminium,17.6,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Citroen,C5,2.2L HDi FAP 170 hp,,370/1500,170-125/4000,6.5,172,0.31/2.3/0.71,1804,2179,cast iron /aluminium,16.6,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Citroen,C5,3.0L V6 215 hp AT,,290/3750,211-155/6000,10.5,248,0.31/2.3/0.71,1800,2946,aluminium/aluminium,10.9,AT 6,245/45 R18,24V+VVT,2wd
+Citroen,C5,2.7L HDi V6 FAP 208 hp AT,,440/1900,204-150/4000,8.5,223,0.313/2.3/0.72,1841,2721,cast iron /aluminium,17.3,AT 6,245/45 R18,24V+VA+TGV+CAC,2wd
+Citroen,C5 Tourer,1.6L HDi FAP 110 hp,,240/1750-2000,109-80/4000,5.7,150,0.31/2.31/0.72,1612,1560,aluminium/aluminium,18,MT,225/60 R16,16V+TGV+CAC,2wd
+Citroen,C5 Tourer S,1.6L HDi FAP 110 hp,,240/1750-2000,109-80/4000,5.7,150,0.31/2.31/0.72,1612,1560,aluminium/aluminium,18,MT,225/55 R17,16V+TGV+CAC,2wd
+Citroen,C5 Tourer,2.0L 140 hp,,200/4000,140-103/6000,8.5,200,0.31/2.31/0.72,1653,1997,aluminium/aluminium,10.8,MT,225/55 R17,16V+VVT,2wd
+Citroen,C5 Tourer,2.0L HDi FAP 140 hp,,320/2000,140-103/4000,5.9,155,0.31/2.31/0.72,1730,1997,cast iron /aluminium,17.6,MT 6,225/60 R16,16V+TGV+CAC,
+Citroen,C5 Tourer Busi.,2.0L HDi FAP 140 hp,,320/2000,140-103/4000,5.9,155,0.32/2.31/0.74,1730,1997,cast iron /aluminium,17.6,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Citroen,C5 Tourer,2.0L HDi FAP 138 hp AT,,320/2000,136-100/4000,7.2,191,0.31/2.31/0.72,1770,1997,cast iron /aluminium,17.6,AT 6,225/55 R17,16V+TGV+CAC,2wd
+Citroen,C5 Tourer,2.2L HDi FAP 170 hp,,370/1500,170-125/4000,6.6,175,0.32/2.31/0.74,1840,2179,cast iron /aluminium,16.6,MT 6,225/55 R17,16V+TGV+CAC,2wd
+Mitsubishi,I-Miev,EM AC 330 V 54 hp 180 Nm,,180/?,64-47/?,0,0,?,1080,?,?,?,AT 5,"Av : 145/65 R15
+Ar : 175/55 R15",Li-ion/Plug-in/230kg/48.5Ah/88 cells,Av/Ar
+Mitsubishi,Colt CZ3 (2004),1.1L 75 hp,,100/3500,75-55/6000,5.5,130,0.32/2.16/0.69,930,1124,aluminium/aluminium,10.5,MT,175/65 R14,16V+VVT,2wd
+Mitsubishi,Colt CZ3 Invite (2004),1.1L 75 hp,,100/3500,75-55/6000,5.5,130,0.32/2.16/0.69,930,1124,aluminium/aluminium,10.5,MT,195/50 R15,16V+VVT,2wd
+Mitsubishi,Colt CZ3 (2004),1.3L 95 hp,,125/4000,95-70/6000,6,143,0.32/2.16/0.69,955,1332,aluminium/aluminium,10.5,MT,195/50 R15,16V+VVT,2wd
+Mitsubishi,Colt CZ3 (2004),1.5L 110 hp,,145/4000,109-80/6000,6.1,?,0.32/2.16/0.69,960,1499,aluminium/aluminium,10.5,MT,205/45 R16,16V+VVT,2wd
+Mitsubishi,Colt CZ3 (2004),1.5L DI-D 95 hp,,210/1800,95-70/4000,4.8,129,0.32/2.16/0.69,1070,1493,aluminium/aluminium,18,MT,195/50 R15,16V+TC+CAC,2wd
+Mitsubishi,Colt CZ3 Instyle (2004),1.5L DI-D 95 hp,,210/1800,95-70/4000,4.8,129,0.32/2.16/0.69,1070,1493,aluminium/aluminium,18,MT,205/45 R16,16V+TC+CAC,2wd
+Mitsubishi,Colt CZT (2004),1.5L Turbo,,?,?,?,?,?,?,?,?,?,?,?,?,2wd
+Mitsubishi,Colt (2004),1.1L 75 hp,,100/3500,75-55/6000,5.5,130,0.32/2.17/0.69,965,1124,aluminium/aluminium,10.5,MT,175/65 R14,16V+VVT,2wd
+Mitsubishi,Colt Invite (2004),1.1L 75 hp,,100/3500,75-55/6000,5.5,130,0.32/2.17/0.69,965,1124,aluminium/aluminium,10.5,MT,195/50 R15,16V+VVT,2wd
+Mitsubishi,Colt (2004),1.3L 95 hp,,125/4000,95-70/6000,5.8,138,0.32/2.17/0.69,970,1332,aluminium/aluminium,10.5,MT,175/65 R14,16V+VVT,2wd
+Mitsubishi,Colt Invite (2004),1.3L 95 hp,,125/4000,95-70/6000,5.8,138,0.32/2.17/0.69,970,1332,aluminium/aluminium,10.5,MT,195/50 R15,16V+VVT,2wd
+Mitsubishi,Colt (2004),1.5L 110 hp,,145/4000,109-80/6000,6.2,?,0.32/2.17/0.69,990,1499,aluminium/aluminium,10.5,MT,205/45 R16,16V+VVT,2wd
+Mitsubishi,Colt Allshift (2004),1.5L 110 hp,,145/4000,109-80/6000,5.9,?,0.32/2.17/0.69,995,1499,aluminium/aluminium,10.5,AMT 6,205/45 R16,16V+VVT,2wd
+Mitsubishi,Colt (2004),1.5L DI-D 95 hp,,210/1800,95-70/4000,4.6,?,0.32/2.17/0.69,1085,1493,aluminium/aluminium,18,MT,175/65 R14,16V+TC+CAC,2wd
+Mitsubishi,Colt Invite (2004),1.5L DI-D 95 hp,,210/1800,95-70/4000,4.6,?,0.32/2.17/0.69,1085,1493,aluminium/aluminium,18,MT,195/50 R15,16V+TC+CAC,2wd
+Mitsubishi,Colt Instyle (2004),1.5L DI-D 95 hp,,210/1800,95-70/4000,4.6,?,0.32/2.17/0.69,1085,1493,aluminium/aluminium,18,MT,205/45 R16,16V+TC+CAC,2wd
+Mitsubishi,Colt Allshift Instyle (2004),1.5L DI-D 95 hp,,210/1800,95-70/4000,4.4,?,0.32/2.17/0.69,1090,1493,aluminium/aluminium,18,AMT 6,205/45 R16,16V+TC+CAC,2wd
+Mitsubishi,Colt CZC,1.5L 110 hp,,145/4000,109-80/6000,6.6,157,0.36/?/?,1185,1499,aluminium/aluminium,10.5,MT,205/45 R16,16V+VVT,2wd
+Mitsubishi,Colt CZC,1.5L T 145 hp,,210/3500,145-107/6000,7.1,168,0.36/?/?,1275,1468,cast iron /aluminium,9,MT,205/45 R16,16V+VVT+TC+CAC,2wd
+Mitsubishi,Colt,1.1L 75 hp,,100/4000,75-55/6000,4.9,115,?,1015/1045,1124,aluminium/aluminium,11,MT,195/50 R15,16V,2wd
+Mitsubishi,Colt,1.3L 95 hp,,125/4000,95-70/6000,5,119,?,1020/1050,1332,aluminium/aluminium,11,MT,195/50 R15,16V+VVT,2wd
+Mitsubishi,Colt Ralliart,1.5L T 150 hp,,210/3500,150-110/6000,6.8,161,?,1135,1468,cast iron /aluminium,9,MT,205/45 R16,16V+VVT+TC+CAC,2wd
+Mitsubishi,Lancer Sportback,1.8L 140 hp,,178/4250,143-105/6000,7.9,188,?,1430,1798,aluminium/aluminium,10.5,MT,205/60 R16,16V+VVT,2wd
+Mitsubishi,Lancer Sportback Motion,1.8L 140 hp,,178/4250,143-105/6000,7.9,188,?,1460,1798,aluminium/aluminium,10.5,MT,215/45 R18,16V+VVT,2wd
+Mitsubishi,Lancer Sportback,1.8L 140 hp hpT,,178/4250,143-105/6000,8.3,198,?,1490,1798,aluminium/aluminium,10.5,hpT,215/45 R18,16V+VVT,2wd
+Mitsubishi,Lancer Sportback,2.0L DI-D 140 hp,,310/1750,140-103/4000,6.3,165,?,1540,1968,cast iron /aluminium,18,MT 6,205/60 R16,16V+TGV+CAC,2wd
+Mitsubishi,Lancer Sportback Motion,2.0L DI-D 140 hp,,310/1750,140-103/4000,6.5,173,?,1565,1968,cast iron /aluminium,18,MT 6,215/45 R18,16V+TGV+CAC,2wd
+Mitsubishi,Lancer Sportback Ralliart,2.0L T 240 hp,,343/2500-4750,241-177/6000,10.2,243,?,1670,1998,aluminium/aluminium,9,DCT 6,215/45 R18,16V+VVT+TC+CAC,4wd
+Mitsubishi,Lancer,2.0L DI-D 140 hp,,310/1750,140-103/4000,5.9,157,?,1500,1968,cast iron /aluminium,18,MT 6,205/60 R16,16V+TGV+CAC,2wd
+Mitsubishi,Lancer Instyle,2.0L DI-D 140 hp,,310/1750,140-103/4000,6.3,165,?,1525,1968,cast iron /aluminium,18,MT 6,215/45 R18,16V+TGV+CAC,2wd
+Mitsubishi,Lancer,1.8L 140 hp hpT,,178/4250,143-105/6000,7.9,188,?,1455,1798,aluminium/aluminium,10.5,hpT,215/45 R18,16V+VVT,2wd
+Mitsubishi,Lancer Evolution GSR,2.0L T 295 hp,,366/3500,295-217/6500,10.2,243,?,1635,1998,aluminium/aluminium,9,MT,245/40 R18 93 Y,16V+VVT+TC+CAC,4wd
+Mitsubishi,Lancer Evolution MR TC-SST,2.0L T 295 hp,,366/3500,295-217/6500,10.5,250,?,1675,1998,aluminium/aluminium,9,DCT 6,245/40 R18 93 Y,16V+VVT+TC+CAC,4wd
+Mitsubishi,Lancer Ralliart,2.0L T 240 hp,,343/2500-4750,241-177/6000,10,238,?,1625,1998,aluminium/aluminium,9,DCT 6,215/45 R18,16V+VVT+TC+CAC,4wd
+Mitsubishi,Grandis,2.0L DI-D 140 hp,,310/1750,136-100/4000,6.6,176,?,1785,1968,cast iron /aluminium,18,MT 6,215/60 R16,16V+TGV+CAC,2wd
+Mitsubishi,Grandis Invite,2.0L DI-D 140 hp,,310/1750,136-100/4000,6.6,176,?,1785,1968,cast iron /aluminium,18,MT 6,215/55 R17,16V+TGV+CAC,2wd
+Mitsubishi,Outlander,2.0L DI-D 140 hp,,310/1750,140-103/4000,6.7,177,?,1730,1968,cast iron /aluminium,18,MT 6,215/70 R16,16V+TGV+CAC,4wd
+Mitsubishi,Outlander Intense +,2.0L DI-D 140 hp,,310/1750,140-103/4000,6.9,183,?,1765,1968,cast iron /aluminium,18,MT 6,225/55 R18,16V+TGV+CAC,4wd
+Mitsubishi,Outlander,2.2L DI-D 140 hp,,380/2000,156-115/4000,7.3,194,?,1810,2179,cast iron /aluminium,16.6,MT 6,225/55 R18,16V+TGV+CAC,4wd
+Mitsubishi,Outlander,2.4L 170 hp,,232/4100,170-125/6000,9.2,220,?,1570,2360,aluminium/aluminium,10.5,MT,215/70 R16,16V+VVT+VA,2wd
+Mitsubishi,Outlander,2.4L 170 hp hpT,,232/4100,170-125/6000,9.3,222,?,1700,2360,aluminium/aluminium,10.5,hpT,225/55 R18,16V+VVT+VA,4wd
+Mitsubishi,Pajero 3p.,3.2L DI-D 160 hp,,381/2000,160-118/3800,9.2,244,?,2160,3200,cast iron /aluminium,17,MT with reductor (1.9),265/65 R17 112 H,16V+TC+CAC,4wd
+Mitsubishi,Pajero 3p. Intense,3.2L DI-D 160 hp,,381/2000,160-118/3800,9.2,244,?,2160,3200,cast iron /aluminium,17,MT with reductor (1.9),265/60 R18 110 H,16V+TC+CAC,4wd
+Mitsubishi,Pajero 3p.,3.2L DI-D 170 hp AT,,373/2000,170-125/3800,10.5,278,?,2150,3200,cast iron /aluminium,17,AT with reductor (1.9),265/60 R18 110 H,16V+TGV+CAC,4wd
+Mitsubishi,Pajero 5p.,3.2L DI-D 160 hp,,381/2000,160-118/3800,9.3,246,?,2340,3200,cast iron /aluminium,17,MT with reductor (1.9),265/65 R17 112 H,16V+TC+CAC,4wd
+Mitsubishi,Pajero 5p. Intense,3.2L DI-D 160 hp,,381/2000,160-118/3800,9.3,246,?,2340,3200,cast iron /aluminium,17,MT with reductor (1.9),265/60 R18 110 H,16V+TC+CAC,4wd
+Mitsubishi,Pajero 5p.,3.2L DI-D 170 hp AT,,373/2000,170-125/3800,10.6,280,?,2330,3200,cast iron /aluminium,17,AT with reductor (1.9),265/60 R18 110 H,16V+TGV+CAC,4wd
+Mitsubishi,Pajero 5p.,3.8L V6 250 hp,,329/2750,250-184/6000,13.5,324,?,2290,3828,cast iron /aluminium,9.8,AT with reductor (1.9),265/60 R18 110 H,24V+VVT+VA,4wd
+Mitsubishi,L200 Double Cab.,2.5L DI-D 136 hp,,314/2000,136-100/4000,8.6,228,0.46/?/?,1955,2477,cast iron /aluminium,17.5,MT with reductor (1.9),245/70 R16 111 S,8V+TC+CAC,4wd
+Volkswagen,Fox,1.2L 55 hp 3 cyl.,,108/3000,54-40/4750,6.1,146,0.32/2.04/0.65,998,1198,aluminium/aluminium,10.3,MT,165/70 R14 T,6V,2wd
+Volkswagen,Fox,1.4L 75 hp,,124/2750,75-50/5000,6.7,161,0.32/2.04/0.65,1012,1390,cast iron /aluminium,10.5,MT,165/70 R14 T,16V,2wd
+Volkswagen,Fox,1.4L TDI 70 hp 3 cyl.,,155/1600-2800,69-51/4000,4.9,132,0.32/2.04/0.65,1085,1422,cast iron /aluminium,19.5,MT,185/60 R14 H,6V+TC+CAC,2wd
+Volkswagen,Polo,1.2L 60 hp 3 cyl.,,108/3000,60-44/5200,5.8,138,0.32/2.04/0.65,?,1198,aluminium/aluminium,10.3,MT,165/70 R14 T,6V,2wd
+Volkswagen,Polo,1.4L 80 hp,,132/3800,80-59/5000,6.3,150,0.32/2.04/0.65,1038,1390,aluminium/aluminium,10.5,MT,165/70 R14 T,16V,2wd
+Volkswagen,Polo GT,1.4L 80 hp,,132/3800,80-59/5000,6.3,150,0.32/2.04/0.65,1038,1390,aluminium/aluminium,10.5,MT,185/60 R14,16V,2wd
+Volkswagen,Polo,1.4L 80 hp AT,,132/3800,80-59/5000,6.9,163,0.32/2.04/0.65,?,1390,aluminium/aluminium,10.5,AT 6,165/70 R14 T,16V,2wd
+Volkswagen,Polo,1.6L 105 hp,,153/3800,105-77/5600,6.7,159,0.32/2.04/0.65,1056,1598,aluminium/aluminium,10.5,MT,185/60 R14 H,16V,2wd
+Volkswagen,Polo,1.4L TDI 70 hp 3 cyl.,,155/1600-2800,69-51/4000,4.5,119,0.32/2.04/0.65,?,1422,cast iron /aluminium,19.5,MT,165/70 R14 T,6V+TC+CAC,
+Volkswagen,Polo,1.4L TDI 80 hp,,195/2200,80-59/4000,4.5,119,0.32/2.04/0.65,?,1422,cast iron /aluminium,19.5,MT,165/70 R14 T,8V+TC+CAC,
+Volkswagen,Polo BlueMotion,1.4L TDI DPF 80 hp,,195/1800-2200,80-59/4000,3.8,99,0.3/2.06/0.62,1109,1422,cast iron /aluminium,19.5,MT,165/70 R14 T,8V+TC+CAC,
+Volkswagen,Polo GT,1.4L TDI 80 hp,,195/2200,80-59/4000,4.5,119,0.32/2.04/0.65,?,1422,cast iron /aluminium,19.5,MT,185/60 R14,8V+TC+CAC,
+Volkswagen,Polo,1.9L TDI 100 hp,,240/1800-2400,101-74/4000,4.8,127,0.32/2.04/0.65,?,1896,cast iron /aluminium,19,MT,185/60 R14 T,8V+TGV+CAC,2wd
+Volkswagen,Polo GTI,1.8L T 150 hp,,220/1950-4500,150-110/5800,7.8,186,0.32/2.04/0.65,1164/?,1781,cast iron /aluminium,9.5,MT,205/45 R16 V,20V+TC+CAC,2wd
+Volkswagen,Crosspolo,1.4L 75 hp,,126/3800,75-55/5000,6.7,161,0.34/2.12/0.72,1087,1390,aluminium/aluminium,10.5,MT,215/40 R17 Z,16V,2wd
+Volkswagen,Crosspolo,1.4L 100 hp,,126/4400,101-74/6000,6.8,163,0.34/2.12/0.72,1097,1390,aluminium/aluminium,10.5,MT,215/40 R17 Z,16V,2wd
+Volkswagen,Crosspolo,1.4L TDI 70 hp 3 cyl.,,155/1600-2800,69-51/4000,4.9,132,0.34/2.12/0.72,1155,1422,cast iron /aluminium,19.5,MT,215/40 R17,6V+TC+CAC,2wd
+Volkswagen,Crosspolo,1.9L TDI 100 hp,,240/1800-2400,101-74/4000,5.1,138,0.34/2.12/0.72,1190,1896,cast iron /aluminium,19,MT,215/40 R17,8V+TGV+CAC,2wd
+Volkswagen,Polo (2009),1.2L 60 hp 3 cyl.,,108/3000,60-44/5200,5.5,128,?,1068,1198,aluminium/aluminium,10.5,MT,175/70 R14 T,6V,2wd
+Volkswagen,Polo (2009),1.2L 69 hp 3 cyl.,,112/3000,69-51/5400,5.5,128,?,1068,1198,aluminium/aluminium,10.5,MT,175/70 R14 T,12V,2wd
+Volkswagen,Polo (2009),1.4L 86 hp,,132/3800,86-63/5000,5.9,139,?,1071,1390,aluminium/aluminium,10.5,MT,185/60 R15 T,16V,2wd
+Volkswagen,Polo (2009),1.4L 86 hp DSG 7,,132/3800,86-63/5000,5.8,135,?,1104,1390,aluminium/aluminium,10.5,DCT 7,185/60 R15 T,16V,2wd
+Volkswagen,Polo (2009),1.2L TSI 105 hp,,?,105-77/?,5.5,129,?,?,?,?,?,MT 6,185/60 R15 T,?+GDI+TC+WCAC,2wd
+Volkswagen,Polo (2009),1.6L TDI 75 hp,,195/1500-2000,75-55/4000,4.2,109,?,1157,1598,cast iron /aluminium,16.5,MT,175/70 R14 T,16V+TC+CAC,2wd
+Volkswagen,Polo (2009),1.6L TDI 90 hp,,230/1500-2500,90-66/4200,4.2,109,?,1157,1598,cast iron /aluminium,16.5,MT,185/60 R15 T,16V+TGV+CAC,2wd
+Volkswagen,Polo (2009),1.6L TDI 90 hp DSG 7,,230/1500-2500,90-66/4200,4.3,112,?,1179,1598,cast iron /aluminium,16.5,DCT 7,185/60 R15 T,16V+TGV+CAC,2wd
+Volkswagen,Polo (2009) Bluemotion,1.6L TDI 90 hp,,230/1500-2500,90-66/4200,3.8,96,?,?,1598,cast iron /aluminium,16.5,MT,185/60 R15 T,16V+TGV+CAC,2wd
+Volkswagen,Polo (2009),1.6L TDI 105 hp,,250/1500-2500,105-77/4400,4.2,109,?,1165,1598,cast iron /aluminium,16.5,MT,185/60 R15 T,16V+TGV+CAC,2wd
+Volkswagen,Scirocco,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.4,149,0.34/2.14/0.73,1319,1390,cast iron /aluminium,10,MT 6,205/50 R17,16V+TC+CAC+GDI,2wd
+Volkswagen,Scirocco,1.4L TSI 160 hp,,240/1500-4500,160-118/5800,6.6,154,0.34/2.14/0.73,1346,1390,cast iron /aluminium,10,MT 6,225/45 R17,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Scirocco,1.4L TSI 160 hp DSG 7,,240/1500-4500,160-118/5800,6.3,147,0.34/2.14/0.73,1360,1390,cast iron /aluminium,10,DCT 7,225/45 R17,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Scirocco,2.0L TSI 200 hp,,280/1700-5000,200-147/5100,7.6,179,0.34/2.14/0.73,1373,1984,cast iron /aluminium,9.8,MT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Scirocco,2.0L TSI 200 hp DSG 6,,280/1700-5000,200-147/5100,7.6,179,0.34/2.14/0.73,1393,1984,cast iron /aluminium,9.8,DCT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Scirocco,2.0L TDI 140 hp,,320/1750-2500,140-103/4200,5.1,134,0.34/2.14/0.73,1379,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Scirocco,2.0L TDI 140 hp DSG 6,,320/1750-2500,140-103/4200,5.5,145,0.34/2.14/0.73,1395,1968,cast iron /aluminium,16.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Scirocco,2.0L TDI 170 hp,,350/1750-2500,170-125/4200,5.3,139,0.34/2.14/0.73,1395,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Scirocco,2.0L TDI 170 hp DSG 6,,350/1750-2500,170-125/4200,5.6,147,0.34/2.14/0.73,1421,1968,cast iron /aluminium,16.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Scirocco R,2.0L TSI 265 hp,,350/2500-5000,265-195/6000,8.3,194,?,1408,1984,cast iron /aluminium,9.8,MT 6,235/40 R18,16V+VVT+TC+CAC+GDI,2wd
+Volkswagen,Scirocco R,2.0L TSI 265 hp DSG 6,,350/2500-5000,265-195/6000,8.2,192,?,1428,1984,cast iron /aluminium,9.8,DCT 6,235/40 R18,16V+VVT+TC+CAC+GDI,2wd
+Volkswagen,New Beetle Cab.,1.6L 100 hp,,148/3800,102-75/5600,7.7,?,0.37/2.2/0.81,1292,1595,cast iron /aluminium,10.5,MT,205/55 R16,8V,2wd
+Volkswagen,New Beetle Cab.,2.0L 116 hp,,172/3200,116-85/5400,8.8,?,0.37/2.2/0.81,1324,1984,cast iron /aluminium,10.3,MT,205/55 R16 H,8V,2wd
+Volkswagen,New Beetle Cab.,2.0L 116 hp AT,,172/3200,116-85/5400,9.2,?,0.37/2.2/0.81,1352,1984,cast iron /aluminium,10.3,AT 6,205/55 R16 H,8V,2wd
+Volkswagen,New Beetle,1.6L 100 hp,,145/3800,101-74/5600,8.1,?,0.38/2.14/0.81,1205,1595,aluminium/aluminium,10.3,MT,195/65 R15 T,8V+VA,2wd
+Volkswagen,New Beetle,1.8L T 150 hp,,220/2000,150-110/5800,8.3,?,0.38/2.14/0.81,1264,1781,cast iron /aluminium,9.5,MT,205/55 R16 W,20V+TC+CAC,2wd
+Volkswagen,New Beetle,2.3L V5 170 hp,,220/3300,170-125/6200,8.9,?,0.38/2.17/0.82,1327,2324,cast iron /aluminium,10.8,MT,205/55 R16 V,20V,2wd
+Volkswagen,New Beetle RSi,3.2L V6 225 hp,,317/3200,225-160/6200,?,?,?,?,3200,?,?,MT 6,235/40 R18,24V,4wd
+Volkswagen,Eos,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.5,154,0.33/2.16/0.71,1536,1390,cast iron /aluminium,10,MT 6,235/45 R17,16V+TC+CAC+GDI,2wd
+Volkswagen,Eos,1.4L TSI 160 hp,,240/1500-4500,160-118/5800,6.7,159,0.33/2.16/0.71,1562,1390,cast iron /aluminium,10,MT 6,235/45 R17,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Eos,2.0L TSI 200 hp,,280/1800-5000,200-147/5100,8,188,0.33/2.16/0.71,1611,1984,cast iron /aluminium,10.3,MT 6,235/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Eos,2.0L TSI 200 hp DSG 6,,280/1800-5000,200-147/5100,8,188,0.33/2.16/0.71,1632,1984,cast iron /aluminium,10.3,DCT 6,235/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Eos,3.2L V6 250 hp DSG 6,,320/2500-3000,250-184/6300,9.2,219,0.33/2.16/0.71,1702,3189,cast iron /aluminium,10.9,DCT 6,235/45 R17,24V,2wd
+Volkswagen,Eos,2.0L TDI CR 140 hp DPF,,320/1750-2500,140-103/4200,5.8,152,0.33/2.16/0.71,1627,1968,cast iron /aluminium,16.5,MT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Eos,2.0L TDI CR 140 hp DPF DSG 6,,320/1750-2500,140-103/4200,6.3,166,0.33/2.16/0.71,1649,1968,cast iron /aluminium,16.5,DCT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Jetta,1.6L 102 hp,,148/3800,102-75/5600,7.4,178,0.31/2.2/0.68,1268,1595,cast iron /aluminium,10.5,MT,205/55 R16,8V,2wd
+Volkswagen,Jetta,1.6L FSI 115 hp,,155/4000,116-85/6000,6.8,166,0.31/2.2/0.68,1271,1598,aluminium/aluminium,12,MT 6,205/55 R16,16V+VVT+GDI,2wd
+Volkswagen,Jetta,1.9L TDI 105 hp,,250/1900,105-77/4000,5.2,140,0.31/2.2/0.68,1345,1896,cast iron /aluminium,19,MT,205/55 R16,8V+TGV+CAC,2wd
+Volkswagen,Jetta,1.9L TDI 105 hp DSG 6,,250/1900,105-77/4000,5.7,154,0.31/2.2/0.68,1384,1896,cast iron /aluminium,19,DCT 6,205/55 R16,8V+TGV+CAC,2wd
+Volkswagen,Jetta,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,5.5,149,0.31/2.2/0.68,1393,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Jetta,2.0L TDI 140 hp DSG 6,,320/1750-2500,140-103/4000,6.1,165,0.31/2.2/0.68,1410,1968,cast iron /aluminium,18.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Sharan,1.8L T 150 hp,,210/1800,150-110/5800,9.4,?,?,1668,1781,?,?,MT 6 or AT 5,205/60 R15 H,20V+TC+?,2wd
+Volkswagen,Sharan,2.8L V6 204 hp,,265/3400,204-150/6200,10.5,?,?,1752,2792,?,?,MT 6 or AT 4,215/55 R16 Z,24V+?,2wd or 4wd
+Volkswagen,Sharan,1.9L TDI 115 hp,,310/1900,115-85/4000,6.3,?,?,1678,1896,?,?,MT 6 or AT 5,205/60 R15 H,?,2wd
+Volkswagen,Caddy,1.4L 80 hp,,132/3800,80-59/5000,7.9,188,?,1485,1390,aluminium/aluminium,10.5,MT,195/65 R15,16V,2wd
+Volkswagen,Caddy,1.6L 102 hp,,148/3800,102-75/5600,8.2,195,?,1495,1595,cast iron /aluminium,10.5,MT,195/65 R15,8V,2wd
+Volkswagen,Caddy,1.9L TDI 75 hp,,210/1900,75-55/4000,6,158,?,1560,1896,cast iron /aluminium,?,MT,195/65 R15,8V+TC+?,2wd
+Volkswagen,Caddy,1.9L TDI 104 hp,,250/1900,105-77/4000,6.2,164,?,1560,1896,cast iron /aluminium,19,MT,195/65 R15,8V+TGV+CAC,2wd
+Volkswagen,Caddy Bluemotion,1.9L TDI 104 hp,,250/1900,105-77/4000,5.7,149,?,1560,1896,cast iron /aluminium,19,MT,195/65 R15,8V+TGV+CAC,2wd
+Volkswagen,Caddy,1.9L TDI 104 hp DSG 5,,250/1900,105-77/4000,6.7,177,?,1560,1896,cast iron /aluminium,19,DCT 5,195/65 R15,8V+TGV+CAC,2wd
+Volkswagen,Caddy,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,6.3,167,?,?,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Golf R32 (2006),3.2L V6 250 hp,,320/2800-3000,250-184/6300,10.7,255,0.32/2.22/0.71,1510/1541,3189,cast iron /aluminium,10.9,MT 6,225/40 R18 Y,24V+VVT,4wd
+Volkswagen,Golf R32 (2006),3.2L V6 250 hp DSG 6,,320/2800-3000,250-184/6300,9.7,231,0.32/2.22/0.71,1538/1569,3189,cast iron /aluminium,10.9,DCT 6,225/40 R18 Y,24V+VVT,4wd
+Volkswagen,Golf GTI (2007),2.0L TFSI 200 hp,,280/1800-5000,200-147/6000,8,189,0.32/2.22/0.71,1336/1372,1984,cast iron /aluminium,10.5,MT 6,225/45 R17 W,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Golf GTI (2007),2.0L TFSI 200 hp DSG 6,,280/1800-5000,200-147/6000,7.9,188,0.32/2.22/0.71,1355/1391,1984,cast iron /aluminium,10.5,DCT 6,225/45 R17 W,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Golf (2007),1.9L TDI 105 hp 4Motion,,250/1900,105-77/4000,5.8,157,0.32/2.22/0.71,1424/1464,1896,cast iron /aluminium,19,MT 6,195/65 R15,8V+TGV+CAC,4wd
+Volkswagen,Golf (2007) Sportline,1.9L TDI 105 hp 4Motion,,250/1900,105-77/4000,5.8,157,0.32/2.22/0.71,1424/1464,1896,cast iron /aluminium,19,MT 6,205/55 R16,8V+TGV+CAC,4wd
+Volkswagen,Golf (2007),2.0L TDI 140 hp 4Motion,,320/1750-2500,140-103/4000,5.9,159,0.32/2.22/0.71,1416/1450,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,4wd
+Volkswagen,Golf (2007) Highline,2.0L TDI 140 hp 4Motion,,320/1750-2500,140-103/4000,6,160,0.32/2.22/0.71,1416/1450,1968,cast iron /aluminium,18.5,MT 6,195/65 R15,16V+TGV+CAC,4wd
+Volkswagen,Golf (2007) GT Sport 3p.,1.6L 102 hp,,148/3800,102-75/5600,7.4,176,0.32/2.22/0.71,1173,1595,aluminium/aluminium,10.3,MT,205/55 R16,8V,2wd
+Volkswagen,Golf (2007) GT Sport 3p.,1.6L FSI 115 hp,,155/4000,116-85/6000,6.7,161,0.32/2.22/0.71,1184,1598,aluminium/aluminium,12,MT 6,205/55 R16,16V+VVT+GDI,2wd
+Volkswagen,Golf (2007) GT Sport 3p.,1.4L TSI 122 hp,,200/1500,122-90/5500,6.3,149,0.32/2.22/0.71,1205,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf (2007) GT Sport 3p.,1.4L TSI 140 hp,,220/1500-4000,140-103/5600,7.1,169,0.32/2.22/0.71,1262,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Golf (2007) GT Sport 3p.,1.4L TSI 170 hp,,240/1750,170-125/6000,7.3,174,0.32/2.22/0.71,1298,1390,cast iron /aluminium,10,MT 6,225/45 R17,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Golf,1.6L 102 hp,,148/3800,102-75/5600,7.1,166,0.31/2.22/0.69,1232/?,1595,aluminium/aluminium,10.5,MT,195/65 R15,8V,2wd
+Volkswagen,Golf,1.6L 102 hp DSG 7,,148/3800,102-75/5600,6.7,157,0.31/2.22/0.69,1265/?,1595,aluminium/aluminium,10.5,DCT 7,195/65 R15,8V,2wd
+Volkswagen,Golf,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.2,144,0.31/2.22/0.69,1290/?,1390,cast iron /aluminium,10,MT 6,195/65 R15,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf,1.4L TSI 122 hp DSG 7,,200/1500-4000,122-90/5000,6,138,0.31/2.22/0.69,1290/?,1390,cast iron /aluminium,10,DCT 7,195/65 R15,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf Sport,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.2,144,0.31/2.22/0.69,1290/?,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf Sport,1.4L TSI 122 hp DSG 7,,200/1500-4000,122-90/5000,6,138,0.31/2.22/0.69,1290/?,1390,cast iron /aluminium,10,DCT 7,205/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf,1.4L TSI 160 hp,,240/1500-4500,160-118/5800,6.3,145,0.31/2.22/0.69,1346/?,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Golf,1.4L TSI 160 hp DSG 7,,240/1500-4500,160-118/5800,6,139,0.31/2.22/0.69,1346/?,1390,cast iron /aluminium,10,DCT 7,205/55 R16,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Golf GTI,2.0L TSI 210 hp,,280/1700-5200,211-155/5300,7.3,170,0.32/2.24/0.72,1393/?,1984,cast iron /aluminium,9.6,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Volkswagen,Golf GTI,2.0L TSI 210 hp DSG 6,,280/1700-5200,211-155/5300,7.4,173,0.32/2.24/0.72,1414/?,1984,cast iron /aluminium,9.6,DCT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Volkswagen,Golf,1.6L TDI CR 105 hp DPF,,250/1500-2500,105-77/4400,4.1,107,0.29/2.22/0.64,1314/?,1598,cast iron /aluminium,16.5,MT,195/65 R15,16V+TGV+CAC,2wd
+Volkswagen,Golf Sport,1.6L TDI CR 105 hp DPF,,250/1500-2500,105-77/4400,4.1,107,0.29/2.22/0.64,1314/?,1598,cast iron /aluminium,16.5,MT,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Golf,2.0L TDI CR 140 hp DPF,,320/1750-2500,140-103/4200,4.9,129,0.31/2.22/0.69,1374/?,1968,cast iron /aluminium,16.5,MT 6,195/65 R15,16V+TGV+CAC,2wd
+Volkswagen,Golf,2.0L TDI CR 140 hp DPF DSG 6,,320/1750-2500,140-103/4200,5.4,142,0.31/2.22/0.69,1397/?,1968,cast iron /aluminium,16.5,DCT 6,195/65 R15,16V+TGV+CAC,2wd
+Volkswagen,Golf Sport,2.0L TDI CR 140 hp DPF,,320/1750-2500,140-103/4200,4.9,129,0.31/2.22/0.69,1374/?,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Golf Sport,2.0L TDI CR 140 hp DPF DSG 6,,320/1750-2500,140-103/4200,5.4,142,0.31/2.22/0.69,1397/?,1968,cast iron /aluminium,16.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Golf Sport,2.0L TDI CR 140 hp DPF 4Motion,,320/1750-2500,140-103/4200,5.5,145,0.31/2.22/0.69,1474/?,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,4wd
+Volkswagen,Golf GTD,2.0L TDI CR 170 hp DPF,,350/1750-2500,170-125/4200,5.3,139,0.31/2.22/0.69,1404/?,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Golf GTD,2.0L TDI CR 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,5.6,147,0.31/2.22/0.69,1426/?,1968,cast iron /aluminium,16.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Golf Plus,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.5,152,0.31/2.38/0.74,1416,1390,cast iron /aluminium,10,MT 6,195/65 R15,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf Plus,1.4L TSI 122 hp DSG 7,,200/1500-4000,122-90/5000,6.3,146,0.31/2.38/0.74,1438,1390,cast iron /aluminium,10,DCT 7,195/65 R15,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf Plus Sport,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.5,152,0.31/2.38/0.74,1416,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf Plus Sport,1.4L TSI 122 hp DSG 7,,200/1500-4000,122-90/5000,6.5,152,0.31/2.38/0.74,1416,1390,cast iron /aluminium,10,DCT 7,205/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf Plus Sport,1.4L TSI 160 hp,,240/1500-4500,160-118/5800,6.5,153,?,?,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Golf Plus Sport,1.4L TSI 160 hp DSG 7,,240/1500-4500,160-118/5800,6.3,147,?,?,1390,cast iron /aluminium,10,DCT 7,205/55 R16,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Golf Plus,1.6L TDI CR 105 hp DPF,,250/1500-2500,105-77/4400,4.8,126,0.31/?/?,1446,1598,cast iron /aluminium,16.5,MT,195/65 R15,16V+TGV+CAC,2wd
+Volkswagen,Golf Plus Sport,1.6L TDI CR 105 hp DPF,,250/1500-2500,105-77/4400,4.8,126,0.31/?/?,1446,1598,cast iron /aluminium,16.5,MT,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Golf Plus,2.0L TDI CR 140 hp DPF,,320/1750-2500,140-103/4200,5.1,135,?,?,1968,cast iron /aluminium,16.5,MT 6,195/65 R15,16V+TGV+CAC,2wd
+Volkswagen,Golf Plus,2.0L TDI CR 140 hp DPF DSG 6,,320/1750-2500,140-103/4200,5.6,146,0.31/2.38/0.74,1505,1968,cast iron /aluminium,16.5,DCT 6,195/65 R15,16V+TGV+CAC,2wd
+Volkswagen,Golf Plus Sport,2.0L TDI CR 140 hp DPF,,320/1750-2500,140-103/4200,5.1,135,?,?,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Golf Plus Sport,2.0L TDI CR 140 hp DPF DSG 6,,320/1750-2500,140-103/4200,5.6,146,0.31/2.38/0.74,1505,1968,cast iron /aluminium,16.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Golf Variant,1.6L 102 hp,,148/3800,102-75/5600,7.4,176,0.31/2.2/0.68,1278,1595,aluminium/aluminium,10.5,MT,205/55 R16,8V,2wd
+Volkswagen,Golf Variant,1.9L TDI 105 hp,,250/1900,105-77/4000,5.2,137,0.31/2.2/0.68,1361,1896,cast iron /aluminium,19,MT,205/55 R16,8V+TGV+CAC,2wd
+Volkswagen,Golf Variant Bluemotion,1.9L TDI 105 hp,,250/1900,105-77/4000,4.6,122,0.3/2.2/0.66,1357,1896,cast iron /aluminium,19,MT,205/55 R16,8V+TGV+CAC,2wd
+Volkswagen,Golf Variant,1.9L TDI 105 hp DSG 7,,250/1900,105-77/4000,5.3,139,0.31/2.2/0.68,1376,1896,cast iron /aluminium,19,DCT 7,205/55 R16,8V+TGV+CAC,2wd
+Volkswagen,Golf Variant,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.4,153,0.31/2.2/0.68,1310,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf Variant,1.4L TSI 122 hp DSG 7,,200/1500-4000,122-90/5000,6.3,148,0.31/2.2/0.68,1331,1390,cast iron /aluminium,10,DCT 7,205/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Golf Variant,1.4L TSI 160 hp,,240/1500-4500,160-118/5800,6.6,154,0.31/2.2/0.68,1354,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Golf Variant,1.4L TSI 160 hp DSG 7,,240/1500-4500,160-118/5800,6.4,148,0.31/2.2/0.68,1369,1390,cast iron /aluminium,10,DCT 7,205/55 R16,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Golf Variant,2.0L TDI 140 hp,,320/1750-2500,140-103/4200,5.5,143,0.31/2.2/0.68,1399,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Golf Variant,2.0L TDI 140 hp DSG 6,,320/1750-2500,140-103/4200,5.8,154,0.31/2.2/0.68,1430,1968,cast iron /aluminium,16.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Touran,1.9L TDI 90 hp,,210/1800-2500,90-66/4000,6,157,0.31/2.54/0.79,1573,1896,cast iron /aluminium,19,MT 6,195/65 R15,8V+TC+CAC,2wd
+Volkswagen,Touran,1.6L 102 hp,,148/3800,102-75/5600,8.1,193,0.31/2.54/0.79,1502,1595,aluminium/aluminium,10.5,MT,195/65 R15,8V,2wd
+Volkswagen,Touran,1.9L TDI 105 hp,,250/1900,105-77/4000,5.9,156,0.31/2.54/0.79,1573,1896,cast iron /aluminium,19,MT 6,195/65 R15,8V+TGV+CAC,2wd
+Volkswagen,Touran,1.4L TSI 140 hp,,220/1500-4000,140-103/5600,7.4,176,0.31/2.54/0.79,1553,1390,cast iron /aluminium,10,MT 6,195/65 R15,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Touran Advance,1.6L 102 hp,,148/3800,102-75/5600,8.1,193,0.31/2.54/0.79,1502,1595,aluminium/aluminium,10.5,MT,205/55 R16,8V,2wd
+Volkswagen,Touran Advance,1.9L TDI 105 hp,,250/1900,105-77/4000,5.9,156,0.31/2.54/0.79,1573,1896,cast iron /aluminium,19,MT 6,205/55 R16,8V+TGV+CAC,2wd
+Volkswagen,Touran,1.4L TSI 140 hp DSG 6,,220/1500-4000,140-103/5600,7.5,179,0.31/2.54/0.79,1575,1390,cast iron /aluminium,10,DCT 6,195/65 R15,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Touran Bluemotion,1.9L TDI 105 hp,,250/1900,105-77/4000,5.4,145,0.29/2.54/0.74,1557,1896,cast iron /aluminium,18.5,MT 6,205/55 R16,8V+TGV+CAC,2wd
+Volkswagen,Touran Advance,1.9L TDI 105 hp DSG 7,,250/1900,105-77/4000,5.6,148,0.31/2.54/0.79,1601,1896,cast iron /aluminium,19,DCT 7,205/55 R16,8V+TGV+CAC,2wd
+Volkswagen,Touran Advance,1.4L TSI 140 hp,,220/1500-4000,140-103/5600,7.4,176,0.31/2.54/0.79,1553,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Touran Advance,1.4L TSI 140 hp DSG 6,,220/1500-4000,140-103/5600,7.5,179,0.31/2.54/0.79,1575,1390,cast iron /aluminium,10,DCT 6,205/55 R16,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Touran Sport,1.4L TSI 140 hp,,220/1500-4000,140-103/5600,7.4,176,0.31/2.54/0.79,1553,1390,cast iron /aluminium,10,MT 6,225/45 R17,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Touran Sport,1.4L TSI 140 hp DSG 6,,220/1500-4000,140-103/5600,7.5,179,0.31/2.54/0.79,1575,1390,cast iron /aluminium,10,DCT 6,225/45 R17,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Touran,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,6,159,0.31/2.54/0.79,1633,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Touran,2.0L TDI 140 hp DSG 6,,320/1750-2500,140-103/4000,6.5,172,0.31/2.54/0.79,1667,1968,cast iron /aluminium,18.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Touran Sport,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,6,159,0.31/2.54/0.79,1633,1968,cast iron /aluminium,18.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Touran Sport,2.0L TDI 140 hp DSG 6,,320/1750-2500,140-103/4000,6.5,172,0.31/2.54/0.79,1667,1968,cast iron /aluminium,18.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Touran,2.0L TDI 170 hp,,350/1750-2500,170-125/4000,6.6,174,0.31/2.54/0.79,1625,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Touran,2.0L TDI 170 hp DSG 6,,350/1750-2500,170-125/4000,6.9,182,0.31/2.54/0.79,1660,1968,cast iron /aluminium,18.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Touran Sport,2.0L TDI 170 hp,,350/1750-2500,170-125/4000,6.6,174,0.31/2.54/0.79,1625,1968,cast iron /aluminium,18.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Touran Sport,2.0L TDI 170 hp DSG 6,,350/1750-2500,170-125/4000,6.9,182,0.31/2.54/0.79,1660,1968,cast iron /aluminium,18.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Touran (2003),1.6L FSI 115 hp,,155/4000,116-85/5800,7.4,?,0.31/2.54/0.79,1423,1598,aluminium/aluminium,12,MT 6,205/55 R16,16V+VVT+GDI,2wd
+Volkswagen,Touran (2003),1.9L TDI 100 hp,,250/1900,101-74/4000,5.9,?,0.31/2.54/0.79,1498,1896,cast iron /aluminium,19,MT 6,195/65 R15,8V+TGV+CAC,2wd
+Volkswagen,Touran (2003) Trendline,1.9L TDI 100 hp,,250/1900,101-74/4000,5.9,?,0.31/2.54/0.79,1498,1896,cast iron /aluminium,19,MT 6,205/55 R16,8V+TGV+CAC,2wd
+Volkswagen,Touran (2003) Trendline,2.0L TDI 136 hp,,320/1750-2500,136-100/4000,6,?,0.31/2.54/0.79,1561,1968,cast iron /aluminium,18,MT 6,205/55 R16 V,16V+TGV+CAC,2wd
+Volkswagen,Touran (2003) Highline,2.0L TDI 136 hp,,320/1750-2500,136-100/4000,6,?,0.31/2.54/0.79,1558,1968,cast iron /aluminium,18,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat CC,1.8L TSI 160 hp,,250/1500-4200,160-118/6200,7.6,178,0.3/2.24/0.67,1505,1798,cast iron /aluminium,9.8,MT 6,235/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Volkswagen,Passat CC,1.8L TSI 160 hp DSG 7,,250/1500-4200,160-118/6200,7.3,172,0.3/2.24/0.67,?,1798,cast iron /aluminium,9.8,DCT 7,235/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Volkswagen,Passat CC,2.0L TSI 200 hp,,280/1800-5000,200-147/6000,7.9,186,0.29/?/?,1516,1984,cast iron /aluminium,10.5,MT 6,235/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Passat CC,2.0L TSI 200 hp Tiptronic,,280/1800-5000,200-147/6000,8.5,199,0.29/?/?,1529,1984,cast iron /aluminium,10.5,AT 6,235/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Passat CC,2.0L TDI 140 hp DPF,,320/1750-2500,140-103/4200,5.6,146,0.29/2.24/0.65,1541,1968,cast iron /aluminium,16.5,MT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat CC,2.0L TDI 140 hp DPF DSG 6,,320/1750-2500,140-103/4200,6,158,0.29/2.24/0.65,1560,1968,cast iron /aluminium,16.5,DCT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat CC,2.0L TDI 170 hp DPF,,350/1750-2500,170-125/4200,5.6,146,0.29/?/?,1547,1968,cast iron /aluminium,16.5,MT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat CC,2.0L TDI 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,6.1,159,0.29/?/?,1565,1968,cast iron /aluminium,16.5,DCT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat CC,3.6L V6 FSI 300 hp DSG 6 4Motion,,350/2400-5300,299-220/6600,10.1,242,0.3/2.24/0.67,1707,3598,cast iron /aluminium,11.4,DCT 6,235/45 R17,16V+VVT+GDI,4wd
+Volkswagen,Passat,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.6,157,0.29/2.26/0.66,1463,1390,cast iron /aluminium,10,MT 6,215/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Passat,1.4L TSI 122 hp DSG 7,,200/1500-4000,122-90/5000,6.4,152,0.29/2.26/0.66,1485,1390,cast iron /aluminium,10,DCT 7,215/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Passat,1.8L TSI 160 hp,,250/1500-4200,160-118/5000,7.6,180,0.29/2.26/0.66,1492,1798,cast iron /aluminium,9.6,MT 6,215/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Volkswagen,Passat R-Line,1.8L TSI 160 hp,,250/1500-4200,160-118/5000,7.6,180,0.29/2.26/0.66,1492,1798,cast iron /aluminium,9.6,MT 6,235/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Volkswagen,Passat,2.0L TSI 200 hp,,280/1800-5000,200-147/6000,7.9,186,0.29/2.26/0.66,1520,1984,cast iron /aluminium,10.5,MT 6,215/55 R16,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Passat R-Line,2.0L TSI 200 hp,,280/1800-5000,200-147/6000,7.9,186,0.29/2.26/0.66,1520,1984,cast iron /aluminium,10.5,MT 6,235/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Passat,2.0L TSI 200 hp Tiptronic,,280/1800-5000,200-147/6000,8.5,199,0.29/2.26/0.66,1538,1984,cast iron /aluminium,10.5,AT 6,215/55 R16,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Passat R-Line,2.0L TSI 200 hp Tiptronic,,280/1800-5000,200-147/6000,8.5,199,0.29/2.26/0.66,1538,1984,cast iron /aluminium,10.5,AT 6,235/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Passat,3.2L V6 FSI 250 hp DSG 6 4Motion,,330/2750-3750,250-184/6250,9.8,223,0.29/2.26/0.66,1735,3168,cast iron /aluminium,12,DCT 6,235/45 R17,24V+GDI,4wd
+Volkswagen,Passat R36,3.6L V6 FSI 300 hp DSG 6 4Motion,,350/2400-5300,299-220/6600,10.5,249,0.3/2.27/0.68,1764,3598,cast iron /aluminium,11.4,DCT 6,235/40 R18 Y,24V+VVT+GDI,4wd
+Volkswagen,Passat,2.0L TDI CR 110 hp DPF,,250/1500-2500,110-81/4200,5.5,143,0.29/2.26/0.66,1510,1968,cast iron /aluminium,16.5,MT,215/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat Bluemotion,2.0L TDI CR 110 hp DPF,,250/1750,110-81/4100,4.9,128,0.27/2.26/0.61,1493,1968,cast iron /aluminium,16.5,MT,205/55 R16 91 H,16V+TGV+CAC,2wd
+Volkswagen,Passat,2.0L TDI CR 140 hp DPF,,320/1750-2500,140-103/4200,5.6,146,0.29/2.26/0.66,1529,1968,cast iron /aluminium,16.5,MT 6,215/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat,2.0L TDI CR 140 hp DPF 4Motion,,320/1750-2500,140-103/4200,6,158,0.29/2.26/0.66,1627,1968,cast iron /aluminium,16.5,MT 6,215/55 R16,16V+TGV+CAC,4wd
+Volkswagen,Passat R-Line,2.0L TDI CR 140 hp DPF,,320/1750-2500,140-103/4200,5.6,146,0.29/2.26/0.66,1529,1968,cast iron /aluminium,16.5,MT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat,2.0L TDI CR 140 hp DPF DSG 6,,320/1750-2500,140-103/4200,6,158,0.29/2.26/0.66,1549,1968,cast iron /aluminium,16.5,DCT 6,215/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat R-Line,2.0L TDI CR 140 hp DPF 4Motion,,320/1750-2500,140-103/4200,6,158,0.29/2.26/0.66,1629,1968,cast iron /aluminium,16.5,MT 6,235/45 R17,16V+TGV+CAC,4wd
+Volkswagen,Passat R-Line,2.0L TDI CR 140 hp DPF DSG 6,,320/1750-2500,140-103/4200,6,158,0.29/2.26/0.66,1551,1968,cast iron /aluminium,16.5,DCT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat,2.0L TDI CR 170 hp DPF,,350/1750-2500,170-125/4200,5.6,146,0.29/2.26/0.66,1530,1968,cast iron /aluminium,16.5,MT 6,215/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat R-Line,2.0L TDI CR 170 hp DPF,,350/1750-2500,170-125/4200,5.6,146,0.29/2.26/0.66,1532,1968,cast iron /aluminium,16.5,MT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat,2.0L TDI CR 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,6.1,159,0.29/2.26/0.66,1552,1968,cast iron /aluminium,16.5,DCT 6,215/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat R-Line,2.0L TDI CR 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,6.1,159,0.29/2.26/0.66,1554,1968,cast iron /aluminium,16.5,DCT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant Bluemotion,2.0L TDI CR 110 hp DPF,,250/1750,110-81/4100,4.9,129,0.27/2.29/0.62,1543,1968,cast iron /aluminium,16.5,MT,205/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant,2.0L TDI CR 110 hp DPF,,250/1500-2500,110-81/4200,5.6,146,0.3/2.29/0.69,1557,1968,cast iron /aluminium,16.5,MT,215/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant,2.0L TDI CR 140 hp DPF,,320/1750-2500,140-103/4200,5.7,148,0.3/2.29/0.69,1572,1968,cast iron /aluminium,16.5,MT 6,215/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant,2.0L TDI CR 140 hp DPF 4Motion,,320/1750-2500,140-103/4200,6.1,159,0.3/2.29/0.69,1671,1968,cast iron /aluminium,16.5,MT 6,215/55 R16,16V+TGV+CAC,4wd
+Volkswagen,Passat Variant R-Line,2.0L TDI CR 140 hp DPF,,320/1750-2500,140-103/4200,5.7,148,0.3/2.29/0.69,1572,1968,cast iron /aluminium,16.5,MT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant,2.0L TDI CR 140 hp DPF DSG 6,,320/1750-2500,140-103/4200,6.1,159,0.3/2.29/0.69,1594,1968,cast iron /aluminium,16.5,DCT 6,215/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant R-Line,2.0L TDI CR 140 hp DPF 4Motion,,320/1750-2500,140-103/4200,6.1,159,0.3/2.29/0.69,1671,1968,cast iron /aluminium,16.5,MT 6,235/45 R17,16V+TGV+CAC,4wd
+Volkswagen,Passat Variant R-Line,2.0L TDI CR 140 hp DPF DSG 6,,320/1750-2500,140-103/4200,6.1,159,0.3/2.29/0.69,1594,1968,cast iron /aluminium,16.5,DCT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant,2.0L TDI CR 170 hp DPF,,350/1750-2500,170-125/4200,5.7,149,0.3/2.29/0.69,1574,1968,cast iron /aluminium,16.5,MT 6,215/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant R-Line,2.0L TDI CR 170 hp DPF,,350/1750-2500,170-125/4200,5.7,149,0.3/2.29/0.69,1574,1968,cast iron /aluminium,16.5,MT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant,2.0L TDI CR 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,6.2,159,0.3/2.29/0.69,1596,1968,cast iron /aluminium,16.5,DCT 6,215/55 R16,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant R-Line,2.0L TDI CR 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,6.2,159,0.3/2.29/0.69,1596,1968,cast iron /aluminium,16.5,DCT 6,235/45 R17,16V+TGV+CAC,2wd
+Volkswagen,Passat Variant,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.7,159,0.3/2.29/0.69,1504,1390,cast iron /aluminium,10,MT 6,215/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Passat Variant,1.4L TSI 122 hp DSG 7,,200/1500-4000,122-90/5000,6.5,154,0.3/2.29/0.69,1520,1390,cast iron /aluminium,10,DCT 7,215/55 R16,16V+TC+CAC+GDI,2wd
+Volkswagen,Passat Variant,1.8L TSI 160 hp,,250/1500-4200,160-118/5000,7.8,186,0.3/2.29/0.69,1534,1798,cast iron /aluminium,9.6,MT 6,215/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Volkswagen,Passat Variant R-Line,1.8L TSI 160 hp,,250/1500-4200,160-118/5000,7.8,186,0.3/2.29/0.69,1534,1798,cast iron /aluminium,9.6,MT 6,235/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Volkswagen,Passat Variant,2.0L TSI 200 hp,,280/1800-5000,200-147/6000,8,188,0.3/2.29/0.69,1575,1984,cast iron /aluminium,10.5,MT 6,215/55 R16,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Passat Variant R-Line,2.0L TSI 200 hp,,280/1800-5000,200-147/6000,8,188,0.3/2.29/0.69,1575,1984,cast iron /aluminium,10.5,MT 6,235/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Passat Variant,2.0L TSI 200 hp Tiptronic,,280/1800-5000,200-147/6000,8.6,199,0.3/2.29/0.69,1593,1984,cast iron /aluminium,10.5,AT 6,215/55 R16,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Passat Variant R-Line,2.0L TSI 200 hp Tiptronic,,280/1800-5000,200-147/6000,8.6,199,0.3/2.29/0.69,1593,1984,cast iron /aluminium,10.5,AT 6,235/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Volkswagen,Passat Variant,3.2L V6 FSI 250 hp DSG 6 4Motion,,330/2750-3750,250-184/6250,10,238,0.3/2.29/0.69,1790,3168,cast iron /aluminium,12,DCT 6,235/45 R17,24V+GDI,4wd
+Volkswagen,Passat Variant R36,3.6L V6 FSI 300 hp DSG 6 4Motion,,350/2400-5300,299-220/6600,10.5,249,0.31/2.3/0.71,1822,3598,cast iron /aluminium,11.4,DCT 6,235/40 R18 Y,24V+VVT+GDI,4wd
+Volkswagen,Phaeton,3.0L V6 TDI 240 hp DPF 4Motion,,500/1500-3000,239-176/4000,9,239,0.31/2.36/0.73,2233,2967,cast iron /aluminium,16.8,AT 6,235/55 R17 Y,24V+VA+TGV+CAC,4wd
+Volkswagen,Phaeton,3.6L V6 280 hp 4Motion,,370/3500,280-206/6250,11.7,273,0.31/2.36/0.73,2154,3598,cast iron /aluminium,?,AT 6,235/55 R17,24V+VVT+GDI,4wd
+Volkswagen,Phaeton,6.0L W12 450 hp 4Motion,,560/2750-5200,450-331/6050,14.5,348,0.31/2.36/0.73,2392,5998,aluminium/aluminium,10.8,AT 5,255/45 R18,48V+VVT,4wd
+Volkswagen,Phaeton (2004),5.0L V10 TDI 313 hp Tiptronic,,750/2000,313-230/3750,11.4,308,0.31/2.36/0.73,2400,4921,aluminium/aluminium,18.5,AT 6,255/45 R18,20V+TGV+CAC,4wd
+Volkswagen,Phaeton (2004),3.2L V6 240 hp,,315/2400,241-177/6200,11.4,?,0.31/2.36/0.73,1996,3189,cast iron /aluminium,11.25,MT 6,235/60 R16 Y,24V+VVT,2wd
+Volkswagen,Phaeton (2004),3.2L V6 240 hp Tiptronic,,315/2400,241-177/6200,12.1,?,0.31/2.36/0.73,2056,3189,cast iron /aluminium,11.25,AT 5,235/60 R16 Y,24V+VVT,2wd
+Volkswagen,Tiguan,1.4L TSI 150 hp,,240/1750-4000,120-88/5800,7.4,171,0.37/2.54/0.94,1526,1390,cast iron /aluminium,10,MT 6,215/65 R16,16V+TC+ROOTS+CAC+GDI,2wd
+Volkswagen,Tiguan,1.4L TSI 150 hp 4Motion,,240/1750-4000,120-88/5800,8,185,0.37/2.54/0.94,1621,1390,cast iron /aluminium,10,MT 6,215/60 R17,16V+TC+ROOTS+CAC+GDI,4wd
+Volkswagen,Tiguan R-Line,1.4L TSI 150 hp 4Motion,,240/1750-4000,120-88/5800,8,185,0.37/2.54/0.94,1621,1390,cast iron /aluminium,10,MT 6,255/40 R19,16V+TC+ROOTS+CAC+GDI,4wd
+Volkswagen,Tiguan,2.0L TDI 140 hp,,320/1750-2500,140-103/4200,5.9,155,0.37/2.54/0.94,1553,1968,cast iron /aluminium,16.5,MT 6,215/65 R16,16V+TGV+CAC,2wd
+Volkswagen,Tiguan,2.0L TDI 140 hp 4Motion,,320/1750-2500,140-103/4200,6.4,167,0.37/2.54/0.94,1665,1968,cast iron /aluminium,16.5,MT 6,215/60 R17,16V+TGV+CAC,4wd
+Volkswagen,Tiguan,2.0L TDI 140 hp Tiptronic 4Motion,,320/1750-2500,140-103/4200,7.5,199,0.37/2.54/0.94,1679,1968,cast iron /aluminium,16.5,AT 6,215/60 R17,16V+TGV+CAC,4wd
+Volkswagen,Tiguan R-Line,2.0L TDI 140 hp 4Motion,,320/1750-2500,140-103/4200,6.4,167,0.37/2.54/0.94,1665,1968,cast iron /aluminium,16.5,MT 6,255/40 R19,16V+TGV+CAC,4wd
+Volkswagen,Tiguan R-Line,2.0L TDI 140 hp Tiptronic 4Motion,,320/1750-2500,140-103/4200,7.5,199,0.37/2.54/0.94,1679,1968,cast iron /aluminium,16.5,AT 6,255/40 R19,16V+TGV+CAC,4wd
+Volkswagen,Tiguan,2.0L TSI 170 hp 4Motion,,280/1700-4200,170-125/4300,8.9,213,0.37/2.54/0.94,1646,1984,cast iron /aluminium,?,MT 6,215/60 R17,16V+VVT+VA+TC+CAC+GDI,4wd
+Volkswagen,Tiguan,2.0L TSI 170 hp Tiptronic 4Motion,,280/1700-4200,170-125/4300,9.9,234,0.37/2.54/0.94,1667,1984,cast iron /aluminium,?,AT 6,215/60 R17,16V+VVT+VA+TC+CAC+GDI,4wd
+Volkswagen,Tiguan R-Line,2.0L TSI 170 hp 4Motion,,280/1700-4200,170-125/4300,8.9,213,0.37/2.54/0.94,1646,1984,cast iron /aluminium,?,MT 6,255/40 R19,16V+VVT+VA+TC+CAC+GDI,4wd
+Volkswagen,Tiguan R-Line,2.0L TSI 170 hp Tiptronic 4Motion,,280/1700-4200,170-125/4300,9.9,234,0.37/2.54/0.94,1667,1984,cast iron /aluminium,?,AT 6,255/40 R19,16V+VVT+VA+TC+CAC+GDI,4wd
+Volkswagen,Tiguan,2.0L TDI 170 hp 4Motion,,350/1750-2500,170-125/4200,6.6,172,0.37/2.54/0.94,1684,1968,cast iron /aluminium,16.5,MT 6,215/60 R17,16V+TGV+CAC,4wd
+Volkswagen,Tiguan R-Line,2.0L TDI 170 hp 4Motion,,350/1750-2500,170-125/4200,6.6,172,0.37/2.54/0.94,1684,1968,cast iron /aluminium,16.5,MT 6,255/40 R19,16V+TGV+CAC,4wd
+Volkswagen,Tiguan,2.0L TSI 200 hp 4Motion,,280/1700-5000,200-147/5100,8.9,213,0.37/2.54/0.94,1662,1984,cast iron /aluminium,10.5,MT 6,215/60 R17,16V+VVT+VA+TC+CAC+GDI,4wd
+Volkswagen,Tiguan,2.0L TSI 200 hp Tiptronic 4Motion,,280/1700-5000,200-147/5100,9.9,234,0.37/2.54/0.94,1684,1984,cast iron /aluminium,10.5,AT 6,215/60 R17,16V+VVT+VA+TC+CAC+GDI,4wd
+Volkswagen,Tiguan R-Line,2.0L TSI 200 hp 4Motion,,280/1700-5000,200-147/5100,8.9,213,0.37/2.54/0.94,1662,1984,cast iron /aluminium,10.5,MT 6,255/40 R19,16V+VVT+VA+TC+CAC+GDI,4wd
+Volkswagen,Tiguan R-Line,2.0L TSI 200 hp Tiptronic 4Motion,,280/1700-5000,200-147/5100,9.9,234,0.37/2.54/0.94,1684,1984,cast iron /aluminium,10.5,AT 6,255/40 R19,16V+VVT+VA+TC+CAC+GDI,4wd
+Volkswagen,Touareg,2.5L TDI R5 174 hp,,400/2000,174-128/3500,10.1,267,?,2247,2461,aluminium/aluminium,18.5,MT 6 with reductor (2.66),255/55 R18,8V+TGV+CAC,4wd
+Volkswagen,Touareg,2.5L TDI R5 174 hp Tiptronic,,400/2000,174-128/3500,10.4,275,?,2267,2461,aluminium/aluminium,18.5,AT 6 with reductor (2.66),255/55 R18,8V+TGV+CAC,4wd
+Volkswagen,Touareg,3.0L V6 TDI 240 hp,,550/2000-2250,239-176/4000,9.6,254,?,2301,2967,cast iron /aluminium,16.8,MT 6 with reductor (2.66),255/55 R18,24V+VA+TGV+CAC,4wd
+Volkswagen,Touareg,3.0L V6 TDI 240 hp Tiptronic,,550/2000-2250,239-176/4000,9.9,262,?,2321,2967,cast iron /aluminium,16.8,AT 6 with reductor (2.66),255/55 R18,24V+VA+TGV+CAC,4wd
+Volkswagen,Touareg Indiv.,3.0L V6 TDI 240 hp,,550/2000-2250,239-176/4000,9.6,254,?,2301,2967,cast iron /aluminium,16.8,MT 6,255/55 R18,24V+VA+TGV+CAC,4wd
+Volkswagen,Touareg Indiv.,3.0L V6 TDI 240 hp Tiptronic,,550/2000-2250,239-176/4000,9.9,262,?,2321,2967,cast iron /aluminium,16.8,AT 6 with reductor (2.66),275/45 R18,24V+VA+TGV+CAC,4wd
+Volkswagen,Touareg,3.6L V6 FSI 280 hp Tiptronic,,360/2500-5000,280-206/6200,13.3,317,?,2238,3598,cast iron /aluminium,12,AT 6 with reductor (2.66),255/55 R18,24V+VVT+GDI,4wd
+Volkswagen,Touareg Indiv.,3.6L V6 FSI 280 hp Tiptronic,,360/2500-5000,280-206/6200,13.3,317,?,2238,3598,cast iron /aluminium,12,AT 6 with reductor (2.66),275/45 R18,24V+VVT+GDI,4wd
+Volkswagen,Touareg,4.2L V8 350 hp Tiptronic,,440/3500,350-257/6800,13.8,329,0.41/2.78/1.14,2332,4163,aluminium/aluminium,12.5,AT 6 with reductor (2.66),255/55 R18,32V+VVT+VA+GDI,4wd
+Volkswagen,Touareg,5.0L V10 TDI 313 hp Tiptronic,,750/2000,313-230/3750,11.9,315,?,2602,4921,aluminium/aluminium,18.5,AT 6 with reductor (2.66),255/55 R18,20V+TGV+CAC,4wd
+Volkswagen,Touareg,6.0L W12 450 hp Tiptronic,,600/3250,450-331/6000,15.7,375,?,2480,5998,aluminium/aluminium,?,AT 6,275/45 R19,48V+VVT,4wd
+Volkswagen,Touareg R50,5.0L V10 TDI 350 hp Tiptronic,,850/2000,351-258/3500,11.9,315,?,2602,4921,aluminium/aluminium,18.5,AT 6 with reductor (2.66),295/35 R21 Y,20V+TGV+CAC,4wd
+Skoda,Fabia,1.2L 60 hp 3 cyl.,,108/3000,60-44/5200,5.9,140,0.33/?/?,1115,1198,aluminium/aluminium,10.3,MT,165/70 R14,6V,2wd
+Skoda,Fabia Young,1.2L 60 hp 3 cyl.,,108/3000,60-44/5200,5.9,140,0.33/?/?,1115,1198,aluminium/aluminium,10.3,MT,185/60 R14,6V,2wd
+Skoda,Fabia Combi,1.2L 60 hp 3 cyl.,,108/3000,60-44/5200,5.9,140,0.32/?/?,1140,1198,aluminium/aluminium,10.3,MT,165/70 R14,6V,2wd
+Skoda,Fabia,1.2L 70 hp 3 cyl.,,112/3000,69-51/5400,5.9,140,0.33/?/?,1125,1198,aluminium/aluminium,10.5,MT,165/70 R14,12V,2wd
+Skoda,Fabia Young,1.2L 70 hp 3 cyl.,,112/3000,69-51/5400,5.9,140,0.33/?/?,1125,1198,aluminium/aluminium,10.5,MT,185/60 R14,12V,2wd
+Skoda,Fabia Combi,1.2L 70 hp 3 cyl.,,112/3000,69-51/5400,5.9,140,0.32/?/?,1145,1198,aluminium/aluminium,10.5,MT,185/60 R14,12V,2wd
+Skoda,Fabia,1.4L 85 hp,,132/3800,86-63/5000,6.5,155,0.33/?/?,1135,1390,aluminium/aluminium,10.5,MT,185/60 R14,16V,2wd
+Skoda,Fabia Combi,1.4L 85 hp,,132/3800,86-63/5000,6.5,155,0.32/?/?,1150,1390,aluminium/aluminium,10.5,MT,185/60 R14,16V,2wd
+Skoda,Fabia,1.4L TDI 70 hp 3 cyl.,,155/1600-2800,69-51/4000,4.8,127,0.33/?/?,1200,1422,cast iron /aluminium,19.5,MT,185/60 R14,6V+TC+CAC,2wd
+Skoda,Fabia Combi,1.4L TDI 70 hp 3 cyl.,,155/1600-2800,69-51/4000,4.8,127,0.32/?/?,1220,1422,cast iron /aluminium,19.5,MT,165/70 R14,6V+TC+CAC,2wd
+Skoda,Fabia Combi Young,1.4L TDI 70 hp 3 cyl.,,155/1600-2800,69-51/4000,4.8,127,0.32/?/?,1220,1422,cast iron /aluminium,19.5,MT,185/60 R14,6V+TC+CAC,2wd
+Skoda,Fabia,1.4L TDI 80 hp 3cyl.,,195/2200,80-59/4000,4.6,120,0.33/?/?,1205,1422,cast iron /aluminium,19.5,MT,185/60 R14,6V+TC+CAC,2wd
+Skoda,Fabia Combi,1.4L TDI 80 hp 3 cyl.,,195/2200,80-59/4000,4.6,120,0.32/?/?,1225,1422,cast iron /aluminium,19.5,MT,185/60 R14,6V+TC+CAC,2wd
+Skoda,Fabia GreenLine,1.4L TDI 80 hp DPF 3 cyl.,,195/2200,80-59/4000,4.1,109,0.33/?/?,1195,1422,cast iron /aluminium,19.5,MT,175/70 R14 81 T,6V+TC+CAC,2wd
+Skoda,Fabia Combi,1.9L TDI 105 hp,,240/1800,105-77/4000,4.9,129,0.32/?/?,1265,1896,cast iron /aluminium,19,MT,185/60 R14,8V+TGV+CAC,2wd
+Skoda,Fabia,1.9L TDI 105 hp,,240/1800,105-77/4000,4.9,129,0.33/?/?,1245,1896,cast iron /aluminium,19,MT,185/60 R14,8V+TGV+CAC,2wd
+Skoda,Fabia Sport,1.9L TDI 105 hp,,240/1800,105-77/4000,4.9,129,0.33/?/?,1245,1896,cast iron /aluminium,19,MT,195/55 R15,8V+TGV+CAC,2wd
+Skoda,Fabia Combi Sport,1.9L TDI 105 hp,,240/1800,105-77/4000,4.9,129,0.32/?/?,1265,1896,cast iron /aluminium,19,MT,195/55 R15,8V+TGV+CAC,2wd
+Skoda,Fabia,1.6L 105 hp,,153/3800,105-77/5600,6.9,165,0.33/?/?,1145,1598,aluminium/aluminium,10.5,MT,185/60 R14,16V,2wd
+Skoda,Fabia Combi,1.6L 105 hp,,153/3800,105-77/5600,6.9,165,0.32/?/?,1165,1598,aluminium/aluminium,10.5,MT,185/60 R14,16V,2wd
+Skoda,Fabia Sport,1.6L 105 hp,,153/3800,105-77/5600,6.9,165,0.33/?/?,1145,1598,aluminium/aluminium,10.5,MT,195/55 R15,16V,2wd
+Skoda,Fabia Combi Sport,1.6L 105 hp,,153/3800,105-77/5600,6.9,165,0.32/?/?,1165,1598,aluminium/aluminium,10.5,MT,195/55 R15,16V,2wd
+Skoda,Fabia Combi Sport,1.6L 105 hp Tiptronic,,153/3800,105-77/5600,7.5,180,0.32/?/?,1210,1598,aluminium/aluminium,10.5,AT 6,195/55 R15,16V,2wd
+Skoda,Fabia Sport,1.6L 105 hp Tiptronic,,153/3800,105-77/5600,7.6,181,0.33/?/?,1190,1598,aluminium/aluminium,10.5,AT 6,195/55 R15,16V,2wd
+Skoda,Roomster,1.2L 70 hp 3 cyl.,,112/3000,69-51/5400,6.7,159,?,1225,1198,aluminium/aluminium,10.5,MT,195/55 R15,12V,2wd
+Skoda,Roomster,1.4L 85 hp,,126/3300,86-63/5000,6.8,162,?,1230,1390,aluminium/aluminium,10.5,MT,195/55 R15,16V,2wd
+Skoda,Roomster Style,1.4L 85 hp,,126/3300,86-63/5000,6.8,162,?,1230,1390,aluminium/aluminium,10.5,MT,195/55 R15,16V,2wd
+Skoda,Roomster,1.6L 105 hp,,155/3500,105-77/5700,7,167,?,1255,1598,aluminium/aluminium,10.5,MT,195/55 R15,16V,2wd
+Skoda,Roomster Sport,1.6L 105 hp,,155/3500,105-77/5700,7,167,?,1255,1598,aluminium/aluminium,10.5,MT,205/45 R16,16V,2wd
+Skoda,Roomster Sport,1.6L 105 hp Tiptronic,,155/3500,105-77/5700,8.1,185,?,1285,1598,aluminium/aluminium,10.5,AT 6,205/45 R16,16V,2wd
+Skoda,Roomster Scoot,1.6L 105 hp,,155/3500,105-77/5700,7,167,?,1255,1598,aluminium/aluminium,10.5,MT,205/40 R17,16V,2wd
+Skoda,Roomster Scoot,1.6L 105 hp Tiptronic,,155/3500,105-77/5700,8.1,185,?,1285,1598,aluminium/aluminium,10.5,AT 6,205/40 R17,16V,2wd
+Skoda,Roomster,1.4L TDI 70 hp 3 cyl.,,155/1600-2800,69-51/4000,5.3,139,?,1305,1422,cast iron /aluminium,19.5,MT,195/55 R15,6V+TC+CAC,2wd
+Skoda,Roomster,1.4L TDI 80 hp 3 cyl.,,195/2200,80-59/4000,5.1,135,?,1315,1422,cast iron /aluminium,19.5,MT,195/55 R15,6V+TC+CAC,2wd
+Skoda,Roomster Style,1.4L TDI 80 hp 3 cyl.,,195/2200,80-59/4000,5.1,135,?,1315,1422,cast iron /aluminium,19.5,MT,195/55 R15,6V+TC+CAC,2wd
+Skoda,Roomster,1.9L TDI 105 hp,,240/1800,105-77/4000,5.4,139,?,1330,1896,cast iron /aluminium,19,MT,195/55 R15,8V+TGV+CAC,2wd
+Skoda,Roomster Sport,1.9L TDI 105 hp,,240/1800,105-77/4000,5.4,139,?,1330,1896,cast iron /aluminium,19,MT,205/45 R16,8V+TGV+CAC,2wd
+Skoda,Roomster Scoot,1.9L TDI 105 hp,,240/1800,105-77/4000,5.4,139,?,1330,1896,cast iron /aluminium,19,MT,205/40 R17,8V+TGV+CAC,2wd
+Skoda,Scoot,1.8L TSI 160 hp,,250/1500-4500,160-118/4500,7.8,182,0.34/?/?,1560,1798,cast iron /aluminium,9.6,MT 6,225/50 R17,16V+VVT+TC+CAC+GDI,4wd
+Skoda,Scoot,2.0L TDI 140 hp DPF,,320/1750-2500,140-103/4000,6.4,173,0.34/?/?,1605,1968,cast iron /aluminium,18.5,MT 6,225/50 R17,16V+TGV+CAC,4wd
+Skoda,Octavia,1.6L 102 hp,,148/3800,102-75/5600,7.4,176,?,1310,1595,cast iron /aluminium,10.5,MT,195/65 R15,8V,2wd
+Skoda,Octavia,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.6,154,?,1340,1390,cast iron /aluminium,10,MT 6,195/65 R15,16V+TC+CAC+GDI,2wd
+Skoda,Octavia,1.4L TSI 122 hp DSG 7,,200/1500-4000,122-90/5000,6.3,147,?,1360,1390,cast iron /aluminium,10,DCT 7,195/65 R15,16V+TC+CAC+GDI,2wd
+Skoda,Octavia,1.8L TSI 160 hp,,250/1500-4500,160-118/4500,7,163,?,1380,1798,cast iron /aluminium,9.6,MT 6,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Octavia,1.8L TSI 160 hp DSG 7,,250/1500-4500,160-118/4500,6.6,155,?,1385,1798,cast iron /aluminium,9.6,DCT 7,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Octavia Laurin&Klement,1.8L TSI 160 hp,,250/1500-4500,160-118/4500,7,163,?,1380,1798,cast iron /aluminium,9.6,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Octavia Laurin&Klement,1.8L TSI 160 hp DSG 7,,250/1500-4500,160-118/4500,6.6,155,?,1385,1798,cast iron /aluminium,9.6,DCT 7,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Octavia RS,2.0L TSI 200 hp,,280/1800-5000,200-147/6000,7.5,175,?,1450,1984,cast iron /aluminium,10.5,MT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Skoda,Octavia RS,2.0L TSI 200 hp DSG 6,,280/1800-5000,200-147/6000,7.7,180,?,1470,1984,cast iron /aluminium,10.5,DCT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Skoda,Octavia,1.9L TDI 105 hp,,250/1900,105-77/4000,4.9,130,?,1410,1896,cast iron /aluminium,18.5,MT,195/65 R15,8V+TGV+CAC,2wd
+Skoda,Octavia,1.9L TDI 105 hp DSG 6,,250/1900,105-77/4000,5.9,155,?,1410,1896,cast iron /aluminium,18.5,DCT 6,195/65 R15,8V+TGV+CAC,2wd
+Skoda,Octavia,2.0L TDI 140 hp,,320/1750,140-103/4000,5.5,145,?,1410,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Skoda,Octavia,2.0L TDI 140 hp DSG 6,,320/1750,140-103/4000,6,158,?,1430,1968,cast iron /aluminium,18.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Skoda,Octavia Laurin&Klement,2.0L TDI 140 hp,,320/1750,140-103/4000,5.5,145,?,1410,1968,cast iron /aluminium,18.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Octavia Laurin&Klement,2.0L TDI 140 hp DSG 6,,320/1750,140-103/4000,6,158,?,1430,1968,cast iron /aluminium,18.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Octavia RS,2.0L TDI CR 170 hp DPF,,350/1750-2500,170-125/4200,5.7,150,?,1485,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Octavia RS,2.0L TDI CR 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,6,159,?,1505,1968,cast iron /aluminium,16.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Octavia Combi,1.4L TSI 122 hp,,200/1500-4000,122-90/5000,6.6,154,?,1355,1390,cast iron /aluminium,10,MT 6,195/65 R15,16V+TC+CAC+GDI,2wd
+Skoda,Octavia Combi,1.4L TSI 122 hp DSG 7,,200/1500-4000,122-90/5000,6.3,147,?,1395,1390,cast iron /aluminium,10,DCT 7,195/65 R15,16V+TC+CAC+GDI,2wd
+Skoda,Octavia Combi,1.8L TSI 160 hp,,250/1500-4500,160-118/4500,7,163,?,1395,1798,cast iron /aluminium,9.6,MT 6,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Octavia Combi,1.8L TSI 160 hp DSG 7,,250/1500-4500,160-118/4500,6.6,155,?,1415,1798,cast iron /aluminium,9.6,DCT 7,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Octavia Combi Laurin&Klement,1.8L TSI 160 hp,,250/1500-4500,160-118/4500,7,163,?,1395,1798,cast iron /aluminium,9.6,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Octavia Combi Laurin&Klement,1.8L TSI 160 hp DSG 7,,250/1500-4500,160-118/4500,6.6,155,?,1415,1798,cast iron /aluminium,9.6,DCT 7,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Octavia Combi RS,2.0L TSI 200 hp,,280/1800-5000,200-147/6000,7.5,175,?,1485,1984,cast iron /aluminium,10.5,MT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Skoda,Octavia Combi RS,2.0L TSI 200 hp DSG 6,,280/1800-5000,200-147/6000,7.7,180,?,1485,1984,cast iron /aluminium,10.5,DCT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Skoda,Octavia Combi,1.9L TDI 105 hp,,250/1900,105-77/4000,5.1,135,?,?,1896,cast iron /aluminium,18.5,MT,195/65 R15,8V+TGV+CAC,2wd
+Skoda,Octavia Combi,1.9L TDI 105 hp DSG 6,,250/1900,105-77/4000,5.9,155,?,1425,1896,cast iron /aluminium,18.5,DCT 6,195/65 R15,8V+TGV+CAC,2wd
+Skoda,Octavia Combi,1.9L TDI 105 hp 4x4,,250/1900,105-77/4000,5.7,150,?,1425,1896,cast iron /aluminium,18.5,MT 6,205/55 R16,8V+TGV+CAC,4wd
+Skoda,Octavia Combi,2.0L TDI 140 hp,,320/1750,140-103/4000,5.5,145,?,1425,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Skoda,Octavia Combi,2.0L TDI 140 hp DSG 6,,320/1750,140-103/4000,6,158,?,1445,1968,cast iron /aluminium,18.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Skoda,Octavia Combi Laurin&Klement,2.0L TDI 140 hp,,320/1750,140-103/4000,5.5,145,?,1425,1968,cast iron /aluminium,18.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Octavia Combi Laurin&Klement,2.0L TDI 140 hp DSG 6,,320/1750,140-103/4000,6,158,?,1445,1968,cast iron /aluminium,18.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Octavia Combi RS,2.0L TDI CR 170 hp DPF,,350/1750-2500,170-125/4200,5.7,150,?,1500,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Octavia Combi RS,2.0L TDI CR 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,6,159,?,1520,1968,cast iron /aluminium,16.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Octavia GreenLine,1.6L TDI 105 hp DPF,,250/1500-2500,105-77/4400,?,?,?,?,1598,cast iron /aluminium,?,MT,?,?,2wd
+Skoda,Superb,1.4L TSI 125 hp,,200/1500-4000,125-92/5000,6.8,157,0.29/?/?,1500,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+CAC+GDI,2wd
+Skoda,Superb,1.8L TSI 160 hp,,250/1500-4200,160-118/5000,7.6,180,0.3/?/?,1529,1798,cast iron /aluminium,9.6,MT 6,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Superb,1.8L TSI 160 hp DSG 7,,250/1500-4200,160-118/5000,7.1,168,0.3/?/?,1546,1798,cast iron /aluminium,9.6,DCT 7,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Superb,1.8L TSI 160 hp 4x4,,250/1500-4200,160-118/5000,8.2,198,0.3/?/?,1563,1798,cast iron /aluminium,9.6,MT 6,205/55 R16,16V+VVT+TC+CAC+GDI,4wd
+Skoda,Superb Elegance,1.8L TSI 160 hp,,250/1500-4200,160-118/5000,7.6,180,0.3/?/?,1529,1798,cast iron /aluminium,9.6,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Superb Elegance,1.8L TSI 160 hp DSG 7,,250/1500-4200,160-118/5000,7.1,168,0.3/?/?,1546,1798,cast iron /aluminium,9.6,DCT 7,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Skoda,Superb Elegance,1.8L TSI 160 hp 4x4,,250/1500-4200,160-118/5000,8.2,198,0.3/?/?,1563,1798,cast iron /aluminium,9.6,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,4wd
+Skoda,Superb,3.6L V6 FSI 260 hp AT 4x4,,350/2500-5000,260-191/6000,10,238,0.31/?/?,1740,3598,cast iron /aluminium,11.4,AT 6,225/45 R17,24V+VVT+GDI,4wd
+Skoda,Superb,1.9L TDI 105 hp,,250/1900,105-77/4000,5.7,151,0.3/?/?,1531,1896,cast iron /aluminium,18.5,MT,205/55 R16,8V+TGV+CAC,2wd
+Skoda,Superb,2.0L TDI 140 hp DPF,,320/1800-2500,140-103/4000,5.9,155,0.3/?/?,1565,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Skoda,Superb,2.0L TDI 140 hp DPF DSG 6,,320/1800-2500,140-103/4000,6.8,177,0.3/?/?,1587,1968,cast iron /aluminium,18.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Skoda,Superb Elegance,2.0L TDI 140 hp DPF,,320/1800-2500,140-103/4000,5.9,155,0.3/?/?,1565,1968,cast iron /aluminium,18.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Superb Elegance,2.0L TDI 140 hp DPF DSG 6,,320/1800-2500,140-103/4000,6.8,177,0.3/?/?,1587,1968,cast iron /aluminium,18.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Superb,2.0L TDI 170 hp DPF,,350/1750-2500,170-125/4200,5.8,153,0.3/?/?,1573,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Skoda,Superb,2.0L TDI 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,6.1,159,0.3/?/?,1590,1968,cast iron /aluminium,16.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Skoda,Superb,2.0L TDI 170 hp DPF DSG 6 4x4,,350/1750-2500,170-125/4200,6.4,168,0.3/?/?,1668,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,4wd
+Skoda,Superb Elegance,2.0L TDI 170 hp DPF,,350/1750-2500,170-125/4200,5.8,153,0.3/?/?,1573,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Superb Elegance,2.0L TDI 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,6.1,159,0.3/?/?,1590,1968,cast iron /aluminium,16.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Skoda,Superb Elegance,2.0L TDI 170 hp DPF DSG 6 4x4,,350/1750-2500,170-125/4200,6.4,168,0.3/?/?,1668,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,4wd
+Seat,Ibiza (2006),1.2L 64 hp 3 cyl.,,112/3000,64-47/5400,5.9,142,0.31/2.03/0.63,1015/1038,1198,aluminium/aluminium,10.5,MT,195/55 R15,12V,2wd
+Seat,Ibiza (2006),1.4L 75 hp,,126/3800,75-55/5000,6.5,156,0.31/2.03/0.63,1034/1057,1390,aluminium/aluminium,10.5,MT,195/55 R15,16V,2wd
+Seat,Ibiza (2006),1.4L 75 hp AT,,126/3800,75-55/5000,7.5,180,0.31/2.03/0.63,1067/1094,1390,aluminium/aluminium,10.5,AT 4,195/55 R15,16V,2wd
+Seat,Ibiza (2006),1.4L 100 hp,,126/4400,101-74/6000,6.6,158,0.31/2.03/0.63,1049/1073,1390,aluminium/aluminium,10.5,MT,195/55 R15,16V,2wd
+Seat,Ibiza (2006) Sport,1.4L 100 hp,,126/4400,101-74/6000,6.6,158,0.31/2.03/0.63,1049/1073,1390,aluminium/aluminium,10.5,MT,205/45 R16,16V,2wd
+Seat,Ibiza (2006) FR,1.8L T 150 hp,,220/1950-4500,150-110/5800,7.8,187,0.31/2.03/0.63,1154/1203,1781,cast iron /aluminium,9.5,MT,205/40 R17,20V+TC+CAC,2wd
+Seat,Ibiza (2006) Cupra,1.8L T 180 hp,,245/2000,180-132/5800,7.9,190,?,1177,1781,cast iron /aluminium,9.5,MT,205/40 R17,20V+TC+CAC,2wd
+Seat,Ibiza (2006),1.4L TDI 70 hp 3 cyl.,,155/2200,69-51/4000,4.7,127,0.31/2.03/0.63,1106/1131,1422,cast iron /aluminium,19.5,MT,195/55 R15,6V+TC+CAC,2wd
+Seat,Ibiza (2006),1.4L TDI 80 hp 3 cyl.,,195/2200,80-59/4000,4.6,124,0.31/2.03/0.63,1106/1131,1422,cast iron /aluminium,19.5,MT,195/55 R15,6V+TC+CAC,2wd
+Seat,Ibiza (2006) Sport,1.4L TDI 80 hp 3 cyl.,,195/2200,80-59/4000,4.6,124,0.31/2.03/0.63,1106/1131,1422,cast iron /aluminium,19.5,MT,205/45 R16,6V+TC+CAC,2wd
+Seat,Ibiza (2006),1.9L TDI 100 hp,,240/1800-2400,101-74/4000,4.9,132,0.31/2.03/0.63,1142/1165,1896,cast iron /aluminium,19,MT,195/55 R15,8V+TGV+CAC,2wd
+Seat,Ibiza (2006) Sport,1.9L TDI 100 hp,,240/1800-2400,101-74/4000,4.9,132,0.31/2.03/0.63,1142/1165,1896,cast iron /aluminium,19,MT,205/45 R16,8V+TGV+CAC,2wd
+Seat,Ibiza (2006) FR,1.9L TDI 130 hp,,310/1900,131-96/4000,5.2,140,0.31/2.03/0.63,1192/1218,1896,cast iron /aluminium,19,MT 6,205/40 R17,8V+TGV+CAC,2wd
+Seat,Ibiza (2006) Cupra,1.9L TDI 160 hp,,330/1900,160-118/3750,5.4,146,?,1215,1896,cast iron /aluminium,19,MT 6,205/40 R17,8V+TGV+CAC,2wd
+Seat,Ibiza (2006) Ecomotive,1.4L TDI 80 hp DPF 3 cyl.,,195/2200,80-59/4000,3.8,99,0.3/?/?,1159/1184,1422,cast iron /aluminium,19.5,MT,165/70 R14,6V+TC+CAC,2wd
+Seat,Ibiza SportCoup??,1.2L 70 hp 3 cyl.,,112/3000,69-51/5400,5.9,139,?,1049,1198,aluminium/aluminium,10.5,MT,185/60 R15,12V,2wd
+Seat,Ibiza SportCoup??,1.4L 85 hp,,132/3800,86-63/5000,6.2,149,?,1075,1390,aluminium/aluminium,10.5,MT,185/60 R15,16V,2wd
+Seat,Ibiza SportCoup?? Sport,1.4L 85 hp,,132/3800,86-63/5000,6.2,149,?,1075,1390,aluminium/aluminium,10.5,MT,215/45 R16,16V,2wd
+Seat,Ibiza SportCoup??,1.6L 105 hp,,153/3800,105-77/5600,6.6,157,?,1090,1598,aluminium/aluminium,10.5,MT,185/60 R15,16V,2wd
+Seat,Ibiza SportCoup??,1.6L 105 hp DSG 7,,153/3800,105-77/5600,6.2,148,?,1120,1598,aluminium/aluminium,10.5,DCT 7,185/60 R15,16V,2wd
+Seat,Ibiza SportCoup?? Sport,1.6L 105 hp,,153/3800,105-77/5600,6.6,157,?,1090,1598,aluminium/aluminium,10.5,MT,215/45 R16,16V,2wd
+Seat,Ibiza SportCoup?? Sport,1.6L 105 hp DSG 7,,153/3800,105-77/5600,6.2,148,?,1120,1598,aluminium/aluminium,10.5,DCT 7,215/45 R16,16V,2wd
+Seat,Ibiza SportCoup?? FR,1.4L TSI 150 hp DSG 7,,220/1250-4500,150-110/?,6.3,146,?,?,1390,cast iron /aluminium,?,DCT 7,215/40 R17,16V+TC+ROOTS+CAC+GDI,2wd
+Seat,Ibiza SportCoup?? Cupra,1.4L TSI 180 hp DSG 7,,250/1750-4500,180-132/?,6.7,159,?,1244,1390,cast iron /aluminium,?,DCT 7,215/40 R17,16V+TC+ROOTS+CAC+GDI,2wd
+Seat,Ibiza SportCoup??,1.4L TDI 80 hp DPF 3 cyl.,,195/2200,80-59/4000,4.3,114,?,1150,1422,cast iron /aluminium,19.5,MT,185/60 R15,6V+TC+CAC,2wd
+Seat,Ibiza SportCoup?? Ecomotive,1.4L TDI 80 hp DPF 3 cyl.,,195/2200,80-59/4000,3.7,98,?,1140,1422,cast iron /aluminium,19.5,MT,175/70 R14,6V+TC+CAC,2wd
+Seat,Ibiza SportCoup??,1.6L TDI CR 90 hp DPF,,210/1800-2500,90-66/4000,4.2,109,?,1175,1598,cast iron /aluminium,16.5,MT,185/60 R15,16V+TC+CAC,2wd
+Seat,Ibiza SportCoup?? Sport,1.6L TDI CR 90 hp DPF,,210/1800-2500,90-66/4000,4.2,109,?,1175,1598,cast iron /aluminium,16.5,MT,215/45 R16,16V+TC+CAC,2wd
+Seat,Ibiza SportCoup??,1.9L TDI 105 hp DPF,,240/1900,105-77/4000,4.5,119,?,1175,1896,cast iron /aluminium,19,MT,185/60 R15,8V+TGV+CAC,2wd
+Seat,Ibiza SportCoup?? Sport,1.9L TDI 105 hp DPF,,240/1900,105-77/4000,4.5,119,?,1175,1896,cast iron /aluminium,19,MT,215/45 R16,8V+TGV+CAC,2wd
+Seat,Ibiza,1.2L 70 hp 3 cyl.,,112/3000,69-51/5400,5.9,139,?,1074,1198,aluminium/aluminium,10.5,MT,185/60 R15,12V,2wd
+Seat,Ibiza,1.4L 85 hp,,132/3800,86-63/5000,6.2,149,?,1100,1390,aluminium/aluminium,10.5,MT,185/60 R15,16V,2wd
+Seat,Ibiza Sport,1.4L 85 hp,,132/3800,86-63/5000,6.2,149,?,1100,1390,aluminium/aluminium,10.5,MT,215/45 R16,16V,2wd
+Seat,Ibiza,1.6L 105 hp,,153/3800,105-77/5600,6.6,157,?,1115,1598,aluminium/aluminium,10.5,MT,185/60 R15,16V,2wd
+Seat,Ibiza,1.6L 105 hp DSG 7,,153/3800,105-77/5600,6.2,148,?,1145,1598,aluminium/aluminium,10.5,DCT 7,185/60 R15,16V,2wd
+Seat,Ibiza Sport,1.6L 105 hp,,153/3800,105-77/5600,6.6,157,?,1115,1598,aluminium/aluminium,10.5,MT,215/45 R16,16V,2wd
+Seat,Ibiza Sport,1.6L 105 hp DSG 7,,153/3800,105-77/5600,6.2,148,?,1145,1598,aluminium/aluminium,10.5,DCT 7,215/45 R16,16V,2wd
+Seat,Ibiza,1.4L TSI 150 hp DSG 7,,220/1250-4500,150-110/?,6.3,146,?,?,1390,cast iron /aluminium,?,DCT 7,215/40 R17,16V+TC+ROOTS+CAC+GDI,2wd
+Seat,Ibiza,1.4L TDI 80 hp DPF 3 cyl.,,195/2200,80-59/4000,4.3,114,?,1175,1422,cast iron /aluminium,19.5,MT,185/60 R15,6V+TC+CAC,2wd
+Seat,Ibiza Ecomotive,1.4L TDI 80 hp DPF 3 cyl.,,195/2200,80-59/4000,3.7,98,?,1165,1422,cast iron /aluminium,19.5,MT,175/70 R14,6V+TC+CAC,2wd
+Seat,Ibiza,1.6L TDI CR 90 hp DPF,,210/1800-2500,90-66/4000,4.2,109,?,?,1598,cast iron /aluminium,16.5,MT,185/60 R15,16V+TC+CAC,2wd
+Seat,Ibiza Sport,1.6L TDI CR 90 hp DPF,,210/1800-2500,90-66/4000,4.2,109,?,?,1598,cast iron /aluminium,16.5,MT,215/45 R16,16V+TC+CAC,2wd
+Seat,Ibiza,1.9L TDI 105 hp DPF,,240/1900,105-77/4000,4.5,119,?,1200,1896,cast iron /aluminium,19,MT,185/60 R15,8V+TGV+CAC,2wd
+Seat,Ibiza Sport,1.9L TDI 105 hp DPF,,240/1900,105-77/4000,4.5,119,?,1200,1896,cast iron /aluminium,19,MT,215/45 R16,8V+TGV+CAC,2wd
+Seat,Cordoba,1.4L 85 hp,,130/3800,86-63/5000,6.5,154,0.3/?/?,1150,1390,aluminium/aluminium,10.5,MT,195/55 R15,16V,2wd
+Seat,Cordoba,1.4L TDI 80 hp,,195/2200,80-59/4000,4.6,119,0.3/?/?,1219,1422,cast iron /aluminium,19.5,MT,195/55 R15,8V+TC+CAC,2wd
+Seat,Cordoba,1.9L TDI 100 hp,,240/1800-2400,101-74/4000,4.9,132,0.3/?/?,1246,1896,cast iron /aluminium,19,MT,195/55 R15,8V+TGV+CAC,2wd
+Seat,Cordoba Sport,1.9L TDI 100 hp,,240/1800-2400,101-74/4000,4.9,132,0.3/?/?,1246,1896,cast iron /aluminium,19,MT,205/45 R16,8V+TGV+CAC,2wd
+Seat,Leon,1.4L 85 hp,,130/3600-3800,86-63/5000,6.9,154,0.33/?/?,1251,1390,aluminium/aluminium,10.5,MT,195/65 R15,16V,2wd
+Seat,Leon,1.6L 102 hp,,148/3800,102-75/5600,7.2,169,0.33/?/?,1280,1595,cast iron /aluminium,10.5,MT,195/65 R15,8V,2wd
+Seat,Leon,1.4L TSI 125 hp,,200/1500-4000,125-92/5000,6.2,148,0.33/?/?,1324,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+CAC+GDI,2wd
+Seat,Leon Sport,1.4L TSI 125 hp,,200/1500-4000,125-92/5000,6.2,148,0.33/?/?,1324,1390,cast iron /aluminium,10,MT 6,225/45 R17,16V+TC+CAC+GDI,2wd
+Seat,Leon,1.8L TSI 160 hp,,250/1500-4200,160-118/5000,6.8,159,0.33/?/?,1395,1798,cast iron /aluminium,10.5,MT 6,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Seat,Leon Sport,1.8L TSI 160 hp,,250/1500-4200,160-118/5000,6.8,159,0.33/?/?,1395,1798,cast iron /aluminium,10.5,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Seat,Leon Sport,1.8L TSI 160 hp DSG 7,,250/1500-4200,160-118/5000,6.6,153,0.33/2.14/0.72,1370,1798,cast iron /aluminium,10.5,DCT 7,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Seat,Leon FR,2.0L TSI 211 hp,,280/1700-5200,211-155/5300,7.3,170,0.33/?/?,1395,1984,cast iron /aluminium,9.5,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Seat,Leon FR,2.0L TSI 211 hp,,280/1700-5200,211-155/5300,7.5,174,0.33/?/?,1425,1984,cast iron /aluminium,9.5,DCT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Seat,Leon Cupra,2.0L TSI 240 hp,,300/2200-5500,241-177/5700,8.2,199,0.33/?/?,1450,1984,cast iron /aluminium,10.3,MT 6,225/40 R18,16V+VVT+VA+TC+CAC+GDI,2wd
+Seat,Leon,1.9L TDI 90 hp,,210/1800-2500,90-66/4000,5,135,0.33/?/?,1365,1896,cast iron /aluminium,19,MT,195/65 R15,8V+TC+CAC,2wd
+Seat,Leon Ecomotive,1.9L TDI 105 hp DPF,,250/1900,105-77/4000,4.5,119,?,1325,1896,cast iron /aluminium,19,MT,195/65 R15,8V+TGV+CAC,2wd
+Seat,Leon,1.9L TDI 105 hp DPF DSG 6,,250/1900,105-77/4000,5.8,154,0.33/?/?,1395,1896,cast iron /aluminium,19,DCT 6,205/55 R16,8V+TGV+CAC,2wd
+Seat,Leon,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,5.6,147,0.33/?/?,1390,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Seat,Leon Sport,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,5.6,147,0.33/?/?,1390,1968,cast iron /aluminium,18.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Leon Sport,2.0L TDI 140 hp DSG 6,,320/1750-2500,140-103/4000,5.7,154,0.33/?/?,1430,1968,cast iron /aluminium,18.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Leon FR,2.0L TDI CR 170 hp DPF,,350/1750-2500,170-125/4200,5.3,139,0.33/?/?,1395,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Leon FR,2.0L TDI CR 170 hp DPF DSG 6,,350/1750-2500,170-125/4200,5.7,150,0.33/?/?,1420,1968,cast iron /aluminium,16.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Altea,1.4L 85 hp,,132/3800,86-63/5000,7.3,159,?,1366,1390,aluminium/aluminium,10.5,MT,195/65 R15,16V,2wd
+Seat,Altea,1.6L 102 hp,,148/3800,102-75/5600,7.3,173,?,1395,1595,aluminium/aluminium,10.3,MT,195/65 R15,8V,2wd
+Seat,Altea Style,1.6L 102 hp,,148/3800,102-75/5600,7.3,173,?,1395,1595,aluminium/aluminium,10.3,MT,205/55 R16,8V,2wd
+Seat,Altea,1.4L TSI 125 hp,,200/1500-4000,125-92/5000,6.4,152,?,1439,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+CAC+GDI,2wd
+Seat,Altea Sport,1.4L TSI 125 hp,,200/1500-4000,125-92/5000,6.4,152,?,1439,1390,cast iron /aluminium,10,MT 6,225/45 R17,16V+TC+CAC+GDI,2wd
+Seat,Altea,1.8L TSI 160 hp,,250/1500-4500,160-118/6200,7.1,165,?,1475,1798,cast iron /aluminium,9.6,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Seat,Altea,1.8L TSI 160 hp DSG 7,,250/1500-4500,160-118/6200,6.7,157,?,1495,1798,cast iron /aluminium,9.6,DCT 7,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Seat,Altea,1.9L TDI 105 hp,,250/1900,105-77/4000,5.4,142,?,1480,1896,cast iron /aluminium,18.5,MT,195/65 R15,8V+TGV+CAC,2wd
+Seat,Altea Style,1.9L TDI 105 hp,,250/1900,105-77/4000,5.4,142,?,1480,1896,cast iron /aluminium,18.5,MT,205/55 R16,8V+TGV+CAC,2wd
+Seat,Altea,1.9L TDI 105 hp DSG 6,,250/1900,105-77/4000,6,159,?,1510,1896,cast iron /aluminium,18.5,DCT 6,205/55 R16,8V+TGV+CAC,2wd
+Seat,Altea,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,5.8,157,?,1505,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Seat,Altea Sport,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,5.8,157,?,1505,1968,cast iron /aluminium,18.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Altea Sport,2.0L TDI 140 hp DSG 6,,320/1750-2500,140-103/4000,6,160,?,1540,1968,cast iron /aluminium,18.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Altea Sport,2.0L TDI CR 170 hp DPF,,350/1750-2500,170-125/4200,5.6,146,?,1505,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Altea XL,1.6L 102 hp,,148/3800,102-75/5600,7.5,178,0.32/?/?,1434,1595,aluminium/aluminium,10.5,MT,195/65 R15,8V,2wd
+Seat,Altea XL Style,1.6L 102 hp,,148/3800,102-75/5600,7.5,178,0.32/?/?,1434,1595,aluminium/aluminium,10.5,MT,205/55 R16,8V,2wd
+Seat,Altea XL,1.4L TSI 125 hp,,200/1500-4000,125-92/5000,6.4,152,0.32/?/?,1478,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+CAC+GDI,2wd
+Seat,Altea XL Sport,1.4L TSI 125 hp,,200/1500-4000,125-92/5000,6.4,152,0.32/?/?,1478,1390,cast iron /aluminium,10,MT 6,225/45 R17,16V+TC+CAC+GDI,2wd
+Seat,Altea XL,1.8L TSI 160 hp,,250/1500-4200,160-118/5000,7.1,165,0.32/?/?,1505,1798,cast iron /aluminium,10.5,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Seat,Altea XL,1.8L TSI 160 hp DSG 7,,250/1500-4200,160-118/5000,6.8,159,0.32/?/?,1525,1798,cast iron /aluminium,10.5,DCT 7,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Seat,Altea XL,1.9L TDI 105 hp,,250/1900,105-77/4000,5.4,146,0.32/?/?,1519,1896,cast iron /aluminium,19,MT,195/65 R15,8V+TGV+CAC,2wd
+Seat,Altea XL Style,1.9L TDI 105 hp,,250/1900,105-77/4000,5.4,146,0.32/?/?,1519,1896,cast iron /aluminium,19,MT,205/55 R16,8V+TGV+CAC,2wd
+Seat,Altea XL Style,1.9L TDI 105 hp DPF DSG 6,,250/1900,105-77/4000,6,159,0.32/?/?,1549,1896,cast iron /aluminium,19,DCT 6,205/55 R16,8V+TGV+CAC,2wd
+Seat,Altea XL,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,5.9,157,0.32/?/?,1544,1968,cast iron /aluminium,18,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Seat,Altea XL Sport,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,5.9,157,0.32/?/?,1544,1968,cast iron /aluminium,18,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Altea XL Sport,2.0L TDI 140 hp DSG 6,,320/1750-2500,140-103/4000,6,162,0.32/?/?,1579,1968,cast iron /aluminium,18,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Altea XLSport,2.0L TDI CR 170 hp DPF,,350/1750-2500,170-125/4200,5.7,149,0.32/?/?,1544,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Altea Freetrack,2.0L TDI 140 hp DPF,,320/1750-2500,140-103/4000,6.1,163,0.35/?/?,1579,1968,cast iron /aluminium,18.5,MT 6,225/50 R17,16V+TGV+CAC,2wd
+Seat,Altea Freetrack,2.0L TDI 140 hp DPF 4x4,,320/1750-2500,140-103/4000,6.5,171,0.35/?/?,1643,1968,cast iron /aluminium,18.5,MT 6,225/50 R17,16V+TGV+CAC,4wd
+Seat,Altea Freetrack,2.0L TDI 170 hp DPF 4x4,,350/1750-2500,170-125/4200,6,159,0.35/?/?,1615,1968,cast iron /aluminium,16.5,MT 6,225/50 R17,16V+TGV+CAC,4wd
+Seat,Altea Freetrack,2.0L TSI 211 hp DSG 6 4x4,,280/1700-5200,211-155/5300,8.4,197,0.35/?/?,1661,1984,cast iron /aluminium,9.6,DCT 6,225/50 R17,16V+VVT+TC+CAC+GDI,4wd
+Seat,Toledo,1.6L 102 hp,,148/3800,102-75/5600,7.7,185,0.32/?/?,1419,1595,cast iron /aluminium,10.5,MT,205/55 R16,8V,2wd
+Seat,Toledo,2.0L FSI 150 hp,,200/3500,150-110/6000,8.4,201,0.32/?/?,1474,1984,aluminium/aluminium,11.5,MT 6,205/55 R16,16V+VVT+VA+GDI,2wd
+Seat,Toledo Sport-up,2.0L FSI 150 hp,,200/3500,150-110/6000,8.4,201,0.32/?/?,1474,1984,aluminium/aluminium,11.5,MT 6,225/45 R17,16V+VVT+VA+GDI,2wd
+Seat,Toledo,2.0L FSI 150 hp Tiptronic,,200/3500,150-110/6000,8.9,214,0.32/?/?,1515,1984,aluminium/aluminium,11.5,AT 6,205/55 R16,16V+VVT+VA+GDI,2wd
+Seat,Toledo Sport-up,2.0L FSI 150 hp Tiptronic,,200/3500,150-110/6000,9.1,218,0.32/?/?,1515,1984,aluminium/aluminium,11.5,AT 6,225/45 R17,16V+VVT+VA+GDI,2wd
+Seat,Toledo,1.9L TDI 105 hp,,250/1900,105-77/4000,5.4,146,0.32/?/?,1504,1896,cast iron /aluminium,19,MT,205/55 R16,8V+TGV+CAC,2wd
+Seat,Toledo,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,5.9,159,0.32/?/?,1529,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Seat,Toledo Sport-up,2.0L TDI 140 hp,,320/1750-2500,140-103/4000,5.8,157,0.32/?/?,1529,1968,cast iron /aluminium,18.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Toledo,2.0L TDI 140 hp DSG 6,,320/1750-2500,140-103/4000,6.2,168,0.32/?/?,1564,1968,cast iron /aluminium,18.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Seat,Toledo Sport-up,2.0L TDI 140 hp DSG 6,,320/1750-2500,140-103/4000,6,160,0.32/?/?,1564,1968,cast iron /aluminium,18.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Toledo,2.0L TDI 170 hp,,350/1800,170-125/4200,6.2,167,0.32/?/?,1529,1968,cast iron /aluminium,18.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Seat,Toledo Sport-up,2.0L TDI 170 hp,,350/1800,170-125/4200,6.2,167,0.32/?/?,1529,1968,cast iron /aluminium,18.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Exeo,1.6L 102 hp,,148/3800,102-75/5600,7.5,175,0.29/2.14/0.62,1385,1595,cast iron /aluminium,10.5,MT 6,205/55 R16,8V,2wd
+Seat,Exeo,1.8L 150 hp,,220/2000,150-110/5500,7.9,184,0.29/2.14/0.62,1475,1781,cast iron /aluminium,9.5,MT 6,205/55 R16,20V+TC+CAC,2wd
+Seat,Exeo Sport,1.8L 150 hp,,220/2000,150-110/5500,7.9,184,0.29/2.14/0.62,1475,1781,cast iron /aluminium,9.5,MT,225/45 R17,20V+TC+CAC,2wd
+Seat,Exeo,2.0L TSI 200 hp,,280/1800-5000,200-147/6000,7.7,179,0.29/2.14/0.62,1505,1984,cast iron /aluminium,10.5,MT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Seat,Exeo,2.0L TDI CR 143 hp DPF,,320/1750-2500,143-105/4200,5.5,146,0.29/2.14/0.62,1505,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Seat,Exeo Sport,2.0L TDI CR 143 hp DPF,,320/1750-2500,143-105/4200,5.5,146,0.29/2.14/0.62,1505,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Exeo,2.0L TDI CR 170 DPF hp,,350/1750-2500,170-125/4200,5.9,153,0.29/2.14/0.62,1530,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Exeo ST,1.6L 102 hp,,148/3800,102-75/5600,7.7,179,?,1445,1595,cast iron /aluminium,10.5,MT 6,205/55 R16,8V,2wd
+Seat,Exeo ST,1.8L 150 hp,,220/1800,150-110/5700,8.1,189,?,1535,1781,cast iron /aluminium,9.5,MT 6,205/55 R16,20V+TC+CAC,2wd
+Seat,Exeo ST Sport,1.8L 150 hp,,220/1800,150-110/5700,8.1,189,?,1535,1781,cast iron /aluminium,9.5,MT 6,225/45 R17,20V+TC+CAC,2wd
+Seat,Exeo ST,2.0L TSI 200 hp,,280/1800-5000,200-147/6000,7.9,184,?,1565,1984,cast iron /aluminium,10.5,MT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Seat,Exeo ST,2.0L TDI CR 143 hp DPF,,320/1750-2500,143-105/4200,5.7,149,?,1565,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Seat,Exeo ST Sport,2.0L TDI CR 143 hp DPF,,320/1750-2500,143-105/4200,5.7,149,?,1565,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Exeo ST,2.0L TDI CR 170 DPF hp,,350/1750-2500,170-125/4200,5.9,159,?,1590,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Seat,Alhambra,1.8L 150 hp,,220/1800,150-110/5800,9.4,225,0.31/?/?,1674,1781,cast iron /aluminium,9.5,MT 6,225/45 R17,20V+TC+CAC,2wd
+Seat,Alhambra,1.9L TDI 115 hp,,310/1900,116-85/4000,6.5,172,0.31/?/?,1724,1896,cast iron /aluminium,18,MT 6,215/55 R16,8V+TGV+CAC,2wd
+Seat,Alhambra,1.9L TDI 115 hp Tiptronic,,310/1900,116-85/4000,7.4,196,0.31/?/?,1757,1896,cast iron /aluminium,18,AT 5,215/55 R16,8V+TGV+CAC,2wd
+Seat,Alhambra Sport +,1.9L TDI 115 hp Tiptronic,,310/1900,116-85/4000,7.4,196,0.31/?/?,1757,1896,cast iron /aluminium,18,AT 5,225/45 R17,8V+TGV+CAC,2wd
+Seat,Alhambra,1.9L TDI 115 hp 4x4,,310/1900,116-85/4000,7.1,188,0.31/?/?,1784,1896,cast iron /aluminium,18,MT 6,215/55 R16,8V+TGV+CAC,4wd
+Seat,Alhambra,2.0L TDI 140 hp,,310/1750,140-103/4000,6.6,175,0.31/?/?,1740,1968,cast iron /aluminium,18,MT 6,215/55 R16,16V+TGV+CAC,2wd
+Seat,Alhambra Ecomotive,2.0L TDI 140 hp,,310/1750,140-103/4000,6,159,0.31/?/?,1740,1968,cast iron /aluminium,18,MT 6,195/60 R16,16V+TGV+CAC,2wd
+Seat,Alhambra Sport +,2.0L TDI 140 hp,,310/1750,140-103/4000,6.6,175,0.31/?/?,1740,1968,cast iron /aluminium,18,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Audi,A3,1.4L TFSI 125 hp,,200/1500-4000,125-92/5000,5.9,140,0.33/2.13/0.7,1320/1360,1390,cast iron /aluminium,10,MT 6,205/55 R16,16V+TC+CAC+GDI,2wd
+Audi,A3 Ambiente,1.4L TFSI 125 hp,,200/1500-4000,125-92/5000,5.9,140,0.33/2.13/0.7,1320/1360,1390,cast iron /aluminium,10,MT 6,225/45 R17,16V+TC+CAC+GDI,2wd
+Audi,A3,1.4L TFSI 125 hp S-tronic 7,,200/1500-4000,125-92/5000,5.6,133,0.33/2.13/0.7,1345/1385,1390,cast iron /aluminium,10,DCT 7,205/55 R16,16V+TC+CAC+GDI,2wd
+Audi,A3 Ambiente,1.4L TFSI 125 hp S-tronic 7,,200/1500-4000,125-92/5000,5.6,133,0.33/2.13/0.7,1345/1385,1390,cast iron /aluminium,10,DCT 7,225/45 R17,16V+TC+CAC+GDI,2wd
+Audi,A3,1.8L TFSI 160 hp,,250/1500-4200,160-118/5000,6.7,155,0.33/2.13/0.7,1355/1395,1798,cast iron /aluminium,9.6,MT 6,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A3 Ambiente,1.8L TFSI 160 hp,,250/1500-4200,160-118/5000,6.7,155,0.33/2.13/0.7,1355/1395,1798,cast iron /aluminium,9.6,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A3,1.8L TFSI 160 hp S-tronic 7,,250/1500-4200,160-118/5000,6.6,153,0.33/2.13/0.7,1370/1410,1798,cast iron /aluminium,9.6,DCT 7,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A3 Ambiente,1.8L TFSI 160 hp S-tronic 7,,250/1500-4200,160-118/5000,6.6,153,0.33/2.13/0.7,1370/1410,1798,cast iron /aluminium,9.6,DCT 7,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A3 Ambiente,1.8L TFSI 160 hp quattro,,250/1500-4200,160-118/5000,7.5,174,0.33/2.13/0.7,1450/1490,1798,cast iron /aluminium,9.6,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,4wd
+Audi,A3,2.0L TFSI 200 hp,,280/1800-5000,200-147/6000,7.1,164,0.33/2.13/0.7,1370/1410,1984,cast iron /aluminium,10.5,MT 6,205/55 R16,16V+VVT+VA+TC+CAC+GDI,2wd
+Audi,A3 Ambiente,2.0L TFSI 200 hp,,280/1800-5000,200-147/6000,7.1,164,0.33/2.13/0.7,1370/1410,1984,cast iron /aluminium,10.5,MT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Audi,A3,2.0L TFSI 200 hp S-tronic 6,,280/1800-5000,200-147/6000,7.2,166,0.33/2.13/0.7,1405/1445,1984,cast iron /aluminium,10.5,DCT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Audi,A3,2.0L TFSI 200 hp quattro S-tronic 6,,280/1800-5000,200-147/6000,7.5,174,0.33/2.13/0.7,1490/1530,1984,cast iron /aluminium,10.5,DCT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,4wd
+Audi,S3,2.0L TFSI 265 hp quattro,,350/2500-5000,265-195/6000,8.5,198,0.33/2.13/0.7,1530/1570,1984,cast iron /aluminium,9.8,MT 6,225/40 R18 92 Y,16V+VVT+TC+CAC+GDI,4wd
+Audi,S3,2.0L TFSI 265 hp quattro S-tronic 6,,350/2500-5000,265-195/6000,8.3,193,0.33/2.13/0.7,1550/1590,1984,cast iron /aluminium,9.8,DCT 6,225/40 R18 92 Y,16V+VVT+TC+CAC+GDI,4wd
+Audi,A3,3.2L V6 250 hp quattro S-tronic 6,,320/2500-3000,250-184/6300,9.4,224,0.33/2.13/0.7,1585/1625,3189,cast iron /aluminium,11.3,DCT 6,225/45 R17,24V+VVT+VA,4wd
+Audi,A3,1.9L TDIe 105 hp DPF,,250/1900,105-77/4000,4.5,119,?,1355/?,1896,cast iron /aluminium,18.5,MT,205/55 R16,8V+TGV+CAC,2wd
+Audi,A3 Ambiente,1.9L TDIe 105 hp DPF,,250/1900,105-77/4000,4.5,119,?,1355/?,1896,cast iron /aluminium,18.5,MT,225/45 R17,8V+TGV+CAC,2wd
+Audi,A3,1.9L TDI 105 hp,,250/1900,105-77/4000,5.1,135,0.33/2.13/0.7,1370/1410,1896,cast iron /aluminium,19,MT,205/55 R16,8V+TGV+CAC,2wd
+Audi,A3 Ambiente,1.9L TDI 105 hp,,250/1900,105-77/4000,5.1,135,0.33/2.13/0.7,1370/1410,1896,cast iron /aluminium,19,MT,225/45 R17,8V+TGV+CAC,2wd
+Audi,A3,1.9L TDI 105 hp DPF,,250/1900,105-77/4000,4.7,124,0.33/2.13/0.7,1355/1395,1896,cast iron /aluminium,19,MT,205/55 R16,8V+TGV+CAC,2wd
+Audi,A3 Ambiente,1.9L TDI 105 hp DPF,,250/1900,105-77/4000,4.7,124,0.33/2.13/0.7,1355/1395,1896,cast iron /aluminium,19,MT,225/45 R17,8V+TGV+CAC,2wd
+Audi,A3,1.9L TDI 105 hp DPF S-tronic 6,,250/1900,105-77/4000,5.9,144,0.33/2.13/0.7,1395/1435,1896,cast iron /aluminium,19,DCT 6,205/55 R16,8V+TGV+CAC,2wd
+Audi,A3 Ambiente,1.9L TDI 105 hp DPF S-tronic 6,,250/1900,105-77/4000,5.9,144,0.33/2.13/0.7,1395/1435,1896,cast iron /aluminium,19,DCT 6,225/45 R17,8V+TGV+CAC,2wd
+Audi,A3,2.0L TDI 140 hp DPF,,320/1750-2500,140-103/4200,5.1,134,0.33/2.13/0.7,1395/1435,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Audi,A3 Ambiente,2.0L TDI 140 hp DPF,,320/1750-2500,140-103/4200,5.1,134,0.33/2.13/0.7,1395/1435,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Audi,A3,2.0L TDI 140 hp DPF S-tronic 6,,320/1750-2500,140-103/4200,5.4,143,0.33/2.13/0.7,1420/1460,1968,cast iron /aluminium,16.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Audi,A3 Ambiente,2.0L TDI 140 hp DPF S-tronic 6,,320/1750-2500,140-103/4200,5.4,143,0.33/2.13/0.7,1420/1460,1968,cast iron /aluminium,16.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Audi,A3,2.0L TDI 140 hp DPF quattro,,320/1750-2500,140-103/4200,5.6,146,0.33/2.13/0.7,1495/1535,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,4wd
+Audi,A3 Ambiente,2.0L TDI 140 hp DPF quattro,,320/1750-2500,140-103/4200,5.6,146,0.33/2.13/0.7,1495/1535,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,4wd
+Audi,A3,2.0L TDI 170 hp DPF,,350/1750-2500,170-125/4200,5.2,139,0.33/2.13/0.7,1395/1435,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Audi,A3 Ambiente,2.0L TDI 170 hp DPF,,350/1750-2500,170-125/4200,5.2,139,0.33/2.13/0.7,1395/1435,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Audi,A3,2.0L TDI 170 hp DPF S-tronic 6,,350/1750-2500,170-125/4200,5.6,147,0.33/2.13/0.7,1420/1460,1968,cast iron /aluminium,16.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Audi,A3 Ambiente,2.0L TDI 170 hp DPF S-tronic 6,,350/1750-2500,170-125/4200,5.6,147,0.33/2.13/0.7,1420/1460,1968,cast iron /aluminium,16.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Audi,A3,2.0L TDI 170 hp DPF quattro,,350/1750-2500,170-125/4200,5.6,148,0.33/2.13/0.7,1500/1540,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,4wd
+Audi,A3 Ambiente,2.0L TDI 170 hp DPF quattro,,350/1750-2500,170-125/4200,5.6,148,0.33/2.13/0.7,1500/1540,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,4wd
+Audi,A3 Cabrio,1.6L 102 hp,,148/3800,102-75/5600,7,167,0.33/2.13/0.7,1405,1595,aluminium/aluminium,10.3,MT,205/55 R16,8V,2wd
+Audi,A3 Cabrio Ambition,1.6L 102 hp,,148/3800,102-75/5600,7,167,0.33/2.13/0.7,1405,1595,aluminium/aluminium,10.3,MT,225/45 R17,8V,2wd
+Audi,A3 Cabrio,1.8L TFSI 160 hp,,250/1500-4200,160-118/5000,6.8,159,0.33/2.13/0.7,1500,1798,cast iron /aluminium,9.6,MT 6,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A3 Cabrio Ambition,1.8L TFSI 160 hp,,250/1500-4200,160-118/5000,6.8,159,0.33/2.13/0.7,1500,1798,cast iron /aluminium,9.6,MT 6,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A3 Cabrio,1.8L TFSI 160 hp S-tronic 7,,250/1500-4200,160-118/5000,6.7,156,0.33/2.13/0.7,1530,1798,cast iron /aluminium,9.6,DCT 7,205/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A3 Cabrio Ambition,1.8L TFSI 160 hp S-tronic 7,,250/1500-4200,160-118/5000,6.7,156,0.33/2.13/0.7,1530,1798,cast iron /aluminium,9.6,DCT 7,225/45 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A3 Cabrio,2.0L TFSI 200 hp,,280/1800-5000,200-147/6000,7.2,169,0.33/2.13/0.7,1510,1984,cast iron /aluminium,10.5,MT 6,205/55 R16,16V+VVT+VA+TC+CAC+GDI,2wd
+Audi,A3 Cabrio Ambition,2.0L TFSI 200 hp,,280/1800-5000,200-147/6000,7.2,169,0.33/2.13/0.7,1510,1984,cast iron /aluminium,10.5,MT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Audi,A3 Cabrio Ambition,2.0L TFSI 200 hp,,280/1800-5000,200-147/6000,7.3,171,0.33/2.13/0.7,1560,1984,cast iron /aluminium,10.5,DCT 6,225/45 R17,16V+VVT+VA+TC+CAC+GDI,2wd
+Audi,A3 Cabrio,1.9L TDI 105 hp,,250/1900,105-77/4000,5.1,134,0.33/2.13/0.7,1500,1896,cast iron /aluminium,18.5,MT,205/55 R16,8V+TGV+CAC,2wd
+Audi,A3 Cabrio Ambition,1.9L TDI 105 hp,,250/1900,105-77/4000,5.1,134,0.33/2.13/0.7,1500,1896,cast iron /aluminium,18.5,MT,225/45 R17,8V+TGV+CAC,2wd
+Audi,A3 Cabrio,2.0L TDI 140 hp DPF,,320/1750-2500,140-103/4200,5.3,139,0.33/2.13/0.7,1550,1968,cast iron /aluminium,16.5,MT 6,205/55 R16,16V+TGV+CAC,2wd
+Audi,A3 Cabrio Ambition,2.0L TDI 140 hp DPF,,320/1750-2500,140-103/4200,5.3,139,0.33/2.13/0.7,1550,1968,cast iron /aluminium,16.5,MT 6,225/45 R17,16V+TGV+CAC,2wd
+Audi,A3 Cabrio,2.0L TDI 140 hp DPF S-tronic 6,,320/1750-2500,140-103/4200,5.6,148,0.33/2.13/0.7,1570,1968,cast iron /aluminium,16.5,DCT 6,205/55 R16,16V+TGV+CAC,2wd
+Audi,A3 Cabrio Ambition,2.0L TDI 140 hp DPF S-tronic 6,,320/1750-2500,140-103/4200,5.6,148,0.33/2.13/0.7,1570,1968,cast iron /aluminium,16.5,DCT 6,225/45 R17,16V+TGV+CAC,2wd
+Audi,TT,1.8L TFSI 160 hp,,250/1500-4500,160-118/6200,6.7,155,0.3/2.09/0.63,1315,1798,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,TT,2.0L TFSI 200 hp,,280/1800-5000,200-147/5100,7.7,178,0.3/2.09/0.63,1335,1984,cast iron /aluminium,10.3,MT 6,225/55 R16,16V+VVT+VA+TC+CAC+GDI,2wd
+Audi,TT,2.0L TFSI 200 hp S-tronic 6,,280/1800-5000,200-147/5100,7.7,178,0.3/2.09/0.63,1335,1984,cast iron /aluminium,10.3,DCT 6,225/55 R16,16V+VVT+VA+TC+CAC+GDI,2wd
+Audi,TT,2.0L TFSI 200 hp quattro S-tronic 6,,280/1800-5000,200-147/5100,7.7,178,0.3/2.09/0.63,1435,1984,cast iron /aluminium,10.3,DCT 6,225/55 R16,16V+VVT+VA+TC+CAC+GDI,4wd
+Audi,TT,3.2L V6 250 hp quattro,,320/2500-3000,250-184/6300,10.3,247,0.31/2.09/0.65,1485,3189,cast iron /aluminium,11.3,MT 6,245/45 R17,24V+VVT+VA,4wd
+Audi,TT,3.2L V6 250 hp quattro S-tronic 6,,320/2500-3000,250-184/6300,9.4,224,0.31/2.09/0.65,1505,3189,cast iron /aluminium,11.3,DCT 6,245/45 R17,24V+VVT+VA,4wd
+Audi,TTS,2.0L TFSI 272 hp quattro,,350/2500-5000,272-200/6000,8.1,188,0.31/2.09/0.65,1470,1984,aluminium/aluminium,9.8,MT 6,245/40 R18 93 Y,16V+VVT+VA+TC+CAC+GDI,4wd
+Audi,TTS,2.0L TFSI 272 hp quattro S-tronic 6,,350/2500-5000,272-200/6000,7.9,184,0.31/2.09/0.65,1490,1984,aluminium/aluminium,9.8,DCT 6,245/40 R18 93 Y,16V+VVT+VA+TC+CAC+GDI,4wd
+Audi,TT RS,2.5L 340 hp quattro 5 cyl.,,450/1600-5300,340-250/6500,9.2,214,0.32/2.09/0.67,1525,2480,cast iron /aluminium,10,MT 6,245/40 R18 93 Y,20V+VVT+TC+CAC+GDI,4wd
+Audi,TT,2.0L TDI 170 hp DPF quattro,,350/1750-2500,170-125/4200,5.3,139,0.3/2.09/0.63,1445,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,4wd
+Audi,TT Roadster,1.8L TFSI 160 hp,,250/1500-4500,160-118/6200,6.9,159,0.32/2.09/0.67,1360,1798,cast iron /aluminium,9.6,MT 6,225/55 R16 95 W,16V+VVT+TC+CAC+GDI,2wd
+Audi,TT Roadster,2.0L TFSI 200 hp,,280/1800-5000,200-147/5100,7.8,181,0.32/2.09/0.67,1370,1984,cast iron /aluminium,10.3,MT 6,225/55 R16 95 W,16V+VVT+VA+TC+CAC+GDI,2wd
+Audi,TT Roadster,2.0L TFSI 200 hp S-tronic 6,,280/1800-5000,200-147/5100,7.8,181,0.32/2.09/0.67,1390,1984,cast iron /aluminium,10.3,DCT 6,225/55 R16 95 W,16V+VVT+VA+TC+CAC+GDI,2wd
+Audi,TT Roadster,2.0L TFSI 200 hp quattro S-tronic 6,,280/1800-5000,200-147/5100,7.8,181,0.32/2.09/0.67,1480,1984,cast iron /aluminium,10.3,DCT 6,225/55 R16,16V+VVT+VA+TC+CAC+GDI,4wd
+Audi,TT Roadster,3.2L V6 250 hp quattro,,320/2500-3000,250-184/6300,10.4,250,0.33/2.09/0.69,1545,3189,cast iron /aluminium,11.3,MT 6,245/45 R17 95 Y,24V+VVT+VA,4wd
+Audi,TT Roadster,3.2L V6 250 hp quattro S-tronic 6,,320/2500-3000,250-184/6300,9.5,227,0.32/2.09/0.67,1565,3189,cast iron /aluminium,11.3,DCT 6,245/45 R17 95 Y,24V+VVT+VA,4wd
+Audi,TTS Roadster,2.0L TFSI 272 hp quattro,,350/2500-5000,272-200/6000,8.3,193,0.33/2.09/0.69,1530,1984,aluminium/aluminium,9.8,MT 6,245/40 R18 93 Y,16V+VVT+VA+TC+CAC+GDI,4wd
+Audi,TTS Roadster,2.0L TFSI 272 hp quattro S-tronic 6,,350/2500-5000,272-200/6000,8,187,0.33/2.09/0.69,1550,1984,aluminium/aluminium,9.8,DCT 6,245/40 R18 93 Y,16V+VVT+VA+TC+CAC+GDI,4wd
+Audi,TT RS Roadster,2.5L 340 hp quattro 5 cyl.,,450/1600-5300,340-250/6500,9.5,221,?,1585,2480,cast iron /aluminium,10,MT 6,245/40 R18 93 Y,20V+VVT+TC+CAC+GDI,4wd
+Audi,TT Roadster,2.0L TDI 170 hp DPF quattro,,350/1750-2500,170-125/4200,5.5,144,0.32/2.09/0.67,1490,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,4wd
+Audi,A4,1.8L TFSI 120 hp,,250/1500-3650,120-88.2/6200,7.1,164,0.27/2.19/0.59,1485,1798,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4,1.8L TFSI 120 hp multitronic,,250/1500-3650,120-88.2/6200,7.2,165,0.27/2.19/0.59,1545,1798,cast iron /aluminium,9.6,hpT,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4,1.8L TFSI 160 hp,,250/1500-4500,160-118/6200,7.1,164,0.27/2.19/0.59,1485,1798,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4,1.8L TFSI 160 hp multitronic,,250/1500-4500,160-118/6200,7.2,165,0.27/2.19/0.59,1545,1798,cast iron /aluminium,9.6,hpT,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4,1.8L TFSI 160 hp quattro,,250/1500-4500,160-118/6200,7.6,176,?,1585,1798,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,4wd
+Audi,A4,2.0L TFSI 180 hp,,320/1500-3900,180-132/4000,6.6,154,0.27/2.19/0.59,1505,1984,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4,2.0L TFSI 180 hp multitronic,,320/1500-3900,180-132/4000,7.1,167,0.27/2.19/0.59,1540,1984,cast iron /aluminium,9.6,hpT,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4,2.0L TFSI 211 hp,,350/1500-4200,211-155/6000,6.6,154,0.27/2.19/0.59,1510,1984,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4,2.0L TFSI 211 hp multitronic,,350/1500-4200,211-155/6000,7.1,167,0.27/2.19/0.59,1555,1984,cast iron /aluminium,9.6,hpT,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4,2.0L TFSI 211 hp quattro,,350/1500-4200,211-155/6000,7.4,172,0.27/2.19/0.59,1595,1984,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,4wd
+Audi,A4,2.0L TFSI 211 hp quattro S-tronic 7,,350/1500-4200,211-155/6000,7.4,172,0.27/2.19/0.59,1640,1984,cast iron /aluminium,9.6,DCT 7,225/55 R16,16V+VVT+TC+CAC+GDI,4wd
+Audi,A4,3.2L V6 FSI 265 hp multitronic,,330/3000-5000,265-195/6500,8.2,194,?,1605,3123,cast iron /aluminium,12.5,hpT,225/50 R17,24V+VVT+VA+GDI,2wd
+Audi,A4,3.2L V6 FSI 265 hp quattro,,330/3000-5000,265-195/6500,8.9,213,0.28/2.19/0.61,1655,3123,cast iron /aluminium,12.5,MT 6,225/50 R17,24V+VVT+VA+GDI,4wd
+Audi,A4,3.2L V6 FSI 265 hp quattro tiptronic,,330/3000-5000,265-195/6500,9,215,0.28/2.19/0.61,1685,3123,cast iron /aluminium,12.5,AT 6,225/50 R17,24V+VVT+VA+GDI,4wd
+Audi,S4,3.0L V6 TFSI 333 hp quattro,,440/2900-5300,333-245/7000,9.7,225,0.282/2.2/0.62,1725,2995,aluminium/aluminium,10.3,MT 6,245/40 R18,24V+VVT+ROOTS+CAC+GDI,4wd
+Audi,S4,3.0L V6 TFSI 333 hp quattro S-tronic 7,,440/2900-5300,333-245/7000,9.4,219,0.282/2.2/0.62,1760,2995,aluminium/aluminium,10.3,DCT 7,245/40 R18,24V+VVT+ROOTS+CAC+GDI,4wd
+Audi,A4,2.0L TDI 120 hp DPF,,290/1750-2500,120-88/4200,5.1,134,0.27/2.19/0.59,1540,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,2wd
+Audi,A4,2.0L TDI 143 hp DPF,,320/1750-2500,143-105/4200,5.3,139,0.27/2.19/0.59,1535,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,2wd
+Audi,A4,2.0L TDI 143 hp DPF multitronic,,320/1750-2500,143-105/4200,5.8,154,0.27/2.19/0.59,1570,1968,cast iron /aluminium,16.5,hpT,225/55 R16,16V+TGV+CAC,2wd
+Audi,A4,2.0L TDI 143 hp DPF quattro,,320/1750-2500,143-105/4200,5.9,155,0.27/2.19/0.59,1630,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,4wd
+Audi,A4,2.0L TDI 170 hp DPF,,350/1750-2500,170-125/4200,5.3,140,?,1535,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,2wd
+Audi,A4,2.0L TDI 170 hp DPF quattro,,350/1750-2500,170-125/4200,5.9,156,?,1630,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,4wd
+Audi,A4,2.7L V6 TDI 190 hp DPF,,400/1400-3250,190-140/3500,6,159,0.28/2.19/0.61,1645,2698,cast iron /aluminium,16.8,MT 6,225/55 R16,24V+VA+TGV+CAC,2wd
+Audi,A4,2.7L V6 TDI 190 hp DPF multitronic,,400/1400-3250,190-140/3500,6.4,167,0.28/2.19/0.61,1670,2698,cast iron /aluminium,16.8,hpT,225/55 R16,24V+VA+TGV+CAC,2wd
+Audi,A4,3.0L V6 TDI 240 hp DPF quattro,,500/1500-3000,239-176/4400,6.6,173,0.28/2.19/0.61,1730,2967,cast iron /aluminium,16.8,MT 6,225/55 R16,24V+VA+TGV+CAC,4wd
+Audi,A4,3.0L V6 TDI 240 hp DPF quattro tiptronic,,500/1500-3000,239-176/4400,6.9,182,0.28/2.19/0.61,1765,2967,cast iron /aluminium,16.8,AT 6,225/55 R16,24V+VA+TGV+CAC,4wd
+Audi,A4 Avant,1.8L TFSI 120 hp,,250/1500-3650,120-88.2/6200,7.2,169,0.31/2.2/0.68,1545,1798,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4 Avant,1.8L TFSI 120 hp multitronic,,250/1500-3650,120-88.2/6200,7.5,174,0.31/2.2/0.68,1590,1798,cast iron /aluminium,9.6,hpT,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4 Avant,1.8L TFSI 160 hp,,250/1500-4500,160-118/6200,7.2,169,0.31/2.2/0.68,1545,1798,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4 Avant,1.8L TFSI 160 hp multitronic,,250/1500-4500,160-118/6200,7.5,174,0.31/2.2/0.68,1585,1798,cast iron /aluminium,9.6,hpT,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4 Avant,1.8L TFSI 160 hp quattro,,250/1500-4500,160-118/6200,7.7,179,?,1635,1798,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,4wd
+Audi,A4 Avant,2.0L TFSI 180 hp,,320/1500-3900,180-132/4000,6.8,159,?,1565,1984,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4 Avant,2.0L TFSI 180 hp multitronic,,320/1500-3900,180-132/4000,7.3,172,0.31/2.2/0.68,1600,1984,cast iron /aluminium,9.6,hpT,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4 Avant,2.0L TFSI 211 hp,,350/1500-4200,211-155/6000,6.8,159,0.31/2.2/0.68,1570,1984,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4 Avant,2.0L TFSI 211 hp multitronic,,350/1500-4200,211-155/6000,7.3,172,0.31/2.2/0.68,1605,1984,cast iron /aluminium,9.6,hpT,225/55 R16,16V+VVT+TC+CAC+GDI,2wd
+Audi,A4 Avant,2.0L TFSI 211 hp quattro,,350/1500-4200,211-155/6000,7.6,176,0.31/2.2/0.68,1640,1984,cast iron /aluminium,9.6,MT 6,225/55 R16,16V+VVT+TC+CAC+GDI,4wd
+Audi,A4 Avant,2.0L TFSI 211 hp quattro S-tronic 7,,350/1500-4200,211-155/6000,7.6,175,?,1680,1984,cast iron /aluminium,9.6,DCT 7,225/55 R16,16V+VVT+TC+CAC+GDI,4wd
+Audi,A4 Avant,3.2L V6 FSI 265 hp multitronic,,330/3000-5000,265-195/6500,8.4,199,?,1665,3123,cast iron /aluminium,12.5,hpT,225/50 R17,24V+VVT+VA+GDI,2wd
+Audi,A4 Avant,3.2L V6 FSI 265 hp quattro,,330/3000-5000,265-195/6500,9.1,216,0.32/2.2/0.7,1705,3123,cast iron /aluminium,12.5,MT 6,225/50 R17,24V+VVT+VA+GDI,4wd
+Audi,A4 Avant,3.2L V6 FSI 265 hp quattro tiptronic,,330/3000-5000,265-195/6500,9.2,219,0.32/2.2/0.7,1735,3123,cast iron /aluminium,12.5,AT 6,225/50 R17,24V+VVT+VA+GDI,4wd
+Audi,S4 Avant,3.0L V6 TFSI 333 hp quattro,,440/2900-5300,333-245/7000,9.9,229,0.325/2.2/0.72,1780,2995,aluminium/aluminium,10.3,MT 6,245/40 R18,24V+VVT+ROOTS+CAC+GDI,4wd
+Audi,S4 Avant,3.0L V6 TFSI 333 hp quattro S-tronic 7,,440/2900-5300,333-245/7000,9.6,224,0.325/2.2/0.72,1810,2995,aluminium/aluminium,10.3,DCT 7,245/40 R18,24V+VVT+ROOTS+CAC+GDI,4wd
+Audi,A4 Avant,2.0L TDI 120 hp DPF,,290/1750-2500,120-88/4200,5.3,140,0.31/2.2/0.68,1600,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,2wd
+Audi,A4 Avant,2.0L TDI 143 hp DPF,,320/1750-2500,143-105/4200,5.4,143,0.31/2.2/0.68,1595,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,2wd
+Audi,A4 Avant,2.0L TDI 143 hp DPF multitronic,,320/1750-2500,143-105/4200,6,159,0.31/2.2/0.68,1630,1968,cast iron /aluminium,16.5,hpT,225/55 R16,16V+TGV+CAC,2wd
+Audi,A4 Avant,2.0L TDI 143 hp DPF quattro,,320/1750-2500,143-105/4200,6.2,162,?,1660,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,4wd
+Audi,A4 Avant,2.0L TDI 170 hp DPF,,350/1750-2500,170-125/4200,5.6,149,?,1595,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,2wd
+Audi,A4 Avant,2.0L TDI 170 hp DPF quattro,,350/1750-2500,170-125/4200,6.2,162,?,1670,1968,cast iron /aluminium,16.5,MT 6,225/55 R16,16V+TGV+CAC,4wd
+Audi,A4 Avant,2.7L V6 TDI 190 hp DPF,,400/1400-3250,190-140/3500,6.2,163,0.31/2.2/0.68,1695,2698,cast iron /aluminium,16.8,MT 6,225/55 R16,24V+VA+TGV+CAC,2wd
+Audi,A4 Avant,2.7L V6 TDI 190 hp DPF multitronic,,400/1400-3250,190-140/3500,6.5,169,0.31/2.2/0.68,1720,2698,cast iron /aluminium,16.8,hpT,225/55 R16,24V+VA+TGV+CAC,2wd
+Audi,A4 Avant,3.0L V6 TDI 240 hp DPF quattro,,500/1500-3000,239-176/4400,6.8,176,0.32/2.2/0.7,1770,2967,cast iron /aluminium,16.8,MT 6,225/55 R16,24V+VA+TGV+CAC,4wd
+Audi,A4 Avant,3.0L V6 TDI 240 hp DPF quattro tiptronic,,500/1500-3000,239-176/4400,7.2,186,0.32/2.2/0.7,1810,2967,cast iron /aluminium,16.8,AT 6,225/55 R16,24V+VA+TGV+CAC,4wd
+Audi,A4 (2009),2.0L TDI e 136 hp DPF,,?,136-?/?,4.6,120,?,?,?,?,?,MT 6,205/60 R16,?,2wd
+Audi,A4 Allroad,2.0L TDI 143 hp DPF quattro,,320/1750-2500,143-105/4200,6.2,164,0.34/2.24/0.76,?,1968,cast iron /aluminium,16.5,MT 6,225/55 R17,16V+TGV+CAC,4wd
+Audi,A4 Allroad,2.0L TDI 170 hp DPF quattro,,350/1750-2500,170-125/4200,6.3,166,0.34/2.24/0.76,1705,1968,cast iron /aluminium,16.5,MT 6,225/55 R17,16V+TGV+CAC,4wd
+Audi,A4 Allroad,3.0L V6 TDI 240 hp DPF quattro,,500/1500-3000,239-176/4400,7.2,189,0.34/2.24/0.76,1805,2967,cast iron /aluminium,16.8,MT 6,225/55 R17,24V+VA+TGV+CAC,4wd
+Audi,A4 Allroad,3.0L V6 TDI 240 hp DPF quattro S-tronic 7,,500/1500-3000,239-176/4400,7.1,189,0.34/2.24/0.76,1840,2967,cast iron /aluminium,16.8,DCT 7,225/55 R17,24V+VA+TGV+CAC,4wd
+Audi,A4 Allroad,2.0L TFSI 211 hp quattro,,350/1500-4200,211-155/6000,7.9,179,0.34/2.24/0.76,1690,1984,cast iron /aluminium,9.6,MT 6,225/55 R17,16V+VVT+TC+CAC+GDI,4wd
+Audi,A4 Allroad,2.0L TFSI 211 hp quattro S-tronic 7,,350/1500-4200,211-155/6000,8.1,182,0.34/2.24/0.76,1725,1984,cast iron /aluminium,9.6,DCT 7,225/55 R17,16V+VVT+TC+CAC+GDI,4wd
+Audi,A5,2.0L TFSI 180 hp,,320/1500-3900,180-132/4000,6.4,149,0.286/2.17/0.62,1495,1984,cast iron /aluminium,9.6,MT 6,225/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A5,2.0L TFSI 180 hp multitronic,,320/1500-3900,180-132/4000,7.1,167,0.286/2.17/0.62,1535,1984,cast iron /aluminium,9.6,hpT,225/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A5,2.0L TFSI 211 hp,,350/1500-4200,211-155/6000,6.4,149,0.296/2.17/0.64,1495,1984,cast iron /aluminium,9.6,MT 6,225/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A5,2.0L TFSI 211 hp multitronic,,350/1500-4200,211-155/6000,7.1,167,0.296/2.17/0.64,1540,1984,cast iron /aluminium,9.6,hpT,225/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A5,2.0L TFSI 211 hp quattro,,350/1500-4200,211-155/6000,7.3,169,0.296/2.17/0.64,1565,1984,cast iron /aluminium,9.6,MT 6,225/50 R17,16V+VVT+TC+CAC+GDI,4wd
+Audi,A5,2.0L TFSI 211 hp quattro S-tronic 7,,350/1500-4200,211-155/6000,7.4,172,0.296/2.17/0.64,?,1984,cast iron /aluminium,9.6,DCT 7,225/50 R17,16V+VVT+TC+CAC+GDI,4wd
+Audi,A5,3.2L V6 FSI 265 hp multitronic,,330/3250,265-195/6500,8.2,192,0.296/2.17/0.64,1575,3123,aluminium/aluminium,12.5,hpT,225/50 R17,24V+VVT+VA+GDI,2wd
+Audi,A5,3.2L V6 FSI 265 hp quattro,,330/3250,265-195/6500,9.1,214,0.296/2.17/0.64,1610,3123,aluminium/aluminium,12.5,MT 6,225/50 R17,24V+VVT+VA+GDI,4wd
+Audi,A5,3.2L V6 FSI 265 hp quattro tiptronic,,330/3250,265-195/6500,9.2,213,0.296/2.17/0.64,1645,3123,aluminium/aluminium,12.5,AT 6,225/50 R17,24V+VVT+VA+GDI,4wd
+Audi,A5,2.0L TDI 170 hp DPF,,350/1750-2500,170-125/4200,5.1,134,0.296/2.17/0.64,1545,1968,cast iron /aluminium,16.5,MT 6,225/50 R17,16V+TGV+CAC,2wd
+Audi,A5,2.0L TDI 170 hp DPF quattro,,350/1750-2500,170-125/4200,5.7,149,0.296/2.17/0.64,1610,1968,cast iron /aluminium,16.5,MT 6,225/50 R17,16V+TGV+CAC,4wd
+Audi,A5,2.7L V6 TDI 190 hp PDF,,400/1400-3500,190-140/3500,6,159,0.296/2.17/0.64,1625,2698,cast iron /aluminium,16.8,MT 6,225/50 R17,24V+VA+TGV+CAC,2wd
+Audi,A5,2.7L V6 TDI 190 hp PDF multitronic,,400/1400-3500,190-140/3500,6.4,167,0.296/2.17/0.64,1650,2698,cast iron /aluminium,16.8,hpT,225/50 R17,24V+VA+TGV+CAC,2wd
+Audi,A5,3.0L V6 TDI 239 hp DPF quattro,,500/1500-3000,239-176/4000,6.6,173,0.296/2.17/0.64,1685,2967,cast iron /aluminium,17,MT 6,225/50 R17,24V+VA+TGV+CAC,4wd
+Audi,A5,3.0L V6 TDI 239 hp DPF quattro tiptronic,,500/1500-3000,239-176/4000,6.9,182,0.296/2.17/0.64,1725,2967,cast iron /aluminium,17,AT 6,225/50 R17,24V+VA+TGV+CAC,4wd
+Audi,S5,4.2L V8 350 hp quattro,,440/3500,354-260/7000,12.1,288,0.306/2.17/0.66,1715,4163,aluminium/aluminium,11,MT 6,245/40 R18,32V+VVT+VA+GDI,4wd
+Audi,S5,4.2L V8 350 hp quattro tiptronic,,440/3500,354-260/7000,10.1,256,0.306/2.17/0.66,1750,4163,aluminium/aluminium,11,AT 6,245/40 R18,32V+VVT+VA+GDI,4wd
+Audi,A5 Cabrio,2.0L TFSI 180 hp multitronic,,320/1500-3900,180-132/4000,7.4,174,0.31/2.18/0.68,1730,1984,cast iron /aluminium,9.6,hpT,225/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A5 Cabrio,2.0L TFSI 211 hp,,350/1500-4200,211-155/6000,6.7,156,0.31/2.18/0.68,1705,1984,cast iron /aluminium,9.6,MT 6,225/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A5 Cabrio,2.0L TFSI 211 hp multitronic,,350/1500-4200,211-155/6000,7.4,174,0.31/2.18/0.68,1730,1984,cast iron /aluminium,9.6,hpT,225/50 R17,16V+VVT+TC+CAC+GDI,2wd
+Audi,A5 Cabrio,2.0L TFSI 211 hp quattro S-tronic 7,,350/1500-4200,211-155/6000,7.7,177,0.31/2.18/0.68,1810,1984,cast iron /aluminium,9.6,DCT 7,225/50 R17,16V+VVT+TC+CAC+GDI,4wd
+Audi,A5 Cabrio,3.2L V6 FSI 265 hp multitronic,,330/3250,265-195/6500,8.6,199,0.309/2.17/0.67,1785,3123,aluminium/aluminium,12.5,hpT,225/50 R17,24V+VVT+VA+GDI,2wd
+Audi,A5 Cabrio,3.2L V6 FSI 265 hp quattro S-tronic 7,,330/3250,265-195/6500,9.5,219,0.309/2.17/0.67,1860,3123,aluminium/aluminium,12.5,DCT 7,225/50 R17,24V+VVT+VA+GDI,4wd
+Audi,A5 Cabrio,2.0L TDI 170 hp DPF,,350/1750-2500,170-125/4200,5.7,144,0.31/2.18/0.68,1735,1968,cast iron /aluminium,16.5,MT 6,225/50 R17,16V+TGV+CAC,2wd
+Audi,A5 Cabrio,2.7L V6 TDI 190 hp PDF,,400/1400-3250,190-140/3500,6.2,164,0.31/2.18/0.68,1835,2698,cast iron /aluminium,16.8,MT 6,225/50 R17,24V+VA+TGV+CAC,2wd
+Audi,A5 Cabrio,2.7L V6 TDI 190 hp PDF multitronic,,400/1400-3250,190-140/3500,6.5,169,0.31/2.18/0.68,1860,2698,cast iron /aluminium,16.8,hpT,225/50 R17,24V+VA+TGV+CAC,2wd
+Audi,A5 Cabrio,3.0L V6 TDI 239 hp DPF quattro S-tronic 7,,500/1500-3000,239-176/4400,6.8,179,0.309/2.17/0.67,1935,2967,cast iron /aluminium,16.8,DCT 7,225/50 R17,24V+VA+TGV+CAC,4wd
+Audi,S5 Cabrio,3.0L V6 TFSI 330 hp,,440/2900-5300,333-245/7000,10.3,224,0.32/2.18/0.7,1950,2995,aluminium/aluminium,10.3,DCT 7,245/40 R18,24V+VVT+ROOTS+CAC+GDI,4wd
+Audi,Q5,2.0L TDI 170 hp DPF quattro,,350/1750-2500,170-125/4200,6.7,175,0.33/2.65/0.87,1805,1968,cast iron /aluminium,16.5,MT 6,235/65 R17,16V+TGV+CAC,4wd
+Audi,Q5,2.0L TDI 170 hp DPF quattro S-tronic 7,,350/1750-2500,170-125/4200,6.8,179,0.33/2.65/0.87,1845,1968,cast iron /aluminium,16.5,DCT 7,235/65 R17,16V+TGV+CAC,4wd
+Audi,Q5,3.0L V6 TDI 239 hp DPF quattro S-tronic 7,,500/1500-3000,239-176/4400,7.5,199,0.33/2.65/0.87,1940,2967,cast iron /aluminium,16.8,DCT 7,235/60 R18,24V+VA+TGV+CAC,4wd
+Audi,Q5,2.0L TFSI 211 hp quattro,,350/1500-4200,211-155/6000,8.3,192,0.33/2.65/0.87,1770,1984,cast iron /aluminium,9.6,MT 6,235/60 R18,16V+VVT+TC+CAC+GDI,4wd
+Audi,Q5,2.0L TFSI 211 hp quattro S-tronic 7,,350/1500-4200,211-155/6000,8.5,197,0.33/2.65/0.87,1815,1984,cast iron /aluminium,9.6,DCT 7,235/60 R18,16V+VVT+TC+CAC+GDI,4wd
+Audi,Q6,3.2L V6 FSI 265 hp quattro S-tronic 7,,330/3000-5000,271-199/6500,9.3,218,0.33/2.65/0.87,1870,3197,aluminium/aluminium,12.5,DCT 7,235/60 R18,24V+VVT+VA+GDI,4wd
