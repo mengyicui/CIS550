@@ -47,13 +47,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     <h4><strong>Car Model</strong></h4>
     <div class="w3-row w3-large">
       <div class="w3-col s6">
-        <p><i class="fa fa-fw fa-car"></i> Make: Audi</p>
-        <p><i class="fa fa-fw fa-filter"></i> Model: TTs</p>
-        <p><i class="fa fa-fw fa-calendar-o"></i> Year: 2017</p>
+        <p><i class="fa fa-fw fa-car"></i> Make: <%= query.Make %> </p>
+        <p><i class="fa fa-fw fa-filter"></i> Model: <%= query.Model %> </p>
+        <p><i class="fa fa-fw fa-calendar-o"></i> Year: <%= query.Year %> </p>
       </div>
       <div class="w3-col s6">
         <p><i class="fa fa-thumb-tack"></i> Color: Silver</p>
-        <p><i class="fa fa-users"></i> Used: No</p>
+        <p><i class="fa fa-users"></i> Used: <%= query.used %> </p>
       </div>
     </div>
     <hr>
@@ -61,15 +61,38 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     <h4><strong>Car Specifications</strong></h4>
     <div class="w3-row w3-large">
       <div class="w3-col s6">
-        <p><i class="fa fa-battery-full"></i> Horse Power: 220 HP</p>
-        <p><i class="fa fa-clock-o"></i> 0-60MPH: 4.2 sec</p>
+        <p> Horse Power: 220 HP</p>
+        <p> Average Highway MPG: 4.2 sec</p>
+        <p> Average Local MPG: 4.2 sec</p>
       </div>
       <div class="w3-col s6">
-        <p><i class="fa fa-address-card-o"></i> Contact: user01@cis550.com</p>
-        <p><i class="fa fa-superpowers"></i> Super-charge: Yes</p>
+        <p> Fuel Type: 4.2 sec</p>
+        <p> New Car Average MSPR: Yes</p>
+        <p>Used Car Average MSPR: Yes</p>
       </div>
     </div>
     <hr>
+
+    <h4><strong>Used Car With In <%= query.Distance %> Miles</strong></h4>
+    <div class="w3-row w3-large">
+        <ul>
+          <% for (i = 0; i < query_result.length; i++) { %> 
+            <li> Make: <%=query_result[i].make%> Model: <%=query_result[i].vehicle_model%> Year: <%=query_result[i].year_of_registration%> Price: <%=query_result[i].price%> </li>
+          <%}%>
+        </ul>
+    </div>
+    <hr>
+
+    <h4><strong>Recommendations</strong></h4>
+    <div class="w3-row w3-large">
+        <ul>
+          <% for (i = 0; i < query_result.length; i++) { %> 
+            <li> Make: <%=query_result[i].make%> Model: <%=query_result[i].vehicle_model%> Year: <%=query_result[i].year_of_registration%> Price: <%=query_result[i].price%> </li>
+          <%}%>
+        </ul>
+    </div>
+    <hr>
+
 
     <h4><strong>Related Articles</strong></h4>
     

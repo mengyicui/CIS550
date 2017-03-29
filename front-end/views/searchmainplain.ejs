@@ -1,5 +1,8 @@
 
 <!DOCTYPE html>
+
+
+
 <html>
 <title>Search Page</title>
 <meta charset="UTF-8">
@@ -32,6 +35,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 
       <input class="w3-radio" type="radio" name="used" value="false">
       <label class="w3-validate">New Car</label>
+
+      <p><label><i class="fa fa-map-marker"></i> Zipcode</label></p>
+      <input class="w3-input w3-border" type="number" placeholder="ex. 19104" name="Zipcode" required>  
+
+      <p><label><i class="fa fa-map-marker"></i> Distance</label></p>
+        <input class="w3-input w3-border" type="text" id = "value">  
+        <h3>  </h3>
+        15 <input type="range" min="15" max="100" step="5" name="Distance" onchange="showValue(this.value)" /> 100 
+        <script>
+        function showValue(newValue)
+        {
+        document.getElementById("value").value=newValue;
+        }
+        </script>
 
       <p><button class="w3-button w3-block w3-green w3-left-align" type="submit"><i class="fa fa-search w3-margin-right"></i> Search Your Cars</button></p>
     </form>

@@ -1,4 +1,11 @@
-// connect to db
+// connect to mysql db
+var mysql = require('mysql');
+var connection = mysql.createConnection({
+  host     : 'project.c34htetfwwf4.us-east-1.rds.amazonaws.com',
+  user     : 'wuzhengx',
+  password : '11111111',
+  database : 'cis550project'
+});
 
 var express = require('express');
 var passport = require('passport');
@@ -6,20 +13,17 @@ var router = express.Router();
 
 var Twitter = require('twitter');
 
+var request = require('request');
+
 // homepage
 router.get('/', function(req, res) {
   res.render('homepage.ejs');
 });
 
-// old page
-router.get('/old', function(req, res) {
-  res.render('button.ejs');
-});
-
-// new login API
 router.post('/newlogin', function(req, res) {
   var succ = 0;
   if (req.body.login == 'login') {
+
     // access database to verify
     if (succ == 0) {
       console.log(req);
@@ -31,11 +35,9 @@ router.post('/newlogin', function(req, res) {
           res.render('error.ejs');
         }
       } else {
-        res.render('error.ejs');
+        res.render('searchmainplain.ejs');
       }
     } else {
-
-      
         // TODO: modified to be tokenized
         // way to auth. Redirect to a page
         res.render('searchmainplain.ejs');
@@ -52,18 +54,12 @@ router.post('/newlogin', function(req, res) {
 });
 
 
-
-
-router.get('/login', function(req, res, next) {
-  res.render('login.ejs', { message: req.flash('loginMessage') });
+router.get('/err', function(req, res, next) {
+  res.render('err.ejs');
 });
 
-router.get('/signup', function(req, res) {
-  res.render('signup.ejs', { message: req.flash('signupMessage') });
-});
-
-router.get('/profile', isLoggedIn, function(req, res) {
-  res.render('profile.ejs', { user: req.user });
+router.get('/msg', function(req, res, next) {
+  res.render('msg.ejs');
 });
 
 // modified logout function
@@ -74,16 +70,17 @@ router.get('/logout', function(req, res) {
 });
 
 router.post('/signup', passport.authenticate('local-signup', {
-  successRedirect: '/profile',
-  failureRedirect: '/signup',
+  successRedirect: '/msg',
+  failureRedirect: '/err',
   failureFlash: true,
 }));
 
 router.post('/login', passport.authenticate('local-login', {
-  successRedirect: '/profile',
-  failureRedirect: '/login',
+  successRedirect: '/searchmainplain',
+  failureRedirect: '/err',
   failureFlash: true,
 }));
+
 
 // homepage
 router.get('/homepage', function(req, res) {
@@ -135,7 +132,7 @@ router.get('/twitterfeeds', function(req, res) {
 
 // display out the search result page
 router.get('/search', function(req, res) {
-  
+
   // query on db
 
   // get back 
@@ -173,25 +170,59 @@ router.get('/search', function(req, res) {
      // dynamic query
       client.search(_imageQuery)
         .then(images => {
-             console.log(searchResults);
+             //console.log(searchResults);
              for (var i = 0; i < 5; i++) {
                 imageResults.push( { url: images[i].url} );
              }
-             console.log(imageResults);
+             //console.log(imageResults);
              // rendering the page with those two sources
-             res.render('searchresults.ejs', {searchResults: searchResults, 
-                                              imageResults: imageResults});
+             console.log(req.query)
+
+             query = "SELECT DISTINCT C.make, UC.postal_code, UC.year_of_registration, UC.price, UC.vehicle_model\
+                      FROM cars C INNER JOIN used_cars_info UC\
+                                  ON C.make = UC.vehicle_brand\
+                                  INNER JOIN engine E_OUT\
+                                  ON C.engine_code = E_OUT.engine_code\
+                            WHERE E_OUT.engine_hp > (\
+                              SELECT avg(E_IN.engine_hp)\
+                              FROM cars C_IN INNER JOIN engine E_IN\
+                              ON C_IN.engine_code = E_IN.engine_code\
+                              WHERE C_IN.make = " + "'" + req.query.Make + "'" +"\
+                              ) AND C.make = " + "'" + req.query.Make + "'" + " AND UC.year_of_registration > " + req.query.Year + "\
+                            AND UC.vehicle_model = " + "'" + req.query.Model + "'" + "\
+                            AND UC.price > 10000\
+                            ORDER BY UC.price DESC\
+                            LIMIT 10;";
+  
+            connection.query(query, function(err, rows, fields) {
+              if (err) console.log(err);
+              else {
+                console.log(rows)
+                res.render('searchresults.ejs', { query_result: rows,
+                                                  query: req.query,
+                                                  searchResults: searchResults, 
+                                                  imageResults: imageResults
+                                                });
+              }
+            });
         });
   });
 });
 
-
 router.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
 
-router.get('/auth/google/callback', passport.authenticate('google', {
-  successRedirect: '/profile',
-  failureRedirect: '/',
-}));
+// router.get('/auth/google/callback', passport.authenticate('google', {
+//   successRedirect: '/plain',
+//   failureRedirect: '/plain',
+// }));
+
+router.get('/auth/google/callback', function(req, res) {
+  res.render('searchmainplain.ejs');
+});
+
+router.get('/searchmainplain', function(req, res) {
+  res.render('searchmainplain.ejs');
+});
 
 module.exports = router;
 
