@@ -61,15 +61,17 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     <h4><strong>Car Specifications</strong></h4>
     <div class="w3-row w3-large">
       <div class="w3-col s6">
-        <p> Horse Power: 220 HP</p>
-        <p> Average Highway MPG: 4.2 sec</p>
-        <p> Average Local MPG: 4.2 sec</p>
+        <p> Horse Power: <%=car_detail_result[0].engine_hp%> HP</p>
+        <p> Average Local MPG: <%=car_detail_result[0].highway_mpg%> MPG</p>
+        <p> Average Local MPG: <%=car_detail_result[0].city_mpg%> MPG</p>
       </div>
+
       <div class="w3-col s6">
-        <p> Fuel Type: 4.2 sec</p>
-        <p> New Car Average MSPR: Yes</p>
-        <p>Used Car Average MSPR: Yes</p>
+        <p> Fuel Type: <%=car_detail_result.engine_fuel%></p>
+        <p> New Car Average MSPR: <%=car_detail_result[0].msrp%></p>
+        <p>Used Car Average MSPR: <%=car_detail_result.used_msrp%></p>
       </div>
+
     </div>
     <hr>
 
@@ -83,11 +85,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     </div>
     <hr>
 
-    <h4><strong>Recommendations</strong></h4>
+    <h4><strong>Recommendations Based On Your Search</strong></h4>
     <div class="w3-row w3-large">
         <ul>
-          <% for (i = 0; i < query_result.length; i++) { %> 
-            <li> Make: <%=query_result[i].make%> Model: <%=query_result[i].vehicle_model%> Year: <%=query_result[i].year_of_registration%> Price: <%=query_result[i].price%> </li>
+          <% for (i = 0; i < recommendation_result.length; i++) { %> 
+            <li> Make: <%=recommendation_result[i].make%> Model: <%=recommendation_result[i].model%></li>
           <%}%>
         </ul>
     </div>

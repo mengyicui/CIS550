@@ -188,7 +188,7 @@ router.get('/search', function(req, res) {
                               FROM cars C_IN INNER JOIN engine E_IN\
                               ON C_IN.engine_code = E_IN.engine_code\
                               WHERE C_IN.make = " + "'" + req.query.Make + "'" +"\
-                              ) AND C.make = " + "'" + req.query.Make + "'" + " AND UC.year_of_registration > " + req.query.Year + "\
+                              ) AND C.make = " + "'" + req.query.Make + "'" + " AND UC.year_of_registration >= " + req.query.Year + "\
                             AND UC.vehicle_model = " + "'" + req.query.Model + "'" + "\
                             AND UC.price > 10000\
                             ORDER BY UC.price DESC\
@@ -198,11 +198,68 @@ router.get('/search', function(req, res) {
               if (err) console.log(err);
               else {
                 console.log(rows)
-                res.render('searchresults.ejs', { query_result: rows,
+
+                // call those queries getting other detailed info about the car
+                car_detail_query = "SELECT DISTINCT E_OUT.engine_hp, E_OUT.engine_fuel_type, \
+                                  AVG(C.highway_mpg) as highway_mpg, AVG(C.city_mpg) as city_mpg, AVG(C.msrp) as msrp, AVG(UC.price) + 10000 as used_price\
+                                  FROM cars C INNER JOIN engine E_OUT\
+                                              ON C.engine_code = E_OUT.engine_code\
+                                              INNER JOIN used_cars_info UC\
+                                              ON C.make = UC.vehicle_brand\
+                                  WHERE C.make = " + "'" + req.query.Make + "'" + "AND \
+                                  C.model = " + "'" + req.query.Model + "';" 
+
+                 connection.query(car_detail_query, function(err, car_detail_row, fields) {
+                if (err) console.log(err);
+                else {
+                      console.log(car_detail_row[0]);
+                      var str = car_detail_row[0].engine_fuel_type.toString();
+                      var parts = str.split(" ");
+                      car_detail_row.engine_fuel = parts[0];
+                      car_detail_row.used_msrp = Math.floor( car_detail_row[0].used_price );
+                      console.log(car_detail_row)
+
+
+
+                      // running recommendations query
+                      recommendation_query = "SELECT DISTINCT C.make, C.model\
+                                              FROM cars C\
+                                              WHERE msrp > (\
+                                                SELECT AVG(C_IN.msrp)\
+                                                  FROM cars C_IN\
+                                                ) AND exists (\
+                                                  SELECT *\
+                                                  FROM used_cars_info UC\
+                                                  WHERE C.make = UC.vehicle_brand \
+                                                      AND UC.year_of_registration > 2008\
+                                                ) AND C.make = " + "'" +  req.query.Make  + "'" + "\
+                                                AND C.popularity > (\
+                                                    SELECT AVG(C_IN_IN.popularity)\
+                                                    FROM cars C_IN_IN\
+                                                  ) \
+                                                ORDER BY C.popularity\
+                                                LIMIT 5;"
+
+                       connection.query(recommendation_query, function(err, recommendation_row, fields) {
+                          if (err) console.log(err);
+                          else {
+                                console.log(recommendation_row)
+                                                res.render('searchresults.ejs', { query_result: rows,
+                                                  car_detail_result: car_detail_row,
+                                                  recommendation_result: recommendation_row,
                                                   query: req.query,
                                                   searchResults: searchResults, 
                                                   imageResults: imageResults
-                                                });
+                                                });                               
+
+
+
+                              }
+                        });                          
+
+
+                      }
+                });
               }
             });
         });
