@@ -20,6 +20,117 @@ router.get('/', function(req, res) {
   res.render('homepage.ejs');
 });
 
+router.get('/create', function(req, res) {
+  res.render('homepage.ejs');
+});
+
+router.get('/admin', function(req, res) {
+
+  var query_1 = "SELECT COUNT(*) as c FROM (\
+                SELECT COUNT(*) FROM cars C GROUP BY C.make\
+                ) CC;";
+  var query_2 = "SELECT COUNT(*) as c FROM cars C;";
+  var query_3 = "SELECT COUNT(DISTINCT S.email) as c FROM subscriber S;";
+  var query_4 = "SELECT COUNT(*) as c FROM used_cars_info C;";
+  var query_5 = "SELECT * FROM comments Order By time DESC LIMIT 5;";
+
+  connection.query(query_1, function(err, row_1, fields) {
+    if (err) console.log(err);
+    else {
+            connection.query(query_2, function(err, row_2, fields) {
+              if (err) console.log(err);
+              else {
+
+                      connection.query(query_3, function(err, row_3, fields) {
+                        if (err) console.log(err);
+                        else {
+
+                                  connection.query(query_4, function(err, row_4, fields) {
+                                    if (err) console.log(err);
+                                    else {
+                                            connection.query(query_5, function(err, row_5, fields) {
+                                              if (err) console.log(err);
+                                              else {
+                                                        var parts = row_5[0].time.toString().split(" ");
+                                                        //console.log(parts[0] + " " + parts[1] + " " + parts[2] + " " + parts[3]);
+                                                        row_5[0].curr_time = parts[0] + " " + parts[1] + " " + parts[2] + " " + parts[3];
+
+                                                        var parts_2 = row_5[1].time.toString().split(" ");
+                                                        //console.log(parts[0] + " " + parts[1] + " " + parts[2] + " " + parts[3]);
+                                                        row_5[1].curr_time = parts_2[0] + " " + parts_2[1] + " " + parts_2[2] + " " + parts_2[3];
+
+                                                        res.render('admin.ejs', 
+                                                        {
+                                                          brand_count : row_1[0].c,
+                                                          new_car_count : row_2[0].c,
+                                                          used_car_count : row_4[0].c,
+                                                          subscriber_count : row_3[0].c, 
+                                                          comments_1 : row_5[0], 
+                                                          comments_2 : row_5[1]
+                                                        });
+                                                  }
+                                            });
+
+                                        }
+                                  }); 
+
+                            }
+                      }); 
+
+                  }
+            }); 
+        }
+  }); 
+});
+
+
+                                            
+
+router.get('/subscribe', function(req, res) {
+  // adding to the database
+  var email_insert = "INSERT INTO subscriber (email) VALUES('" + req.query.Email + "');"
+   connection.query(email_insert, function(err, row, fields) {
+                    if (err) console.log(err);
+                    else {
+                            res.render('searchmainplain.ejs');
+                        }
+                  });   
+});
+
+/**
+ * You first need to create a formatting function to pad numbers to two digits…
+ **/
+function twoDigits(d) {
+    if(0 <= d && d < 10) return "0" + d.toString();
+    if(-10 < d && d < 0) return "-0" + (-1*d).toString();
+    return d.toString();
+}
+
+/**
+ * …and then create the method to output the date string as desired.
+ * Some people hate using prototypes this way, but if you are going
+ * to apply this to more than one Date object, having it as a prototype
+ * makes sense.
+ **/
+Date.prototype.toMysqlFormat = function() {
+    return this.getUTCFullYear() + "-" + twoDigits(1 + this.getUTCMonth()) + "-" + twoDigits(this.getUTCDate()) + " " + twoDigits(this.getUTCHours()) + ":" + twoDigits(this.getUTCMinutes()) + ":" + twoDigits(this.getUTCSeconds());
+};
+
+router.get('/comment', function(req, res) {
+  var myDate_string = new Date().toMysqlFormat();
+  // adding to the database
+  var comment_insert = "INSERT INTO comments (email, name, comments, time) \
+                      VALUES('" + req.query.Email + "', '" + req.query.Name + "', \
+                        '" + req.query.Message + "', '" + myDate_string +  "');";
+   
+   connection.query(comment_insert, function(err, row, fields) {
+                    if (err) console.log(err);
+                    else {
+                            res.render('searchmainplain.ejs');
+                        }
+                  });   
+});
+
 router.post('/newlogin', function(req, res) {
   var succ = 0;
   if (req.body.login == 'login') {
@@ -30,7 +141,7 @@ router.post('/newlogin', function(req, res) {
       if (req.body.user == 'admin') {
         // just for testing
         if (succ == 0) {
-          res.render('admin.ejs');
+          res.redirect('/admin');
         } else {
           res.render('error.ejs');
         }
