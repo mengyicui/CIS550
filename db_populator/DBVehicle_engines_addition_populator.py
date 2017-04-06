@@ -61,7 +61,7 @@ def make_query(_col, info):
 # Open database connection
 # db = MySQLdb.connect("localhost","root","1234","project" )
 # /usr/bin/mysql -h cis550-project-mysql.cnxblynrjuzi.us-west-2.rds.amazonaws.com -P 3306 -u cis550Project18 -p project
-# /usr/bin/mysql -hproject.c34htetfwwf4.us-east-1.rds.amazonaws.com -P 3306 -u wuzhengx -p cis550project
+# /usr/bin/mysql -h project.c34htetfwwf4.us-east-1.rds.amazonaws.com -P 3306 -u wuzhengx -p cis550project
 db = MySQLdb.connect("project.c34htetfwwf4.us-east-1.rds.amazonaws.com","wuzhengx","11111111","cis550project" )
 print "connection success"
 # prepare a cursor object using cursor() method
