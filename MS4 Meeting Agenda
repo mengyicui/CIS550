@@ -1,0 +1,27 @@
+                1. What are you datasources? What technologies are you using?
+
+				- Kaggle.com (.xml, .csv), Wikipedia (.xml). Python for parsing and upload to the AWS RDS. Nodejs for hosting the server, .ejs for front end design. MySQL is the database holder, using mongoDB to augment. 
+
+                2. What are your Relational and Non-relational components? How do they complement each other?
+				
+				- Cars, User Account (NO-SQL), Car Brand Info (NO-SQL). Cars is the primary database sources, User Account is used for login service. And the car brand info is easy to use the No-SQL, because it does not contain any relational relationship.
+
+                3. Did you do the normalization for the database design.
+
+				- Yes. We normalize the data sources. ER relationship.
+
+                4. Do you have more than 1 interaction page?
+
+				- Yes, we have tons.
+
+                5. Show me sample queries?
+
+				- Getting Milestone 3 to run the query
+
+                6. What data cleaning steps did you perform and do you have the scripts?
+
+				- > 3 Python script, parsing, selecting, cleanning, normalization. 
+
+                7. Have you considered performance improvement like query optimization or indexing
+
+				- Base on mileston 3. Index on C.make ; Index on UC.vehicle_brand ; Index on UC.model ; Index on C.engine_code, cars_addtion on CA.engine, Index on (average_consumption, power). 

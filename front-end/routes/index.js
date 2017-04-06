@@ -7,6 +7,8 @@ var connection = mysql.createConnection({
   database : 'cis550project'
 });
 
+
+
 var express = require('express');
 var passport = require('passport');
 var router = express.Router();
@@ -33,6 +35,8 @@ router.get('/admin', function(req, res) {
   var query_3 = "SELECT COUNT(DISTINCT S.email) as c FROM subscriber S;";
   var query_4 = "SELECT COUNT(*) as c FROM used_cars_info C;";
   var query_5 = "SELECT * FROM comments Order By time DESC LIMIT 5;";
+
+  var query_6 = "SELECT ";
 
   connection.query(query_1, function(err, row_1, fields) {
     if (err) console.log(err);
