@@ -23,6 +23,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     <a href="/" class="w3-bar-item w3-button w3-padding-16"><i class="fa fa-home"></i> Homepage</a>
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-16" onclick="document.getElementById('subscribe').style.display='block'"><i class="fa fa-rss"></i> Subscribe</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-16"><i class="fa fa-envelope"></i> Contact</a>
+    <a href="/searchmainplain" class="w3-bar-item w3-button w3-padding-16"><i class="fa fa-envelope"></i> Main Page</a>
   </div>
 </nav>
 
@@ -47,7 +48,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     <h4><strong>Car Model</strong></h4>
     <div class="w3-row w3-large">
       <div class="w3-col s6">
-        <p><i class="fa fa-fw fa-car"></i> Make: <%= query.Make %> </p>
+
+        <p><i class="fa fa-fw fa-car"><a href= <%= "/car_brand?name=" + query.Make %> ></i> Make: <%= query.Make %> (Click For Brand Info)</a></p>
         <p><i class="fa fa-fw fa-filter"></i> Model: <%= query.Model %> </p>
         <p><i class="fa fa-fw fa-calendar-o"></i> Year: <%= query.Year %> </p>
       </div>

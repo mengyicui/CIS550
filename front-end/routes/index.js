@@ -7,23 +7,58 @@ var connection = mysql.createConnection({
   database : 'cis550project'
 });
 
+// connect to the mongodb 
+var MongoClient = require('mongodb').MongoClient;
+var assert = require('assert');
+var url = 'mongodb://wuzhengx:Aa1111111@ds155150.mlab.com:55150/car_brand';
 
 
 var express = require('express');
 var passport = require('passport');
 var router = express.Router();
-
 var Twitter = require('twitter');
-
 var request = require('request');
 
 // homepage
 router.get('/', function(req, res) {
+  req.body.option
   res.render('homepage.ejs');
 });
 
 router.get('/create', function(req, res) {
   res.render('homepage.ejs');
+});
+
+router.post('/create_car', function(req, res) {
+  res.redirect('/admin');
+});
+
+router.get('/searchmainplain', function(req, res) {
+  res.render('searchmainplain.ejs');
+});
+
+router.post('/unsubscribe', function(req, res) {
+  console.log(req.body.option);
+  var delete_query = "DELETE FROM subscriber WHERE email ='" + req.body.option + "';"
+  connection.query(delete_query, function(err, row, fields) {
+    if (err) console.log(err);
+    else {
+      res.redirect('/admin');
+    }
+  });
+});
+
+router.get('/car_brand', function(req, res) {
+  // test connect to mongodb
+  MongoClient.connect(url, function(err, db) {
+    // fetching the data
+    var cursor = db.collection("car_brand").findOne({"car_brand" : req.query.name}, function(err, doc) {
+      //console.log(doc);
+      res.write(doc.html);
+      return;
+    });
+    db.close();
+  });
 });
 
 router.get('/admin', function(req, res) {
@@ -36,7 +71,7 @@ router.get('/admin', function(req, res) {
   var query_4 = "SELECT COUNT(*) as c FROM used_cars_info C;";
   var query_5 = "SELECT * FROM comments Order By time DESC LIMIT 5;";
 
-  var query_6 = "SELECT ";
+  var query_6 = "SELECT * FROM subscriber S";
 
   connection.query(query_1, function(err, row_1, fields) {
     if (err) console.log(err);
@@ -55,23 +90,35 @@ router.get('/admin', function(req, res) {
                                             connection.query(query_5, function(err, row_5, fields) {
                                               if (err) console.log(err);
                                               else {
-                                                        var parts = row_5[0].time.toString().split(" ");
-                                                        //console.log(parts[0] + " " + parts[1] + " " + parts[2] + " " + parts[3]);
-                                                        row_5[0].curr_time = parts[0] + " " + parts[1] + " " + parts[2] + " " + parts[3];
 
-                                                        var parts_2 = row_5[1].time.toString().split(" ");
-                                                        //console.log(parts[0] + " " + parts[1] + " " + parts[2] + " " + parts[3]);
-                                                        row_5[1].curr_time = parts_2[0] + " " + parts_2[1] + " " + parts_2[2] + " " + parts_2[3];
 
-                                                        res.render('admin.ejs', 
-                                                        {
-                                                          brand_count : row_1[0].c,
-                                                          new_car_count : row_2[0].c,
-                                                          used_car_count : row_4[0].c,
-                                                          subscriber_count : row_3[0].c, 
-                                                          comments_1 : row_5[0], 
-                                                          comments_2 : row_5[1]
-                                                        });
+                                                        // selecting out the user and pass in
+                                                        connection.query(query_6, function(err, row_6, fields) {
+                                                            if (err) console.log(err);
+                                                            else {
+                                                              console.log(row_6)
+                                                              var parts = row_5[0].time.toString().split(" ");
+                                                              //console.log(parts[0] + " " + parts[1] + " " + parts[2] + " " + parts[3]);
+                                                              row_5[0].curr_time = parts[0] + " " + parts[1] + " " + parts[2] + " " + parts[3];
+
+                                                              var parts_2 = row_5[1].time.toString().split(" ");
+                                                              //console.log(parts[0] + " " + parts[1] + " " + parts[2] + " " + parts[3]);
+                                                              row_5[1].curr_time = parts_2[0] + " " + parts_2[1] + " " + parts_2[2] + " " + parts_2[3];
+
+                                                              res.render('admin.ejs', 
+                                                              {
+                                                                brand_count : row_1[0].c,
+                                                                new_car_count : row_2[0].c,
+                                                                used_car_count : row_4[0].c,
+                                                                subscriber_count : row_3[0].c, 
+                                                                comments_1 : row_5[0], 
+                                                                comments_2 : row_5[1],
+                                                                subscriber : row_6
+                                                              });
+                                                            }
+                                                          });
+
+                                                        
                                                   }
                                             });
 

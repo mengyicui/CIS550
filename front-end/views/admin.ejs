@@ -111,7 +111,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
   <div class="w3-container">
     <h5>Create New Car</h5>
-      <form class="w3-container" action="/create" method="post">
+      <form class="w3-container" action="/create_car" method="post">
 
         <label class="w3-text-blue"><b>Make</b></label>
         <input class="w3-input w3-border" type="text" name="Make" required>
@@ -177,12 +177,12 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
   <div class="w3-container">
     <h5>Unsubscribe User</h5>
-    <form class="w3-container">
+    <form class="w3-container" action="/unsubscribe" method="post">
       <select class="w3-select" name="option">
         <option value="" disabled selected>Choose the user email to unsubscribe...</option>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
+        <% for (i = 0; i < subscriber.length; i++) { %> 
+            <option value = <%=subscriber[i].email%>> <%=subscriber[i].email%> </option>
+        <%}%>
       </select>
       <p>  </p>
       <button class="w3-btn w3-blue">Unsubscribe</button>
