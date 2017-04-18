@@ -18,7 +18,7 @@ University Of Pennsylvania
 * `npm install mysql`
 * `npm install google-search`
 * `npm install --save google-images`
-* You will need a Mongo instance running. In a new terminal window run `mongod`
+* You will need a Mongo instance running. In a new terminal window run `mongod` (EC2) -> sudo service mongod start
 * `node app`
 
 Head over to [http://localhost:3000](http://localhost:3000)
