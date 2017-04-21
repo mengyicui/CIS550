@@ -373,6 +373,9 @@ router.get('/search', function(req, res) {
     num: 10, // Number of search results to return between 1 and 10, inclusive 
   }, function(error, response) {
         for (var i = 0; i < 5; i++) {
+          if (response.length < 1) {
+            res.redirect('/searchmainplain');
+          }
             searchResults.push({ title: response.items[i].title, link: response.items[i].link, snippet: response.items[i].snippet });
         }
         // image search
@@ -406,10 +409,12 @@ router.get('/search', function(req, res) {
                             LIMIT 10;";
   
             connection.query(query, function(err, rows, fields) {
-              if (err) console.log(err);
+              if (err) {console.log(err);res.redirect('/searchmainplain');}
               else {
                 console.log(rows)
-
+                if (rows.length < 1) {
+                  res.redirect('/searchmainplain')
+                }
                 // call those queries getting other detailed info about the car
                 car_detail_query = "SELECT DISTINCT E_OUT.engine_hp, E_OUT.engine_fuel_type, \
                                   AVG(C.highway_mpg) as highway_mpg, AVG(C.city_mpg) as city_mpg, AVG(C.msrp) as msrp, AVG(UC.price) + 10000 as used_price\
@@ -421,8 +426,14 @@ router.get('/search', function(req, res) {
                                   C.model = " + "'" + req.query.Model + "';" 
 
                  connection.query(car_detail_query, function(err, car_detail_row, fields) {
-                if (err) console.log(err);
+                if (err) {
+                  console.log(err);
+                  res.redirect('/searchmainplain')
+                }
                 else {
+                      if (!car_detail_row) {
+                        res.redirect('/searchmainplain')
+                      }
                       console.log(car_detail_row[0]);
                       var str = car_detail_row[0].engine_fuel_type.toString();
                       var parts = str.split(" ");
