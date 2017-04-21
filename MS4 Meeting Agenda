@@ -1,6 +1,6 @@
                 1. What are you datasources? What technologies are you using?
 
-				- Kaggle.com (.xml, .csv), Wikipedia (.xml). Python for parsing and upload to the AWS RDS. Nodejs for hosting the server, .ejs for front end design. MySQL is the database holder, using mongoDB to augment. 
+				- Kaggle.com (.xml, .csv), Wikipedia (.html). Python for parsing and upload to the AWS RDS, MongoDB. Nodejs for hosting the server, .ejs for front end design. MySQL is the database holder, using mongoDB to augment. 
 
                 2. What are your Relational and Non-relational components? How do they complement each other?
 				

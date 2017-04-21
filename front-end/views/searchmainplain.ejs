@@ -121,10 +121,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   </div>
 
   <div class="w3-container">
-    <h4><strong>Purchase</strong></h4>
-    <p>You can make a deposite on cars through our website directly without any actually coming to the store. All the deposite will be refundable, but with an extra charge.</p>
-    <p>We accept: <i class="fa fa-credit-card w3-large"></i> <i class="fa fa-cc-mastercard w3-large"></i> <i class="fa fa-cc-amex w3-large"></i> <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i></p>
-    <hr>
+    <h4><strong>You Browse History</strong></h4>
+    <ul>
+          <% for (i = 0; i < query_result.length; i++) { %> 
+            <li> <b>Make:</b> <%=query_result[i].search_make%> <b> Model:</b> <%=query_result[i].search_model%>    <b>Year: </b><%=query_result[i].search_year%> </li>
+          <%}%>
+    </ul>
   </div>
   <hr>
   

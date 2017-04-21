@@ -18,10 +18,16 @@ var passport = require('passport');
 var router = express.Router();
 var Twitter = require('twitter');
 var request = require('request');
+var cookieParser = require('cookie-parser');
 
 // homepage
 router.get('/', function(req, res) {
-  req.body.option
+  // we need to invalid the cookie
+  console.log("Cookies :  ", res.cookies);
+  if (req.cookies.length != 0) {
+    res.clearCookie('login-cookie');
+    console.log("Cookies :  ", res.cookies);
+  }
   res.render('homepage.ejs');
 });
 
@@ -31,10 +37,6 @@ router.get('/create', function(req, res) {
 
 router.post('/create_car', function(req, res) {
   res.redirect('/admin');
-});
-
-router.get('/searchmainplain', function(req, res) {
-  res.render('searchmainplain.ejs');
 });
 
 router.post('/unsubscribe', function(req, res) {
@@ -183,34 +185,68 @@ router.get('/comment', function(req, res) {
 });
 
 router.post('/newlogin', function(req, res) {
-  var succ = 0;
+
   if (req.body.login == 'login') {
 
     // access database to verify
-    if (succ == 0) {
-      console.log(req);
-      if (req.body.user == 'admin') {
-        // just for testing
-        if (succ == 0) {
-          res.redirect('/admin');
-        } else {
-          res.render('error.ejs');
-        }
+    if (req.body.user == 'admin') {
+      // just for testing
+      if (succ == 0) {
+        res.redirect('/admin');
       } else {
-        res.render('searchmainplain.ejs');
+        res.render('error.ejs');
       }
     } else {
-        // TODO: modified to be tokenized
-        // way to auth. Redirect to a page
-        res.render('searchmainplain.ejs');
-      
+      var user_password = "SELECT password FROM logininfo WHERE username = '" + req.body.user + "';"
+      connection.query(user_password, function(err, row, fields) {
+        if (err) console.log(err);
+        else {
+                // if the user is non-exist
+                if (row.length < 1) {
+                  res.render('error.ejs');
+                } else {
+                  console.log(row[0].password)
+                  if (row[0].password == req.body.password) {
+                    res.cookie("login-cookie" , req.body.user);
+                    res.redirect('/searchmainplain');
+                  } else {
+                    res.render('error.ejs');
+                  }
+                }
+                
+            }
+      });
     }
+
   } else {
     if (req.body.user == 'admin') {
         res.render('error.ejs');
       } else {
         // create account in database
-        res.render('msg.ejs');
+
+        // check if the user is already exist in the database
+        // or not
+        var user_exist = "SELECT * FROM logininfo WHERE username = '" + req.body.user + "';"
+        connection.query(user_exist, function(err, row, fields) {
+                    if (err) console.log(err);
+                    else {  
+                            console.log(row.length)
+                            if (row.length >= 1) {
+                               res.render('error.ejs');
+                             } else {
+                                console.log("piplined the info into the database!");
+
+                                var user_insert = "INSERT INTO logininfo (username, password) VALUES ('" + req.body.user + "', '" + req.body.password + "')";
+                                connection.query(user_insert, function(err, row, fields) {
+                                            if (err) console.log(err);
+                                            else {
+                                                    res.render('msg.ejs');
+                                                }
+                                });     
+                             }
+                           
+                        }
+        });       
       }
   }
 });
@@ -294,8 +330,21 @@ router.get('/twitterfeeds', function(req, res) {
 
 // display out the search result page
 router.get('/search', function(req, res) {
-
+  console.log("Cookies :  ", req.cookies);
+   console.log("Cookies :  ", req.cookies["login-cookie"]);
   // query on db
+
+  // write to the browse history of this user
+  var history_insert = "INSERT INTO user_search (username, search_make, search_model, search_year) \
+                      VALUES('" + req.cookies["login-cookie"] + "', '" + req.query.Make + "', \
+                        '" + req.query.Model  + "', '" + req.query.Year +  "');";
+
+  connection.query(history_insert, function(err, row, fields) {
+    if (err) console.log(err);
+    else {
+            console.log("logged into the historical database!");
+        }
+  }); 
 
   // get back 
 
@@ -440,7 +489,20 @@ router.get('/auth/google/callback', function(req, res) {
 });
 
 router.get('/searchmainplain', function(req, res) {
-  res.render('searchmainplain.ejs');
+  // we need to display the historical data of this user
+  console.log("Cookies :  ", req.cookies["login-cookie"]);
+  if (req.cookies["login-cookie"]) {
+    var history_select = "SELECT DISTINCT * FROM user_search WHERE username = '" + req.cookies["login-cookie"] + "' LIMIT 5;"
+    connection.query(history_select, function(err, rows, fields) {
+        if (err) console.log(err);
+        else {
+              console.log(rows)
+              res.render('searchmainplain.ejs', { query_result: rows } );                               
+            }
+      });  
+  } else {
+    res.redirect('/');
+  }
 });
 
 module.exports = router;
