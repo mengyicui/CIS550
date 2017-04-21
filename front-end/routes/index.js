@@ -431,7 +431,7 @@ router.get('/search', function(req, res) {
                   res.redirect('/searchmainplain')
                 }
                 else {
-                      if (!car_detail_row) {
+                      if (car_detail_row.length < 1) {
                         res.redirect('/searchmainplain')
                       }
                       console.log(car_detail_row[0]);
