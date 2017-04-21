@@ -373,8 +373,9 @@ router.get('/search', function(req, res) {
     num: 10, // Number of search results to return between 1 and 10, inclusive 
   }, function(error, response) {
         for (var i = 0; i < 5; i++) {
-          if (response.length < 1) {
+          if (!response.items) {
             res.redirect('/searchmainplain');
+            return;
           }
             searchResults.push({ title: response.items[i].title, link: response.items[i].link, snippet: response.items[i].snippet });
         }
@@ -407,7 +408,8 @@ router.get('/search', function(req, res) {
                             AND UC.price > 10000\
                             ORDER BY UC.price DESC\
                             LIMIT 10;";
-  
+            try {
+
             connection.query(query, function(err, rows, fields) {
               if (err) {console.log(err);res.redirect('/searchmainplain');}
               else {
@@ -431,8 +433,9 @@ router.get('/search', function(req, res) {
                   res.redirect('/searchmainplain')
                 }
                 else {
-                      if (car_detail_row.length < 1) {
-                        res.redirect('/searchmainplain')
+                      if (!car_detail_row[0].engine_fuel_type) {
+                        res.redirect('/searchmainplain');
+                        return;
                       }
                       console.log(car_detail_row[0]);
                       var str = car_detail_row[0].engine_fuel_type.toString();
@@ -440,8 +443,6 @@ router.get('/search', function(req, res) {
                       car_detail_row.engine_fuel = parts[0];
                       car_detail_row.used_msrp = Math.floor( car_detail_row[0].used_price );
                       console.log(car_detail_row)
-
-
 
                       // running recommendations query
                       recommendation_query = "SELECT DISTINCT C.make, C.model\
@@ -484,6 +485,10 @@ router.get('/search', function(req, res) {
                 });
               }
             });
+            
+            } catch (err) {
+              res.redirect('/searchmainplain')
+            }
         });
   });
 });
