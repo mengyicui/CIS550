@@ -4,15 +4,25 @@ Zhengxuan Wu, Mengyi Cui, Fengkai Wu
 University Of Pennsylvania
 
 ## Architecture
+* this is a website hold a new/used car infomation database. 
+* it helps the user to query and retrieve useful infomation.
 
 ### Node.js Based Server
-
+* the http server is built using node.js modules
+* we have multiple active pages that exceeds the project requirements
+* it contains: admin page; login page; search page; search result page
+* it calls different APIs to make it even more useful: Google, Twitter, etc..
+* this website contains cookied sessions to locate customers
 ### .ejs Based Front-end
-
+* the front-end is built using .ejs frameworks, it is mainly in html format
+* the front-end is also powered by W3, Google.
 ### Database System
+* it involves: MongoDB, MySQL
+* raw data types involves: .xml, .csv, .txt, etc..
+* MongoDB contains 1 document type: brand_name (string), xml_file (string)
+* MySQL contains multiple tables: cars, used_cars, cars_extra, user_info, login_info, subscriber, comment, etc..
 
 ## Prerequisites 
-
 * [Git](http://git-scm.com/)
 * [Node.js with npm](https://nodejs.org/en/)
 * [MongoDB](https://docs.mongodb.org/manual/installation/)
